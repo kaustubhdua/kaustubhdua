@@ -110,54 +110,68 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 <sub>The signal chain behind the work: languages are the strings, frameworks are the pedals, data is the signal, and tests keep the whole rig in tune. Each stack varies by project.</sub>
 
-**Languages**  
+**Languages & web fundamentals**  
 ![Python](https://img.shields.io/badge/Python-252525?style=flat-square&logo=python&logoColor=F4EFE5)
 ![TypeScript](https://img.shields.io/badge/TypeScript-252525?style=flat-square&logo=typescript&logoColor=F4EFE5)
 ![JavaScript](https://img.shields.io/badge/JavaScript-252525?style=flat-square&logo=javascript&logoColor=F4EFE5)
-![C++](https://img.shields.io/badge/C%2B%2B-252525?style=flat-square&logo=cplusplus&logoColor=F4EFE5)
+![C++17](https://img.shields.io/badge/C%2B%2B17-252525?style=flat-square&logo=cplusplus&logoColor=F4EFE5)
+![HTML5](https://img.shields.io/badge/HTML5-252525?style=flat-square&logo=html5&logoColor=F4EFE5)
+![CSS3](https://img.shields.io/badge/CSS3-252525?style=flat-square&logo=css3&logoColor=F4EFE5)
 ![SQL](https://img.shields.io/badge/SQL-252525?style=flat-square&logo=postgresql&logoColor=F4EFE5)
 
-**Application development**  
+**Frontend & interactive experiences**  
 ![React](https://img.shields.io/badge/React-252525?style=flat-square&logo=react&logoColor=F4EFE5)
 ![Next.js](https://img.shields.io/badge/Next.js-252525?style=flat-square&logo=nextdotjs&logoColor=F4EFE5)
+![Vite](https://img.shields.io/badge/Vite-252525?style=flat-square&logo=vite&logoColor=F4EFE5)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-252525?style=flat-square&logo=tailwindcss&logoColor=F4EFE5)
+![Three.js](https://img.shields.io/badge/Three.js-252525?style=flat-square&logo=threedotjs&logoColor=F4EFE5)
+![WebGL](https://img.shields.io/badge/WebGL-252525?style=flat-square&logo=webgl&logoColor=F4EFE5)
+![Leaflet](https://img.shields.io/badge/Leaflet-252525?style=flat-square&logo=leaflet&logoColor=F4EFE5)
+
+**Backend, data & AI**  
 ![FastAPI](https://img.shields.io/badge/FastAPI-252525?style=flat-square&logo=fastapi&logoColor=F4EFE5)
 ![Streamlit](https://img.shields.io/badge/Streamlit-252525?style=flat-square&logo=streamlit&logoColor=F4EFE5)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-252525?style=flat-square&logo=tailwindcss&logoColor=F4EFE5)
-
-**Data, AI & optimisation**  
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-252525?style=flat-square&logo=postgresql&logoColor=F4EFE5)
 ![Supabase](https://img.shields.io/badge/Supabase-252525?style=flat-square&logo=supabase&logoColor=F4EFE5)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-252525?style=flat-square&logo=scikitlearn&logoColor=F4EFE5)
 ![Ollama](https://img.shields.io/badge/Ollama-252525?style=flat-square&logo=ollama&logoColor=F4EFE5)
 ![OR-Tools](https://img.shields.io/badge/OR--Tools-252525?style=flat-square&logo=google&logoColor=F4EFE5)
-![Three.js](https://img.shields.io/badge/Three.js-252525?style=flat-square&logo=threedotjs&logoColor=F4EFE5)
 
-**Engineering & quality**  
+**Testing, delivery & developer tooling**  
 ![Git](https://img.shields.io/badge/Git-252525?style=flat-square&logo=git&logoColor=F4EFE5)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-252525?style=flat-square&logo=githubactions&logoColor=F4EFE5)
 ![Pytest](https://img.shields.io/badge/Pytest-252525?style=flat-square&logo=pytest&logoColor=F4EFE5)
 ![Playwright](https://img.shields.io/badge/Playwright-252525?style=flat-square&logo=playwright&logoColor=F4EFE5)
 ![Docker](https://img.shields.io/badge/Docker-252525?style=flat-square&logo=docker&logoColor=F4EFE5)
+![ESLint](https://img.shields.io/badge/ESLint-252525?style=flat-square&logo=eslint&logoColor=F4EFE5)
 
 <details>
-<summary><strong>Track-by-track rig notes</strong></summary>
+<summary><strong>Track-by-track stack notes · repository audit</strong></summary>
 
-| Project | Verified technologies / concepts |
+These are technologies and engineering concepts visible in the repositories and their project documentation—not a claim that every tool is used in every project. Some integrations are optional or prototype-stage.
+
+| Repository | Stack / engineering focus |
 |:--|:--|
-| [GitGlobe](https://github.com/kaustubhdua/GitGlobe) | React 19, TypeScript, Vite, Zustand, TanStack Query, Three.js, React Three Fiber, WebGL, FastAPI, Pydantic, Qdrant, PostgreSQL/asyncpg, Vertex AI embeddings, NVIDIA NIM embeddings, UMAP, Prefect |
-| [NIRDHOOM](https://github.com/kaustubhdua/nihdhoom) | React 19, Vite, JavaScript/JSX, TypeScript, CSS, Tailwind, Leaflet, OpenStreetMap, Supabase, PostgreSQL, PostGIS, Row Level Security, Node-compatible API routes, Python, OR-Tools, PWA/service worker |
-| [Saathi](https://github.com/kaustubhdua/Saathi) | Next.js, React, Python, FastAPI, Streamlit, voice-first interfaces, Hindi/Hinglish intent routing, speech-to-text/text-to-speech adapters, Sarvam, Exotel AgentStream, Open-Meteo, government OGD/AGMARKNET adapters, pytest |
-| [SATARK](https://github.com/kaustubhdua/Satark) | Python, Streamlit, CSS, Groq APIs, LLM/vision workflows, pypdf, Pillow, ReportLab, OpenCV, FFmpeg, PDF reporting, suspicious URL/image/QR/PDF/video analysis |
-| [Adapt AI](https://github.com/kaustubhdua/adapt-ai) | Python, FastAPI, vanilla JavaScript, Tailwind CSS, Chart.js, Ollama, local LLM inference, hardware profiling, psutil, GPUtil, NVIDIA tooling, in-browser Python execution |
-| [JIIT Youth Club Website](https://github.com/kaustubhdua/JYC-Website) | React 19, Vite, React Router, Supabase, CSS, PWA/service workers, Playwright, GitHub Actions, browser QA |
-| [JIIT Toppers](https://github.com/kaustubhdua/Jiit-toppers-) | Next.js App Router, React, TypeScript, CSS, Prisma, PostgreSQL schema, ESLint, GitHub Actions |
-| [Smart Waste Collection](https://github.com/kaustubhdua/smart_waste_project) | Python, pandas/data processing, scikit-learn Random Forest, fuzzy logic, time-series feature engineering, synthetic IoT-style data, Streamlit, Folium, Google OR-Tools/CVRP |
-| [AkashChalak](https://github.com/kaustubhdua/AkashChalak) · [alternate repository](https://github.com/kaustubhdua/Akash-Chalak) | Python, FastAPI, React, Leaflet, scikit-learn DBSCAN, CPCB/FIRMS/TROPOMI data adapters, geospatial interpolation/IDW, wind vectors, optional PostgreSQL/TimescaleDB and Docker Compose |
-| [Smart Bike Taxi Platform](https://github.com/kaustubhdua/Smart_bike_taxi_platform) | C++17, CMake, graph algorithms, Dijkstra, adjacency lists, hash tables, queues, heaps/priority queues, persistence, CTest, GCC/Clang CI, sanitizers |
-| [Weather Core Matrix](https://github.com/kaustubhdua/weather-core-matrix) | HTML, CSS, vanilla JavaScript, browser fetch/API integration, responsive UI |
-| [Nord Studio Task Manager](https://github.com/kaustubhdua/nord-studio-task-manager) | HTML, CSS, vanilla JavaScript, task state, priority handling, filtering, DOM interaction |
-| [GitHub Skills Exercise](https://github.com/kaustubhdua/skills-introduction-to-github) | Git, branches, commits, pull requests, GitHub Actions learning workflows |
-| [Portfolio repository](https://github.com/kaustubhdua/Portfolio-) | Empty repository at the time of audit; no stack inferred |
+| [GitGlobe](https://github.com/kaustubhdua/GitGlobe) | React, TypeScript, Vite, Three.js/WebGL, interactive repository discovery and data pipelines |
+| [NIRDHOOM](https://github.com/kaustubhdua/nihdhoom) | React, TypeScript, Vite, Tailwind CSS, Supabase/PostgreSQL, Leaflet, service-worker/PWA tooling |
+| [Saathi](https://github.com/kaustubhdua/Saathi) | Python, FastAPI, React/Next.js, Streamlit, multilingual intent routing, speech adapters, provider integrations |
+| [SATARK Sentinel](https://github.com/kaustubhdua/Satark) | Python, Streamlit, PDF/image/video processing, local deterministic triage, optional AI integrations |
+| [Adapt AI](https://github.com/kaustubhdua/adapt-ai) | Python, FastAPI, JavaScript, Tailwind CSS, Ollama/local inference, hardware profiling |
+| [JIIT Youth Club](https://github.com/kaustubhdua/JYC-Website) | React 19, Vite, React Router, Supabase, Playwright, release and browser QA automation |
+| [JIIT Toppers](https://github.com/kaustubhdua/Jiit-toppers-) | Next.js, React, TypeScript, Prisma, PostgreSQL schema, Zod, ESLint and Node tests |
+| [Smart Waste Collection](https://github.com/kaustubhdua/smart_waste_project) | Python, pandas, NumPy, scikit-learn, Streamlit, Folium, Google OR-Tools; synthetic-data prototype |
+| [AkashChalak](https://github.com/kaustubhdua/AkashChalak) · [alternate](https://github.com/kaustubhdua/Akash-Chalak) | Python, FastAPI, React, Leaflet, DBSCAN, geospatial interpolation and air-quality data adapters |
+| [Smart Bike Taxi Platform](https://github.com/kaustubhdua/Smart_bike_taxi_platform) | C++17, CMake, graph algorithms, Dijkstra, queues, priority queues, local persistence and CTest |
+| [PatchPilot](https://github.com/kaustubhdua/PatchPilot) | Python 3.11+, FastAPI, Pydantic, CLI tooling, deterministic diff analysis, pytest, Ruff and Docker |
+| [Inkloom](https://github.com/kaustubhdua/inkloom) | TypeScript, React/Vite workspace, PostgreSQL, Drizzle ORM, Better Auth, Zod, Vitest, Playwright and Docker-oriented operations |
+| [Developer portfolio](https://github.com/kaustubhdua/Portfolio-) · private | React 19, JavaScript, esbuild, custom WebGL 2 voxel renderer, generated assets, ESLint and Playwright checks |
+| [Weather Core Matrix](https://github.com/kaustubhdua/weather-core-matrix) | HTML, CSS, vanilla JavaScript, Fetch API, asynchronous UI states and request timeout handling |
+| [Nord Studio Task Manager](https://github.com/kaustubhdua/nord-studio-task-manager) | HTML, CSS, vanilla JavaScript, DOM events, task filtering and localStorage persistence |
+| [GitHub Skills exercise](https://github.com/kaustubhdua/skills-introduction-to-github) | Git fundamentals, branches, commits, pull requests and GitHub learning workflow; not a product-stack project |
+| [Portfolio-](https://github.com/kaustubhdua/Portfolio-) | Private repository; covered above as the developer portfolio |
+| [Smart waste project](https://github.com/kaustubhdua/smart_waste_project) | See the Smart Waste Collection row above; listed once in the portfolio, not a separate technology stack |
+
+**Profile positioning:** Electronics and Computer Engineering student building across full-stack product development, applied AI/data, interactive visualisation, and software reliability. Production status varies by repository; see each project's README for its current limits and deployment truth.
 
 </details>
 
