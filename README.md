@@ -13,7 +13,7 @@
 
 <img src="./assets/academic-kicker.svg?v=20261010-academic-kicker" width="100%" alt="Electronics and Computer Engineering · JIIT Noida" loading="lazy"/>
 
-I build practical software across **AI, data, systems and product engineering** — with a focus on turning complex problems into useful, testable tools.
+I study **Electronics & Computer Engineering (ECM)** at JIIT Noida and build practical software across **AI, data, systems and product engineering** — turning complex problems into useful, testable tools.
 
 </div>
 
