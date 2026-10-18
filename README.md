@@ -54,11 +54,11 @@ A voice-first, multilingual assistance platform built around source-aware answer
 </td>
 <td width="50%" valign="top">
 
-<p><a href="https://github.com/kaustubhdua/Satark"><img src="https://img.shields.io/badge/04%20%2F%20SATARK-FEEDBACK%20LOOP-303030?style=flat-square&labelColor=202020" alt="SATARK" loading="lazy"/></a></p>
+<p><a href="https://github.com/kaustubhdua/PatchPilot"><img src="https://img.shields.io/badge/05%20%2F%20PATCHPILOT-EVIDENCE%20NOT%20GUESSWORK-303030?style=flat-square&labelColor=202020" alt="PatchPilot" loading="lazy"/></a></p>
 
-An AI-assisted security-awareness workspace for triaging suspicious messages, links, images, QR codes, PDFs and supported videos.
+An explainable pull-request risk-triage MVP. It analyses diffs as untrusted text and emits evidence-backed signals; it is not a security verdict, and production precision/recall are not yet established.
 
-<sub><code>Python</code> <code>Streamlit</code> <code>Threat triage</code> <code>CI</code></sub>
+<sub><code>Python</code> <code>FastAPI</code> <code>pytest</code> <code>Docker</code></sub>
 
 </td>
 </tr>
@@ -88,6 +88,9 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 <summary><strong>Encore tracks ↗</strong></summary>
 
 - [Smart Waste Collection](https://github.com/kaustubhdua/smart_waste_project) — a predictive-to-optimisation pipeline using synthetic IoT-style data.
+- [SATARK](https://github.com/kaustubhdua/Satark) — a forked security-awareness triage workspace, not an antivirus; see the fork history for my individual changes.
+- [PatchPilot](https://github.com/kaustubhdua/PatchPilot) — early MVP; its starter benchmark is reproducible, but production detection precision/recall are not established.
+- [Inkloom](https://github.com/kaustubhdua/inkloom) — early-access logo-design platform; generation is not live yet.
 - [AkashChalak](https://github.com/kaustubhdua/AkashChalak) — a satellite-assisted air-quality and hotspot decision-support prototype for India.
 - [Smart Bike Taxi Platform](https://github.com/kaustubhdua/Smart_bike_taxi_platform) — a platform for bike-taxi workflows.
 - [Weather Core Matrix](https://github.com/kaustubhdua/weather-core-matrix) — a focused weather-related project.
