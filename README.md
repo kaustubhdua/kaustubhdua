@@ -110,40 +110,61 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 <sub>The signal chain behind the work: languages are the strings, frameworks are the pedals, data is the signal, and tests keep the whole rig in tune. Each stack varies by project.</sub>
 
-**Languages & web fundamentals**  
+<div align="center">
+
+**THE RIG / TOOLS I BUILD WITH**
+
+<sub>A project-led stack, not a claim that every tool appears in every repository.</sub>
+
+</div>
+
+**01 · Languages & foundations**  
 ![Python](https://img.shields.io/badge/Python-252525?style=flat-square&logo=python&logoColor=F4EFE5)
 ![TypeScript](https://img.shields.io/badge/TypeScript-252525?style=flat-square&logo=typescript&logoColor=F4EFE5)
 ![JavaScript](https://img.shields.io/badge/JavaScript-252525?style=flat-square&logo=javascript&logoColor=F4EFE5)
 ![C++17](https://img.shields.io/badge/C%2B%2B17-252525?style=flat-square&logo=cplusplus&logoColor=F4EFE5)
-![HTML5](https://img.shields.io/badge/HTML5-252525?style=flat-square&logo=html5&logoColor=F4EFE5)
-![CSS3](https://img.shields.io/badge/CSS3-252525?style=flat-square&logo=css3&logoColor=F4EFE5)
+![HTML](https://img.shields.io/badge/HTML-252525?style=flat-square&logo=html5&logoColor=F4EFE5)
+![CSS](https://img.shields.io/badge/CSS-252525?style=flat-square&logo=css3&logoColor=F4EFE5)
 ![SQL](https://img.shields.io/badge/SQL-252525?style=flat-square&logo=postgresql&logoColor=F4EFE5)
 
-**Frontend & interactive experiences**  
+**02 · Frontend & visual computing**  
 ![React](https://img.shields.io/badge/React-252525?style=flat-square&logo=react&logoColor=F4EFE5)
 ![Next.js](https://img.shields.io/badge/Next.js-252525?style=flat-square&logo=nextdotjs&logoColor=F4EFE5)
 ![Vite](https://img.shields.io/badge/Vite-252525?style=flat-square&logo=vite&logoColor=F4EFE5)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-252525?style=flat-square&logo=tailwindcss&logoColor=F4EFE5)
 ![Three.js](https://img.shields.io/badge/Three.js-252525?style=flat-square&logo=threedotjs&logoColor=F4EFE5)
-![WebGL](https://img.shields.io/badge/WebGL-252525?style=flat-square&logo=webgl&logoColor=F4EFE5)
+![WebGL 2](https://img.shields.io/badge/WebGL_2-252525?style=flat-square&logo=webgl&logoColor=F4EFE5)
 ![Leaflet](https://img.shields.io/badge/Leaflet-252525?style=flat-square&logo=leaflet&logoColor=F4EFE5)
 
-**Backend, data & AI**  
+**03 · APIs, data & persistence**  
 ![FastAPI](https://img.shields.io/badge/FastAPI-252525?style=flat-square&logo=fastapi&logoColor=F4EFE5)
 ![Streamlit](https://img.shields.io/badge/Streamlit-252525?style=flat-square&logo=streamlit&logoColor=F4EFE5)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-252525?style=flat-square&logo=postgresql&logoColor=F4EFE5)
 ![Supabase](https://img.shields.io/badge/Supabase-252525?style=flat-square&logo=supabase&logoColor=F4EFE5)
+![Drizzle ORM](https://img.shields.io/badge/Drizzle_ORM-252525?style=flat-square&logo=drizzle&logoColor=F4EFE5)
+![Prisma](https://img.shields.io/badge/Prisma-252525?style=flat-square&logo=prisma&logoColor=F4EFE5)
+![Zod](https://img.shields.io/badge/Zod-252525?style=flat-square&logo=zod&logoColor=F4EFE5)
+
+**04 · Applied AI, optimisation & geospatial**  
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-252525?style=flat-square&logo=scikitlearn&logoColor=F4EFE5)
 ![Ollama](https://img.shields.io/badge/Ollama-252525?style=flat-square&logo=ollama&logoColor=F4EFE5)
-![OR-Tools](https://img.shields.io/badge/OR--Tools-252525?style=flat-square&logo=google&logoColor=F4EFE5)
+![OR-Tools](https://img.shields.io/badge/Google_OR--Tools-252525?style=flat-square&logo=google&logoColor=F4EFE5)
+![Pandas](https://img.shields.io/badge/pandas-252525?style=flat-square&logo=pandas&logoColor=F4EFE5)
+![NumPy](https://img.shields.io/badge/NumPy-252525?style=flat-square&logo=numpy&logoColor=F4EFE5)
+![DBSCAN](https://img.shields.io/badge/DBSCAN-252525?style=flat-square&logo=scikitlearn&logoColor=F4EFE5)
 
-**Testing, delivery & developer tooling**  
+**05 · Quality, delivery & runtime**  
 ![Git](https://img.shields.io/badge/Git-252525?style=flat-square&logo=git&logoColor=F4EFE5)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-252525?style=flat-square&logo=githubactions&logoColor=F4EFE5)
 ![Pytest](https://img.shields.io/badge/Pytest-252525?style=flat-square&logo=pytest&logoColor=F4EFE5)
 ![Playwright](https://img.shields.io/badge/Playwright-252525?style=flat-square&logo=playwright&logoColor=F4EFE5)
+![Vitest](https://img.shields.io/badge/Vitest-252525?style=flat-square&logo=vitest&logoColor=F4EFE5)
 ![Docker](https://img.shields.io/badge/Docker-252525?style=flat-square&logo=docker&logoColor=F4EFE5)
 ![ESLint](https://img.shields.io/badge/ESLint-252525?style=flat-square&logo=eslint&logoColor=F4EFE5)
+![Ruff](https://img.shields.io/badge/Ruff-252525?style=flat-square&logo=ruff&logoColor=F4EFE5)
+![CMake](https://img.shields.io/badge/CMake-252525?style=flat-square&logo=cmake&logoColor=F4EFE5)
+
+<sub>Stack details and the repository each tool belongs to ↓</sub>
 
 <details>
 <summary><strong>Track-by-track stack notes · repository audit</strong></summary>
