@@ -176,9 +176,12 @@ The common thread: make systems observable, test failure paths, preserve reprodu
 ![Three.js](https://img.shields.io/badge/Three.js-252525?style=flat-square&logo=threedotjs&logoColor=F4EFE5)
 ![WebGL 2](https://img.shields.io/badge/WebGL_2-252525?style=flat-square&logo=webgl&logoColor=F4EFE5)
 ![Leaflet](https://img.shields.io/badge/Leaflet-252525?style=flat-square&logo=leaflet&logoColor=F4EFE5)
+![PostGIS](https://img.shields.io/badge/PostGIS-252525?style=flat-square&logo=postgresql&logoColor=F4EFE5)
 
 **03 · APIs, data & persistence**  
 ![FastAPI](https://img.shields.io/badge/FastAPI-252525?style=flat-square&logo=fastapi&logoColor=F4EFE5)
+![Boost.Beast](https://img.shields.io/badge/Boost.Beast-252525?style=flat-square&logo=boost&logoColor=F4EFE5)
+![OpenAPI](https://img.shields.io/badge/OpenAPI-252525?style=flat-square&logo=swagger&logoColor=F4EFE5)
 ![Streamlit](https://img.shields.io/badge/Streamlit-252525?style=flat-square&logo=streamlit&logoColor=F4EFE5)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-252525?style=flat-square&logo=postgresql&logoColor=F4EFE5)
 ![Supabase](https://img.shields.io/badge/Supabase-252525?style=flat-square&logo=supabase&logoColor=F4EFE5)
@@ -195,6 +198,7 @@ The common thread: make systems observable, test failure paths, preserve reprodu
 ![DBSCAN](https://img.shields.io/badge/DBSCAN-252525?style=flat-square&logo=scikitlearn&logoColor=F4EFE5)
 
 **05 · Quality, delivery & runtime**  
+![Node.js](https://img.shields.io/badge/Node.js-252525?style=flat-square&logo=nodedotjs&logoColor=F4EFE5)
 ![Git](https://img.shields.io/badge/Git-252525?style=flat-square&logo=git&logoColor=F4EFE5)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-252525?style=flat-square&logo=githubactions&logoColor=F4EFE5)
 ![Pytest](https://img.shields.io/badge/Pytest-252525?style=flat-square&logo=pytest&logoColor=F4EFE5)
