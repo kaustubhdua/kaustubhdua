@@ -41,6 +41,31 @@ Adopt a consistent baseline where it fits each project:
 | [HEALCONNECT](https://github.com/kaustubhdua/HEALCONNECT) | Next.js/React-era app structure, JavaScript, Jest, Tailwind CSS, Arduino/IoT project folder | Remove generated build-output dumps and accidental OS files from version control; define a clear app architecture, reproducible install/build, sensor protocol contract, and device-simulation tests. |
 | [Foodie](https://github.com/kaustubhdua/Foodie) | JavaScript web app, Vite, PWA/service worker, product data, Docker/Compose and tests | Remove `.DS_Store` and unused duplicate assets; replace placeholder tests with real behavior tests, verify offline/cache invalidation, and document API/data licensing and deployment. |
 
+
+## CI signal snapshot observed during this audit
+
+The following is a point-in-time observation of the latest few workflow runs exposed by GitHub Actions on each repository's default branch. It is not a statement that all workflows or all commits are green. Re-check each linked run before a release.
+
+| Repository | Observed recent signal | Follow-up |
+|---|---|---|
+| [Profile README](https://github.com/kaustubhdua/kaustubhdua/actions) | Profile README QA and contribution-snake workflows passed on the updated profile commit. | Keep this as the profile's own regression gate. |
+| [smart_waste_project](https://github.com/kaustubhdua/smart_waste_project/actions) | Python CI, browser E2E and CodeQL passed on `8da2b1b`. | Preserve this multi-layer gate; add reproducible ML evaluation metrics. |
+| [weather-core-matrix](https://github.com/kaustubhdua/weather-core-matrix/actions) | Latest observed CI passed on `31465ed` (2026-10-05). | Re-run on current HEAD before a release; the run is not from today. |
+| [nord-studio-task-manager](https://github.com/kaustubhdua/nord-studio-task-manager/actions) | Latest observed CI passed on `d7d4702` (2026-10-05). | Re-run on current HEAD before a release. |
+| [AkashChalak](https://github.com/kaustubhdua/AkashChalak/actions) and [Akash-Chalak](https://github.com/kaustubhdua/Akash-Chalak/actions) | Recent observed Python/frontend CI runs passed in late September/early October. | Choose one canonical source and re-run after consolidation. |
+| [adapt-ai](https://github.com/kaustubhdua/adapt-ai/actions) | Latest observed Python CI passed on `c09d5c1` (2026-10-05). | Re-run on current HEAD. |
+| [GitGlobe](https://github.com/kaustubhdua/GitGlobe/actions) | Latest observed CI passed on `ea7654f`; an earlier run failed. | Ensure the latest HEAD is tested and keep the earlier failure investigated rather than hidden. |
+| [Satark](https://github.com/kaustubhdua/Satark/actions) | Recent observed CI, web CI and production smoke checks failed on `6cf0dc6` (2026-10-19). | **P0:** inspect the failing job logs and restore all release gates before calling the repository healthy. |
+| [JYC-Website](https://github.com/kaustubhdua/JYC-Website/actions) | Recent observed browser QA, CI and quality gate failed on `e54c2ad` (2026-10-19). | **P0:** inspect exact failure logs and fix before publishing a release. |
+| [NIRDHOOM](https://github.com/kaustubhdua/nihdhoom/actions) | Latest observed CI passed on `0d12e40` (2026-10-12). | Re-run on current HEAD. |
+| [Smart bike taxi platform](https://github.com/kaustubhdua/Smart_bike_taxi_platform/actions) | C++ tests passed on `9f96b9e`; a container/Compose run failed on an earlier SHA. | Test the container workflow against the latest intended release branch and capture logs. |
+| [JIIT Toppers](https://github.com/kaustubhdua/Jiit-toppers-/actions) | Latest observed CI runs failed on `00cd665` (2026-10-05). | **P0:** restore the CI gate before adding more features. |
+| [Saathi](https://github.com/kaustubhdua/Saathi/actions) | Latest observed CI passed on `cb52c76` (2026-10-17). | Re-run after the next backend or dependency change. |
+| [Portfolio](https://github.com/kaustubhdua/Portfolio-/actions) | Latest observed CI and deploy workflows failed on `4006c7f` (2026-10-19). | **P0:** fix CI first; deployment should depend on successful verification. |
+| [PatchPilot](https://github.com/kaustubhdua/PatchPilot/actions) | CI and security checks passed on `a2a778f` (2026-10-18). | Keep fixture-based regression tests and security gates. |
+| [Inkloom](https://github.com/kaustubhdua/inkloom/actions), [HEALCONNECT](https://github.com/kaustubhdua/HEALCONNECT/actions), [Foodie](https://github.com/kaustubhdua/Foodie/actions) | The queried default-branch workflow-run endpoint returned no runs in this audit. | Verify Actions are enabled, the branch filters match the default branch, and at least one CI run exists. Do not infer that these repos are failing or passing from an empty result. |
+| [skills-introduction-to-github](https://github.com/kaustubhdua/skills-introduction-to-github/actions) | The exercise workflow passed in June 2026. | This is a learning repository; no additional stack is needed. |
+
 ## Cross-repository consistency fixes
 
 1. **Canonical project names:** use one canonical name and repository URL for every project. Resolve the duplicate AkashChalak/Akash-Chalak relationship.
