@@ -9,6 +9,7 @@
   <a href="#rig-signal-chain"><img src="https://img.shields.io/badge/02-RIG_%26_SIGNAL_CHAIN-252525?style=flat-square&labelColor=111111&color=252525" alt="Rig and signal chain" loading="lazy"/></a>
   <a href="#on-the-turntable"><img src="https://img.shields.io/badge/03-ON_THE_TURNTABLE-252525?style=flat-square&labelColor=111111&color=252525" alt="On the turntable" loading="lazy"/></a>
   <a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/ALL_REPOSITORIES-↗-252525?style=flat-square&labelColor=111111&color=252525" alt="All repositories" loading="lazy"/></a>
+  <a href="https://github.com/kaustubhdua/kaustubhdua/actions/workflows/profile-qa.yml"><img src="https://img.shields.io/github/actions/workflow/status/kaustubhdua/kaustubhdua/profile-qa.yml?branch=main&label=PROFILE%20QA&style=flat-square&labelColor=111111&color=252525" alt="Profile README quality checks" loading="lazy"/></a>
 </p>
 
 <img src="./assets/academic-kicker.svg?v=20261010-academic-kicker" width="100%" alt="Electronics and Computer Engineering · JIIT Noida" loading="lazy"/>
@@ -230,7 +231,7 @@ These are technologies and engineering concepts visible in the repositories and 
 | [Nord Studio Task Manager](https://github.com/kaustubhdua/nord-studio-task-manager) | HTML, CSS, vanilla JavaScript, DOM events, task filtering and localStorage persistence |
 | [GitHub Skills exercise](https://github.com/kaustubhdua/skills-introduction-to-github) | Git fundamentals, branches, commits, pull requests and GitHub learning workflow; not a product-stack project |
 | [HEALCONNECT](https://github.com/kaustubhdua/HEALCONNECT) | Next.js/React, JavaScript, Jest, Tailwind CSS, Arduino/IoT prototype; verify current app entry points and remove generated build-output files from source control |
-| [Foodie](https://github.com/kaustubhdua/Foodie) | Vite/JavaScript web app, PWA/service-worker, product data and browser tests; consolidate legacy assets and replace placeholder tests with meaningful behavior coverage |
+| [Foodie](https://github.com/kaustubhdua/Foodie) | HTML/CSS/JavaScript app with Vite, Jest, Wrangler and Sharp tooling; verify PWA behavior and replace placeholder tests with meaningful cart/checkout behavior coverage; checkout/tracking claims are demo-only unless integrations are validated |
 | [Profile README](https://github.com/kaustubhdua/kaustubhdua) | Markdown, animated SVG/CSS, accessible image labels, Shields.io badges and repository-linked project cards |
 
 **Profile positioning:** Electronics and Computer Engineering student building across full-stack product development, applied AI/data, interactive visualisation, and software reliability. Production status varies by repository; see each project's README for its current limits and deployment truth.
