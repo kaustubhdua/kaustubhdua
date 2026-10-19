@@ -102,6 +102,26 @@ A Minecraft-inspired portfolio with an original voxel renderer, animated environ
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+<p><a href="https://github.com/kaustubhdua/Smart_bike_taxi_platform"><img src="https://img.shields.io/badge/09%20%2F%20RIDEFORGE-ROUTE%20INTELLIGENCE-303030?style=flat-square&labelColor=202020" alt="RideForge" loading="lazy"/></a></p>
+
+A ride-matching foundation combining a real HTTP API, persisted fare quotes, driver operations and graph-based routing.
+
+<sub><code>C++17</code> <code>Boost.Beast</code> <code>PostgreSQL</code> <code>React</code> <code>Leaflet</code> <code>Playwright</code></sub>
+
+</td>
+<td width="50%" valign="top">
+
+<p><img src="https://img.shields.io/badge/10%20%2F%20ENGINEERING%20FOCUS-TESTS%20OVER%20BADGES-303030?style=flat-square&labelColor=202020" alt="Engineering focus" loading="lazy"/></p>
+
+The common thread: make systems observable, test failure paths, preserve reproducibility and tie release claims to real evidence.
+
+<sub><code>CI/CD</code> <code>Security</code> <code>Accessibility</code> <code>Performance</code></sub>
+
+</td>
+</tr>
 </table>
 
 <details>
@@ -109,7 +129,7 @@ A Minecraft-inspired portfolio with an original voxel renderer, animated environ
 
 - [Smart Waste Collection](https://github.com/kaustubhdua/smart_waste_project) — a predictive-to-optimisation pipeline using synthetic IoT-style data.
 - [AkashChalak](https://github.com/kaustubhdua/AkashChalak) — a satellite-assisted air-quality and hotspot decision-support prototype for India.
-- [Smart Bike Taxi Platform](https://github.com/kaustubhdua/Smart_bike_taxi_platform) — a platform for bike-taxi workflows.
+- [RideForge](https://github.com/kaustubhdua/Smart_bike_taxi_platform) — a C++/PostgreSQL-backed bike-taxi API and routing platform.
 - [Weather Core Matrix](https://github.com/kaustubhdua/weather-core-matrix) — a focused weather-related project.
 
 [Browse all repositories →](https://github.com/kaustubhdua?tab=repositories)
@@ -202,7 +222,7 @@ These are technologies and engineering concepts visible in the repositories and 
 | [JIIT Toppers](https://github.com/kaustubhdua/Jiit-toppers-) | Next.js, React, TypeScript, Prisma, PostgreSQL schema, Zod, ESLint and Node tests |
 | [Smart Waste Collection](https://github.com/kaustubhdua/smart_waste_project) | Python, pandas, NumPy, scikit-learn, Streamlit, Folium, Google OR-Tools; synthetic-data prototype |
 | [AkashChalak](https://github.com/kaustubhdua/AkashChalak) · [alternate](https://github.com/kaustubhdua/Akash-Chalak) | Python, FastAPI, React, Leaflet, DBSCAN, geospatial interpolation and air-quality data adapters |
-| [Smart Bike Taxi Platform](https://github.com/kaustubhdua/Smart_bike_taxi_platform) | C++17, CMake, graph algorithms, Dijkstra, queues, priority queues, local persistence and CTest |
+| [RideForge](https://github.com/kaustubhdua/Smart_bike_taxi_platform) | C++17, Boost.Beast HTTP API, PostgreSQL, React/TypeScript, Leaflet, routing, Dijkstra, Playwright and CTest |
 | [PatchPilot](https://github.com/kaustubhdua/PatchPilot) | Python 3.11+, FastAPI, Pydantic, CLI tooling, deterministic diff analysis, pytest, Ruff and Docker |
 | [Inkloom](https://github.com/kaustubhdua/inkloom) | TypeScript, React/Vite workspace, PostgreSQL, Drizzle ORM, Better Auth, Zod, Vitest, Playwright and Docker-oriented operations |
 | [Developer portfolio](https://github.com/kaustubhdua/Portfolio-) · private | React 19, JavaScript, esbuild, custom WebGL 2 voxel renderer, generated assets, ESLint and Playwright checks |
