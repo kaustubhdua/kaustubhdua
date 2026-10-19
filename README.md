@@ -82,6 +82,26 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+<p><a href="https://github.com/kaustubhdua/PatchPilot"><img src="https://img.shields.io/badge/07%20%2F%20PATCHPILOT-EVIDENCE%20OVER%20GUESSWORK-303030?style=flat-square&labelColor=202020" alt="PatchPilot" loading="lazy"/></a></p>
+
+An explainable pull-request risk triage tool that turns diffs into evidence-backed findings and actionable test suggestions.
+
+<sub><code>Python</code> <code>FastAPI</code> <code>Pydantic</code> <code>pytest</code> <code>CI security gates</code></sub>
+
+</td>
+<td width="50%" valign="top">
+
+<p><a href="https://github.com/kaustubhdua/Portfolio-"><img src="https://img.shields.io/badge/08%20%2F%20NETHER%20PORTFOLIO-INTERACTIVE%20WORLDS-303030?style=flat-square&labelColor=202020" alt="Nether Portfolio" loading="lazy"/></a></p>
+
+A Minecraft-inspired portfolio with an original voxel renderer, animated environments, and a reduced-motion/static fallback.
+
+<sub><code>React 19</code> <code>JavaScript</code> <code>WebGL 2</code> <code>esbuild</code></sub>
+
+</td>
+</tr>
 </table>
 
 <details>
