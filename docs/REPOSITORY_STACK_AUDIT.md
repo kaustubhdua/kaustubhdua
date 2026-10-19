@@ -27,7 +27,7 @@ Adopt a consistent baseline where it fits each project:
 | [Satark](https://github.com/kaustubhdua/Satark) | Python, Streamlit, threat-intelligence and media/document processing, optional AI integrations, Supabase | Isolate untrusted file/URL processing, test SSRF and parser limits, pin dependencies, and publish an evaluation set with false-positive/false-negative measurements. |
 | [adapt-ai](https://github.com/kaustubhdua/adapt-ai) | Python, FastAPI, Ollama/local inference, browser UI | Add provider-adapter contract tests, model availability/timeouts, deterministic mock mode, and benchmark latency/memory by hardware tier. |
 | [JYC-Website](https://github.com/kaustubhdua/JYC-Website) | React/Vite, Supabase, Playwright, sitemap/media and extensive QA scripts | Reduce overlapping release scripts into one documented gate; keep production QA opt-in and environment-safe; test critical public routes and admin authorization. |
-| [Smart_bike_taxi_platform](https://github.com/kaustubhdua/Smart_bike_taxi_platform) | C++17/CMake graph algorithms plus React/TypeScript web app, HTTP API, PostgreSQL, Playwright | Prove booking/driver-acceptance race safety with PostgreSQL concurrency tests, implement outbox delivery/reconnect recovery, and verify a clean deployed end-to-end ride lifecycle. |
+| [RideForge](https://github.com/kaustubhdua/Smart_bike_taxi_platform) | C++17/CMake graph algorithms plus React/TypeScript web app, HTTP API, PostgreSQL, Playwright | Prove booking/driver-acceptance race safety with PostgreSQL concurrency tests, implement outbox delivery/reconnect recovery, and verify a clean deployed end-to-end ride lifecycle. |
 | [smart_waste_project](https://github.com/kaustubhdua/smart_waste_project) | Python, Streamlit, pandas/NumPy/scikit-learn, fuzzy logic, optimisation, Docker and tests | Separate synthetic/demo data from real observations, version the pipeline inputs, add model baselines and leakage checks, and benchmark route/collection optimisation against a simple heuristic. |
 | [AkashChalak](https://github.com/kaustubhdua/AkashChalak) | Python backend, React frontend, geospatial/air-quality decision-support, Docker | Establish one canonical repository (compare with [Akash-Chalak](https://github.com/kaustubhdua/Akash-Chalak)); document provider/source provenance and coordinate systems; test stale/missing sensor data and spatial boundaries. |
 | [Akash-Chalak](https://github.com/kaustubhdua/Akash-Chalak) | Parallel project tree to AkashChalak: Python backend, frontend, geospatial analysis | Decide whether this is a fork, alternate deployment, or duplicate; add a canonical-source notice and keep issues/releases/roadmap in one place to avoid divergence. |
@@ -75,6 +75,17 @@ The following is a point-in-time observation of the latest few workflow runs exp
 5. **Deployment truth:** each project README should say whether it is a prototype, demo, staging deployment, or production service. A Dockerfile or deployment manifest alone does not prove a live deployment.
 6. **Portfolio focus:** feature 4–6 flagship projects (GitGlobe, NIRDHOOM, PatchPilot, Inkloom, Satark, and the bike-taxi platform), with the remaining projects in an archive/experiments section. This gives reviewers a clear narrative instead of implying every repository has equal maturity.
 7. **Stack signal quality:** list only technologies evidenced in the actual repository. Prefer a few deep, tested stacks and measurable outcomes over a longer badge wall.
+
+## Follow-up changes made on 2026-10-19
+
+- The profile README now features **PatchPilot**, the **Nether Portfolio**, and **RideForge** with project-specific stack summaries; the expanded stack notes keep technologies mapped to the repository where they are actually evidenced.
+- Profile README QA passed on commit `8377f18049164c4281202aa25065c7f46aab8ef2`.
+- `weather-core-matrix` and `nord-studio-task-manager` now have dependency-free Node contract tests for request bounds, safe rendering, storage validation, error handling and accessible state; their CI workflows run those tests.
+- `Satark` received fixes to streaming request-bound assertions, protected FIRSTLIGHT browser-smoke behavior, and the Vercel production alias. Its current release is still blocked by missing dedicated Supabase tenant-isolation test credentials and browser media-fixture verification; production smoke must pass against the current deployment before it is considered released.
+- `JYC-Website` received fixes to stale browser-test selectors and fallback alt text, hero-heading contrast, media classification of known infographics, and media QA contracts. The workflows triggered by these changes must finish green on the same head before release claims are made.
+- `Portfolio-` is private and its latest GitHub Actions jobs did not execute their steps (the API reported runner ID 0), so the lockfile-export experiment could not produce a committed lockfile. Enable Actions/runner execution, then generate a genuine lockfile and migrate both CI and Pages build to `npm ci`.
+
+These are recorded changes, not a claim that all 20 repositories are now production-ready. A green static check does not replace a working deployment, external credentials, or runtime verification.
 
 ## Suggested portfolio-wide release gate
 
