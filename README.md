@@ -164,7 +164,7 @@ The public website for JIIT Youth Club 128, covering its organisation, clubs, ev
 ![Ruff](https://img.shields.io/badge/Ruff-252525?style=flat-square&logo=ruff&logoColor=F4EFE5)
 ![CMake](https://img.shields.io/badge/CMake-252525?style=flat-square&logo=cmake&logoColor=F4EFE5)
 
-<sub>Stack details and the repository each tool belongs to ↓</sub>
+<sub>Stack details and the repository each tool belongs to ↓ · [Repository-wide stack audit & improvement plan](./docs/REPOSITORY_STACK_AUDIT.md)</sub>
 
 <details>
 <summary><strong>Track-by-track stack notes · repository audit</strong></summary>
