@@ -87,6 +87,9 @@ The following is a point-in-time observation of the latest few workflow runs exp
 
 These are recorded changes, not a claim that all 20 repositories are now production-ready. A green static check does not replace a working deployment, external credentials, or runtime verification.
 
+- Follow-up: the profile README now links its Profile QA workflow with a status badge and the Foodie stack notes reflect its actual package scripts rather than claiming GitHub Pages as its deployment tooling. Profile commit: `96fd086196b61abbcd82375d25bbe815f147f3e6`. The connector did not expose a check-run result for this push, so the badge—not this note—is the live workflow status source.
+- Follow-up: Foodie's README no longer contains the malformed `<img src="(image.png>` fragment, its tooling section reflects Vite/Jest/Wrangler/Sharp, and checkout/tracking is explicitly described as demo-only unless integrations are validated. Commit: `5aa85a84026e8b11d5164d5540b10f2f774aab9`.
+
 ## Suggested portfolio-wide release gate
 
 For each active repository, the release gate should be the smallest meaningful deterministic command set:
