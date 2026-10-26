@@ -167,6 +167,7 @@ The common thread: make systems observable, test failure paths, preserve reprodu
 ![TypeScript](https://img.shields.io/badge/TypeScript-252525?style=flat-square&logo=typescript&logoColor=F4EFE5)
 ![JavaScript](https://img.shields.io/badge/JavaScript-252525?style=flat-square&logo=javascript&logoColor=F4EFE5)
 ![C++17](https://img.shields.io/badge/C%2B%2B17-252525?style=flat-square&logo=cplusplus&logoColor=F4EFE5)
+![Java](https://img.shields.io/badge/Java-252525?style=flat-square&logo=openjdk&logoColor=F4EFE5)
 ![HTML](https://img.shields.io/badge/HTML-252525?style=flat-square&logo=html5&logoColor=F4EFE5)
 ![CSS](https://img.shields.io/badge/CSS-252525?style=flat-square&logo=css3&logoColor=F4EFE5)
 ![SQL](https://img.shields.io/badge/SQL-252525?style=flat-square&logo=postgresql&logoColor=F4EFE5)
@@ -185,8 +186,10 @@ The common thread: make systems observable, test failure paths, preserve reprodu
 ![FastAPI](https://img.shields.io/badge/FastAPI-252525?style=flat-square&logo=fastapi&logoColor=F4EFE5)
 ![Boost.Beast](https://img.shields.io/badge/Boost.Beast-252525?style=flat-square&logo=boost&logoColor=F4EFE5)
 ![OpenAPI](https://img.shields.io/badge/OpenAPI-252525?style=flat-square&logo=swagger&logoColor=F4EFE5)
+![Starlette](https://img.shields.io/badge/Starlette-252525?style=flat-square&logo=starlette&logoColor=F4EFE5)
 ![Streamlit](https://img.shields.io/badge/Streamlit-252525?style=flat-square&logo=streamlit&logoColor=F4EFE5)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-252525?style=flat-square&logo=postgresql&logoColor=F4EFE5)
+![SQLite](https://img.shields.io/badge/SQLite-252525?style=flat-square&logo=sqlite&logoColor=F4EFE5)
 ![Supabase](https://img.shields.io/badge/Supabase-252525?style=flat-square&logo=supabase&logoColor=F4EFE5)
 ![Drizzle ORM](https://img.shields.io/badge/Drizzle_ORM-252525?style=flat-square&logo=drizzle&logoColor=F4EFE5)
 ![Prisma](https://img.shields.io/badge/Prisma-252525?style=flat-square&logo=prisma&logoColor=F4EFE5)
@@ -194,6 +197,8 @@ The common thread: make systems observable, test failure paths, preserve reprodu
 
 **04 · Applied AI, optimisation & geospatial**  
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-252525?style=flat-square&logo=scikitlearn&logoColor=F4EFE5)
+![PyTorch](https://img.shields.io/badge/PyTorch-252525?style=flat-square&logo=pytorch&logoColor=F4EFE5)
+![OpenCV](https://img.shields.io/badge/OpenCV-252525?style=flat-square&logo=opencv&logoColor=F4EFE5)
 ![Ollama](https://img.shields.io/badge/Ollama-252525?style=flat-square&logo=ollama&logoColor=F4EFE5)
 ![OR-Tools](https://img.shields.io/badge/Google_OR--Tools-252525?style=flat-square&logo=google&logoColor=F4EFE5)
 ![Pandas](https://img.shields.io/badge/pandas-252525?style=flat-square&logo=pandas&logoColor=F4EFE5)
@@ -206,6 +211,8 @@ The common thread: make systems observable, test failure paths, preserve reprodu
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-252525?style=flat-square&logo=githubactions&logoColor=F4EFE5)
 ![Pytest](https://img.shields.io/badge/Pytest-252525?style=flat-square&logo=pytest&logoColor=F4EFE5)
 ![Playwright](https://img.shields.io/badge/Playwright-252525?style=flat-square&logo=playwright&logoColor=F4EFE5)
+![Appium](https://img.shields.io/badge/Appium-252525?style=flat-square&logo=appium&logoColor=F4EFE5)
+![Android](https://img.shields.io/badge/Android_ADB-252525?style=flat-square&logo=android&logoColor=F4EFE5)
 ![Vitest](https://img.shields.io/badge/Vitest-252525?style=flat-square&logo=vitest&logoColor=F4EFE5)
 ![Docker](https://img.shields.io/badge/Docker-252525?style=flat-square&logo=docker&logoColor=F4EFE5)
 ![ESLint](https://img.shields.io/badge/ESLint-252525?style=flat-square&logo=eslint&logoColor=F4EFE5)
@@ -233,6 +240,9 @@ These are technologies and engineering concepts visible in the repositories and 
 | [RideForge](https://github.com/kaustubhdua/Smart_bike_taxi_platform) | C++17, Boost.Beast HTTP API, PostgreSQL, React/TypeScript, Leaflet, routing, Dijkstra, Playwright and CTest |
 | [PatchPilot](https://github.com/kaustubhdua/PatchPilot) | Python 3.11+, FastAPI, Pydantic, CLI tooling, deterministic diff analysis, pytest, Ruff and Docker |
 | [Inkloom](https://github.com/kaustubhdua/inkloom) | TypeScript, React/Vite workspace, PostgreSQL, Drizzle ORM, Better Auth, Zod, Vitest, Playwright and Docker-oriented operations |
+| [BharatSim](https://github.com/kaustubhdua/bharat-sim) | Python, FastAPI, SQLite, React/TypeScript/Vite, Vitest, Android ADB worker, Appium/UiAutomator2, Docker Compose, GitHub Actions; MVP with a verified emulator fixture workflow |
+| [GenomeGuard](https://github.com/kaustubhdua/GenomeGuard) | Python 3.11+, Starlette, NumPy, cryptography (hash-chained audit log), PostgreSQL, vanilla JS frontend, Beacon v2-style and FHIR R4 Consent experiments, pytest, Ruff, Docker; research prototype on synthetic and public 1000 Genomes data |
+| [CrickVision](https://github.com/kaustubhdua/CrickVision-) | Python, PyTorch/Torchvision (pretrained Faster R-CNN), OpenCV, Streamlit dashboard, pytest, Ruff, mypy; experimental v0.3 prototype |
 | [Developer portfolio](https://github.com/kaustubhdua/Portfolio-) · private | React 19, JavaScript, esbuild, custom WebGL 2 voxel renderer, generated assets, ESLint and Playwright checks |
 | [Weather Core Matrix](https://github.com/kaustubhdua/weather-core-matrix) | HTML, CSS, vanilla JavaScript, Fetch API, asynchronous UI states and request timeout handling |
 | [Nord Studio Task Manager](https://github.com/kaustubhdua/nord-studio-task-manager) | HTML, CSS, vanilla JavaScript, DOM events, task filtering and localStorage persistence |
