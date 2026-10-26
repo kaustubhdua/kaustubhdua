@@ -177,6 +177,7 @@ The common thread: make systems observable, test failure paths, preserve reprodu
 ![Next.js](https://img.shields.io/badge/Next.js-252525?style=flat-square&logo=nextdotjs&logoColor=F4EFE5)
 ![Vite](https://img.shields.io/badge/Vite-252525?style=flat-square&logo=vite&logoColor=F4EFE5)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-252525?style=flat-square&logo=tailwindcss&logoColor=F4EFE5)
+![GSAP](https://img.shields.io/badge/GSAP-252525?style=flat-square&logo=greensock&logoColor=F4EFE5)
 ![Three.js](https://img.shields.io/badge/Three.js-252525?style=flat-square&logo=threedotjs&logoColor=F4EFE5)
 ![WebGL 2](https://img.shields.io/badge/WebGL_2-252525?style=flat-square&logo=webgl&logoColor=F4EFE5)
 ![Leaflet](https://img.shields.io/badge/Leaflet-252525?style=flat-square&logo=leaflet&logoColor=F4EFE5)
@@ -190,6 +191,7 @@ The common thread: make systems observable, test failure paths, preserve reprodu
 ![Streamlit](https://img.shields.io/badge/Streamlit-252525?style=flat-square&logo=streamlit&logoColor=F4EFE5)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-252525?style=flat-square&logo=postgresql&logoColor=F4EFE5)
 ![SQLite](https://img.shields.io/badge/SQLite-252525?style=flat-square&logo=sqlite&logoColor=F4EFE5)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-252525?style=flat-square&logo=sqlalchemy&logoColor=F4EFE5)
 ![Supabase](https://img.shields.io/badge/Supabase-252525?style=flat-square&logo=supabase&logoColor=F4EFE5)
 ![Drizzle ORM](https://img.shields.io/badge/Drizzle_ORM-252525?style=flat-square&logo=drizzle&logoColor=F4EFE5)
 ![Prisma](https://img.shields.io/badge/Prisma-252525?style=flat-square&logo=prisma&logoColor=F4EFE5)
@@ -231,11 +233,11 @@ These are technologies and engineering concepts visible in the repositories and 
 | [GitGlobe](https://github.com/kaustubhdua/GitGlobe) | React, TypeScript, Vite, Three.js/WebGL, interactive repository discovery and data pipelines |
 | [NIRDHOOM](https://github.com/kaustubhdua/nihdhoom) | React, TypeScript, Vite, Tailwind CSS, Supabase/PostgreSQL, Leaflet, service-worker/PWA tooling |
 | [Saathi](https://github.com/kaustubhdua/Saathi) | Python, FastAPI, React/Next.js, Streamlit, multilingual intent routing, speech adapters, provider integrations |
-| [SATARK Sentinel](https://github.com/kaustubhdua/Satark) | Python, Streamlit, PDF/image/video processing, local deterministic triage, optional AI integrations |
+| [SATARK Sentinel](https://github.com/kaustubhdua/Satark) | Python, Streamlit, FastAPI workers (FIRSTLIGHT), OpenCV, pypdf, ReportLab, Docker; local deterministic triage, optional AI integrations |
 | [Adapt AI](https://github.com/kaustubhdua/adapt-ai) | Python, FastAPI, JavaScript, Tailwind CSS, Ollama/local inference, hardware profiling |
-| [JIIT Youth Club](https://github.com/kaustubhdua/JYC-Website) | React 19, Vite, React Router, Supabase, Playwright, release and browser QA automation |
+| [JIIT Youth Club](https://github.com/kaustubhdua/JYC-Website) | React 19, Vite, React Router, Supabase, GSAP, Motion, OGL (WebGL), Playwright, Lighthouse and CodeQL workflows |
 | [JIIT Toppers](https://github.com/kaustubhdua/Jiit-toppers-) | Next.js, React, TypeScript, Prisma, PostgreSQL schema, Zod, ESLint and Node tests |
-| [Smart Waste Collection](https://github.com/kaustubhdua/smart_waste_project) | Python, pandas, NumPy, scikit-learn, Streamlit, Folium, Google OR-Tools; synthetic-data prototype |
+| [Smart Waste Collection](https://github.com/kaustubhdua/smart_waste_project) | Python, FastAPI, SQLAlchemy, Alembic, PostgreSQL, pandas, NumPy, scikit-learn, Streamlit, Folium, Google OR-Tools, Docker Compose; synthetic-data prototype |
 | [AkashChalak](https://github.com/kaustubhdua/AkashChalak) · [alternate](https://github.com/kaustubhdua/Akash-Chalak) | Python, FastAPI, React, Leaflet, DBSCAN, geospatial interpolation and air-quality data adapters |
 | [RideForge](https://github.com/kaustubhdua/Smart_bike_taxi_platform) | C++17, Boost.Beast HTTP API, PostgreSQL, React/TypeScript, Leaflet, routing, Dijkstra, Playwright and CTest |
 | [PatchPilot](https://github.com/kaustubhdua/PatchPilot) | Python 3.11+, FastAPI, Pydantic, CLI tooling, deterministic diff analysis, pytest, Ruff and Docker |
@@ -243,6 +245,8 @@ These are technologies and engineering concepts visible in the repositories and 
 | [BharatSim](https://github.com/kaustubhdua/bharat-sim) | Python, FastAPI, SQLite, React/TypeScript/Vite, Vitest, Android ADB worker, Appium/UiAutomator2, Docker Compose, GitHub Actions; MVP with a verified emulator fixture workflow |
 | [GenomeGuard](https://github.com/kaustubhdua/GenomeGuard) | Python 3.11+, Starlette, NumPy, cryptography (hash-chained audit log), PostgreSQL, vanilla JS frontend, Beacon v2-style and FHIR R4 Consent experiments, pytest, Ruff, Docker; research prototype on synthetic and public 1000 Genomes data |
 | [CrickVision](https://github.com/kaustubhdua/CrickVision-) | Python, PyTorch/Torchvision (pretrained Faster R-CNN), OpenCV, Streamlit dashboard, pytest, Ruff, mypy; experimental v0.3 prototype |
+| [Nord Studio Task Manager](https://github.com/kaustubhdua/nord-studio-task-manager) | Vanilla HTML, CSS and JavaScript, Node contract tests |
+| [Weather Core Matrix](https://github.com/kaustubhdua/weather-core-matrix) | Vanilla HTML, CSS and JavaScript, browser fetch API, Node contract tests |
 | [Developer portfolio](https://github.com/kaustubhdua/Portfolio-) · private | React 19, JavaScript, esbuild, custom WebGL 2 voxel renderer, generated assets, ESLint and Playwright checks |
 | [Weather Core Matrix](https://github.com/kaustubhdua/weather-core-matrix) | HTML, CSS, vanilla JavaScript, Fetch API, asynchronous UI states and request timeout handling |
 | [Nord Studio Task Manager](https://github.com/kaustubhdua/nord-studio-task-manager) | HTML, CSS, vanilla JavaScript, DOM events, task filtering and localStorage persistence |
