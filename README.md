@@ -131,6 +131,7 @@ The common thread: make systems observable, test failure paths, preserve reprodu
 - [Smart Waste Collection](https://github.com/kaustubhdua/smart_waste_project) — a predictive-to-optimisation pipeline using synthetic IoT-style data.
 - [SATARK](https://github.com/kaustubhdua/Satark) — a forked security-awareness triage workspace, not an antivirus; see the fork history for my individual changes.
 - [PatchPilot](https://github.com/kaustubhdua/PatchPilot) — early MVP; its starter benchmark is reproducible, but production detection precision/recall are not established.
+- [Infracis](https://github.com/kaustubhdua/infracis) — evidence-first location due diligence for property decisions; every finding is tied to a source, a timestamp and a method, or labelled unknown.
 - [Inkloom](https://github.com/kaustubhdua/inkloom) — early-access logo-design platform; generation is not live yet.
 - [AkashChalak](https://github.com/kaustubhdua/AkashChalak) — a satellite-assisted air-quality and hotspot decision-support prototype for India.
 - [RideForge](https://github.com/kaustubhdua/Smart_bike_taxi_platform) — a C++/PostgreSQL-backed bike-taxi API and routing platform.
@@ -241,6 +242,7 @@ These are technologies and engineering concepts visible in the repositories and 
 | [AkashChalak](https://github.com/kaustubhdua/AkashChalak) · [alternate](https://github.com/kaustubhdua/Akash-Chalak) | Python, FastAPI, React, Leaflet, DBSCAN, geospatial interpolation and air-quality data adapters |
 | [RideForge](https://github.com/kaustubhdua/Smart_bike_taxi_platform) | C++17, Boost.Beast HTTP API, PostgreSQL, React/TypeScript, Leaflet, routing, Dijkstra, Playwright and CTest |
 | [PatchPilot](https://github.com/kaustubhdua/PatchPilot) | Python 3.11+, FastAPI, Pydantic, CLI tooling, deterministic diff analysis, pytest, Ruff and Docker |
+| [Infracis](https://github.com/kaustubhdua/infracis) | Next.js, React, TypeScript, Tailwind CSS, Leaflet, Supabase/PostgreSQL, Vitest, optional server-side Groq interpretation; evidence-first location due-diligence report, built with a teammate and not production-ready |
 | [Inkloom](https://github.com/kaustubhdua/inkloom) | TypeScript, React/Vite workspace, PostgreSQL, Drizzle ORM, Better Auth, Zod, Vitest, Playwright and Docker-oriented operations |
 | [BharatSim](https://github.com/kaustubhdua/bharat-sim) | Python, FastAPI, SQLite, React/TypeScript/Vite, Vitest, Android ADB worker, Appium/UiAutomator2, Docker Compose, GitHub Actions; MVP with a verified emulator fixture workflow |
 | [GenomeGuard](https://github.com/kaustubhdua/GenomeGuard) | Python 3.11+, Starlette, NumPy, cryptography (hash-chained audit log), PostgreSQL, vanilla JS frontend, Beacon v2-style and FHIR R4 Consent experiments, pytest, Ruff, Docker; research prototype on synthetic and public 1000 Genomes data |
