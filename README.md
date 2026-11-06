@@ -20,7 +20,7 @@
 
 ## About
 
-I study Electronics &amp; Computer Engineering at JIIT Noida (CGPA: <strong>9.26/10 overall</strong>) and build practical software across full-stack product engineering, applied AI and data systems. I care about clear interfaces, reliable APIs, careful data boundaries and tests that exercise failure paths.
+I study Electronics &amp; Computer Engineering at JIIT Noida and build practical software across full-stack product engineering, applied AI and data systems. I care about clear interfaces, reliable APIs, careful data boundaries and tests that exercise failure paths.
 
 I am currently open to **software engineering internships** across backend, full-stack and applied AI.
 
@@ -48,11 +48,7 @@ These are the projects I want reviewers to start with. Smaller experiments and f
 
 **Additional selected work:** [GenomeGuard](https://github.com/kaustubhdua/GenomeGuard) (genomic-data governance research prototype) · [BharatSim](https://github.com/kaustubhdua/Bharat-Sim) (Android testing infrastructure MVP) · [RideForge](https://github.com/kaustubhdua/Smart_bike_taxi_platform) (C++17 and PostgreSQL backend MVP).
 
-## Experience &amp; campus leadership
-
-### Pinnacle Labs · Web Development Intern · 2026
-- Built [Weather Core Matrix](https://github.com/kaustubhdua/weather-core-matrix), a responsive weather dashboard using asynchronous Fetch API updates.
-- Built [Nord Studio Task Manager](https://github.com/kaustubhdua/nord-studio-task-manager), with localStorage persistence, priority labels and All / Active / Completed filters.
+## Campus leadership
 
 ### Nexus Spring of Code (NSoC) · Campus Ambassador
 Representing the open-source program at JIIT Noida and helping students discover contribution opportunities.
