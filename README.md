@@ -20,7 +20,7 @@
 
 ## About
 
-I study Electronics &amp; Computer Engineering at JIIT Noida and build practical software across full-stack product engineering, applied AI and data systems. I care about clear interfaces, reliable APIs, careful data boundaries and tests that exercise failure paths.
+I study Electronics &amp; Computer Engineering at JIIT Noida (CGPA: <strong>9.2/10 overall</strong>) and build practical software across full-stack product engineering, applied AI and data systems. I care about clear interfaces, reliable APIs, careful data boundaries and tests that exercise failure paths.
 
 I am currently open to **software engineering internships** across backend, full-stack and applied AI.
 
