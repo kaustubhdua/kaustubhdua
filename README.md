@@ -24,6 +24,17 @@ I study Electronics &amp; Computer Engineering at JIIT Noida (CGPA: <strong>9.2/
 
 I am currently open to **software engineering internships** across backend, full-stack and applied AI.
 
+## Open-source contributions
+
+I have **six merged upstream pull requests** in [lemma-work/lemma-platform](https://github.com/lemma-work/lemma-platform), focused on correctness, security boundaries and runtime compatibility:
+
+- [#1156 - PostgreSQL 18 local volume compatibility](https://github.com/lemma-work/lemma-platform/pull/1156)
+- [#1155 - Podman function-sandbox tmpfs compatibility](https://github.com/lemma-work/lemma-platform/pull/1155)
+- [#1136 - GitHub webhook event identity and idempotency](https://github.com/lemma-work/lemma-platform/pull/1136)
+- [#1128 - Bundle sidecar path containment](https://github.com/lemma-work/lemma-platform/pull/1128)
+- [#1125 - Python SDK auth-refresh error handling](https://github.com/lemma-work/lemma-platform/pull/1125)
+- [#1124 - JSONC unterminated-comment diagnostics](https://github.com/lemma-work/lemma-platform/pull/1124)
+
 ## Selected work
 
 These are the projects I want reviewers to start with. Smaller experiments and forks remain on the repositories page rather than competing for attention here.
@@ -33,7 +44,7 @@ These are the projects I want reviewers to start with. Smaller experiments and f
 | [NIRDHOOM](https://github.com/kaustubhdua/nihdhoom) | Field-first crop-residue coordination across farmer requests, operator workflows, evidence and buyer pathways. Multi-contributor prototype; hosted preview uses sample data. | React, Supabase, PostgreSQL/PostGIS, OR-Tools |
 | [Saathi](https://github.com/kaustubhdua/Saathi) | Hindi/Hinglish assistance with deterministic intent routing, source provenance, consent prompts and human escalation. Multi-contributor MVP; no public live demo claimed. | Next.js, FastAPI, Python |
 | [PatchPilot](https://github.com/kaustubhdua/PatchPilot) | Pull-request diff triage that treats diffs as untrusted input and surfaces evidence-backed risk signals. It never executes repository code; early-stage project. | Python, FastAPI, pytest, Docker |
-| [JIIT Youth Club Website](https://github.com/kaustubhdua/JYC-Website) | Public campus-club website for societies, events, gallery, archive and recruitment. Multi-contributor work; deployment is not presented as verified. | React, Vite, Supabase, Playwright |
+| [JIIT Youth Club Website](https://github.com/kaustubhdua/JYC-Website2) | Public campus-club website for societies, events, gallery, archive and recruitment. Multi-contributor work; deployment is not presented as verified. | React, Vite, Supabase, Playwright |
 
 **Additional selected work:** [GenomeGuard](https://github.com/kaustubhdua/GenomeGuard) (genomic-data governance research prototype) · [BharatSim](https://github.com/kaustubhdua/Bharat-Sim) (Android testing infrastructure MVP) · [RideForge](https://github.com/kaustubhdua/Smart_bike_taxi_platform) (C++17 and PostgreSQL backend MVP).
 
