@@ -156,8 +156,9 @@ jobs:
               source = path.read_text(encoding="utf-8")
               ET.parse(path)
               assert "prefers-reduced-motion" in source, f"Missing reduced-motion support: {path}"
-              assert not re.search(r"<script\\b|<foreignObject\\b|https?://", source, re.I), f"Unexpected executable/external content: {path}"
-              assert not any(color in source.lower() for color in ("#3fb950", "#0e4429", "#025325", "#006d32", "#068c2e", "#26a641", "#0db83a", "#39d353")), f"Non-monochrome palette remains in {path}"
+              assert not re.search(r"<script\\b|<foreignObject\\b", source, re.I), f"Unexpected executable content: {path}"
+              assert not re.search(r"""(?:href|xlink:href|src)=["']https?://|url\\(\\s*https?://|@import""", source, re.I), f"External SVG resource: {path}"
+              assert not any(color in source.lower() for color in ("#3fb950", "#0e4429", "#025325", "#006d32", "#068c2e", "#26a641", "#0db83a", "#39d353", "#1a7f37", "#30a14e", "#9be9a8", "#5bdb79", "#40c463", "#4ab763", "#38834d", "#216e39")), f"Non-monochrome palette remains in {path}"
 
           # Validate every local SVG, unique IDs, and internal fragment references.
           svg_files = sorted(Path("assets").rglob("*.svg"))
