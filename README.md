@@ -294,10 +294,15 @@ These are technologies and engineering concepts visible in the repositories and 
 <h3><sub>THE LIVE SESSION / CONTRIBUTION HISTORY</sub></h3>
 
 <p align="center">
-  <a href="https://github.com/kaustubhdua?tab=overview"><img src="./assets/lifetime.dark.svg?v=20261108-self-hosted-history" width="100%" alt="Self-hosted GitHub contribution history by year, generated from GitHub GraphQL data by the profile history workflow" loading="lazy"/></a>
+  <a href="https://github.com/kaustubhdua?tab=overview">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/lifetime.dark.svg?v=20261108-self-hosted-history"/>
+      <img src="./assets/lifetime.light.svg?v=20261108-self-hosted-history" width="100%" alt="Self-hosted GitHub contribution history by year, rendered in a monochrome theme and refreshed by GitHub Actions" loading="lazy"/>
+    </picture>
+  </a>
 </p>
 
-<sub>SELF-HOSTED CONTRIBUTION HISTORY / Refreshed automatically by GitHub Actions. Unlike the animated contribution snake below, this chart shows year-by-year history.</sub>
+<sub>SELF-HOSTED CONTRIBUTION HISTORY / Daily GitHub GraphQL refresh. The year-by-year card is separate from the animated contribution snake. Contribution timestamps follow GitHub's UTC calendar; private activity is included only when the profile and token settings allow it.</sub>
 
 <sub><a href="https://github.com/kaustubhdua/kaustubhdua/actions/workflows/profile-history.yml">VIEW HISTORY REFRESH WORKFLOW ↗</a></sub>
 
