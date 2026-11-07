@@ -93,4 +93,16 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "chore(profile): refresh monochrome contribution history [skip ci]"
-          git push
+          # A README or QA commit can land while the cards are rendering. Rebase
+          # the generated files onto the latest branch tip before publishing.
+          for attempt in 1 2 3; do
+            git fetch origin "$GITHUB_REF_NAME"
+            git rebase "origin/$GITHUB_REF_NAME"
+            if git push origin "HEAD:$GITHUB_REF_NAME"; then
+              exit 0
+            fi
+            echo "Push raced with another branch update (attempt $attempt); retrying."
+            sleep "$((attempt * 2))"
+          done
+          echo "Could not publish refreshed profile cards after three attempts."
+          exit 1
