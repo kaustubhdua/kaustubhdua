@@ -1,0 +1,36 @@
+name: Refresh contribution history
+
+on:
+  schedule:
+    - cron: "37 2 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main, feat/monochrome-studio-motion]
+    paths:
+      - ".github/workflows/profile-history.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-history-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Render self-hosted lifetime contribution history
+        uses: seijikohara/profile-cards-action@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          username: kaustubhdua
+          cards: lifetime
+          output-dir: assets
+          themes: dark
+          commit: true
+          commit-message: "chore(profile): refresh contribution history [skip ci]"
