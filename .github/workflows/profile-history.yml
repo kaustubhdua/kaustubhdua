@@ -5,7 +5,7 @@ on:
     - cron: "37 2 * * *"
   workflow_dispatch:
   push:
-    branches: [main]
+    branches: [main, feat/monochrome-studio-motion]
     paths:
       - ".github/workflows/profile-history.yml"
 
