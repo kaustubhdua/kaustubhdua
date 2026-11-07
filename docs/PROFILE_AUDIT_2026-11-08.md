@@ -58,7 +58,7 @@ The profile QA workflow validates:
 - self-hosted overview/lifetime cards remain monochrome and self-contained;
 - remote images return a successful response or a temporary-unavailability warning.
 
-Latest confirmed QA: [Profile README QA run](https://github.com/kaustubhdua/kaustubhdua/actions/runs/42417963947). It checked 29 local asset references, 4 internal anchors, 18 curated repository links, 38 SVG files and 15 remote image URLs. The previous Unicode URL warning was removed by simplifying the badge label to ASCII; the latest run completed without that warning.
+Latest confirmed QA: [Profile README QA run](https://github.com/kaustubhdua/kaustubhdua/actions/runs/42418002455). It checked 29 local asset references, 4 internal anchors, 18 curated repository links, 38 SVG files and 15 remote image URLs. The previous Unicode URL warning was removed by simplifying the badge label to ASCII; the latest run completed without that warning.
 
 ## Remaining checks before merge
 
