@@ -133,7 +133,7 @@ jobs:
                   assert "width:720px" in source, f"Reduced-motion title should remain fully visible: {path}"
               style = re.search(r"<style>(.*?)</style>", source, flags=re.S)
               assert style and style.group(1).count("{") == style.group(1).count("}"), f"Unbalanced heading CSS: {path}"
-          animated_assets = (Path("assets/profile-motion.svg"), Path("assets/profile-footer.svg"), Path("assets/system-map.svg"), Path("assets/guitar-studio.svg"), Path("assets/studio-status.svg"), Path("assets/signal-chain.svg"), Path("assets/vu-meter.svg"), Path("assets/fretboard-progress.svg"), Path("assets/studio-loop.svg"), Path("assets/cinematic-header.svg"), Path("assets/section-transition.svg"), Path("assets/live-stats-console.svg"), Path("assets/projects/gitglobe.svg"), Path("assets/projects/nirdhoom.svg"), Path("assets/projects/saathi.svg"), Path("assets/projects/patchpilot.svg"), Path("assets/projects/rideforge.svg"), Path("assets/projects/smart-waste.svg"), Path("assets/overview.light.svg"), Path("assets/overview.dark.svg"), Path("assets/headings/studio-notes.svg"))
+          animated_assets = (Path("assets/profile-motion.svg"), Path("assets/profile-footer.svg"), Path("assets/system-map.svg"), Path("assets/guitar-studio.svg"), Path("assets/studio-status.svg"), Path("assets/signal-chain.svg"), Path("assets/vu-meter.svg"), Path("assets/fretboard-progress.svg"), Path("assets/studio-loop.svg"), Path("assets/cinematic-header.svg"), Path("assets/section-transition.svg"), Path("assets/live-stats-console.svg"), Path("assets/projects/gitglobe.svg"), Path("assets/projects/nirdhoom.svg"), Path("assets/projects/saathi.svg"), Path("assets/projects/patchpilot.svg"), Path("assets/projects/rideforge.svg"), Path("assets/projects/smart-waste.svg"), Path("assets/headings/studio-notes.svg"))
           system_map = Path("assets/system-map.svg").read_text(encoding="utf-8")
           assert "<animate" not in system_map.lower(), "System map should use CSS motion so reduced-motion preferences can disable every moving element"
           assert "translateX(660px)" in system_map, "System map particle should traverse all three stages"
@@ -157,6 +157,8 @@ jobs:
                   path = Path(f"assets/{card}.{theme}.svg")
               source = path.read_text(encoding="utf-8")
               ET.parse(path)
+              assert 'role="img"' in source and "aria-label=" in source, f"Missing accessible image semantics: {path}"
+              assert "<title>" in source and "<desc>" in source, f"Missing SVG title/description: {path}"
               assert "prefers-reduced-motion" in source, f"Missing reduced-motion support: {path}"
               assert not re.search(r"<script\\b|<foreignObject\\b", source, re.I), f"Unexpected executable content: {path}"
               assert not any(token in source.lower() for token in ('href="http://', 'href="https://', 'src="http://', 'src="https://', 'url(http://', 'url(https://', '@import')), f"External SVG resource: {path}"
