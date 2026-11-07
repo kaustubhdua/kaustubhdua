@@ -53,6 +53,15 @@ jobs:
               "#26a641": "#A0A0A0",
               "#0db83a": "#A0A0A0",
               "#39d353": "#D0D0D0",
+              "#1a7f37": "#555555",
+              "#30a14e": "#858585",
+              "#ebedf0": "#EBEBEB",
+              "#9be9a8": "#D0D0D0",
+              "#5bdb79": "#BDBDBD",
+              "#40c463": "#A0A0A0",
+              "#4ab763": "#737373",
+              "#38834d": "#666666",
+              "#216e39": "#494949",
           }
           for theme in ("light", "dark"):
               path = Path(f"assets/lifetime.{theme}.svg")
