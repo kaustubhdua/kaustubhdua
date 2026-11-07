@@ -8,6 +8,7 @@
   <a href="#setlist"><img src="https://img.shields.io/badge/01-SETLIST-252525?style=flat-square&labelColor=111111&color=252525" alt="Setlist" loading="lazy"/></a>
   <a href="#rig-signal-chain"><img src="https://img.shields.io/badge/02-RIG_%26_SIGNAL_CHAIN-252525?style=flat-square&labelColor=111111&color=252525" alt="Rig and signal chain" loading="lazy"/></a>
   <a href="#on-the-turntable"><img src="https://img.shields.io/badge/03-ON_THE_TURNTABLE-252525?style=flat-square&labelColor=111111&color=252525" alt="On the turntable" loading="lazy"/></a>
+  <a href="#studio-loop"><img src="https://img.shields.io/badge/04-STUDIO_LOOP-252525?style=flat-square&labelColor=111111&color=252525" alt="Studio loop" loading="lazy"/></a>
   <a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/ALL_REPOSITORIES-↗-252525?style=flat-square&labelColor=111111&color=252525" alt="All repositories" loading="lazy"/></a>
   <a href="https://github.com/kaustubhdua/kaustubhdua/actions/workflows/profile-qa.yml"><img src="https://img.shields.io/github/actions/workflow/status/kaustubhdua/kaustubhdua/profile-qa.yml?branch=main&label=PROFILE%20QA&style=flat-square&labelColor=111111&color=252525" alt="Profile README quality checks" loading="lazy"/></a>
 </p>
@@ -268,6 +269,10 @@ These are technologies and engineering concepts visible in the repositories and 
 <div align="center">
 
 <img src="./assets/guitar-studio.svg?v=20261009-fret-spacing" width="100%" alt="Animated black-and-white studio scene with a detailed black double-cutaway electric guitar, six strings, fretboard, pickups, amplifier, Iris music player and animated equalizer" loading="lazy"/>
+
+<h3 id="studio-loop"><sub>THE STUDIO LOOP / SIGNAL IN MOTION</sub></h3>
+
+<img src="./assets/studio-loop.svg?v=20261108-studio-loop" width="100%" alt="Animated monochrome vinyl record, flowing waveform and equalizer bars; decorative studio motion, not live audio telemetry" loading="lazy"/>
 
 **ON REPEAT / IRIS — GOO GOO DOLLS**
 
