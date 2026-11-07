@@ -12,7 +12,7 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Validate README, links, and animated assets
         shell: bash
@@ -36,9 +36,12 @@ jobs:
               "animated footer": "assets/profile-footer.svg" in readme,
               "animated guitar section": "assets/guitar-studio.svg" in readme,
               "animated studio loop section": "assets/studio-loop.svg?v=20261108-studio-loop" in readme,
-              "individual featured project artwork": all(f"assets/projects/{name}.svg?v=20261108-project-art" in readme for name in ("gitglobe", "nirdhoom", "saathi")),
-              "self-hosted contribution history": "assets/lifetime.dark.svg?v=20261108-self-hosted-history" in readme,
-              "automatic contribution history refresh": Path(".github/workflows/profile-history.yml").is_file(),
+              "six individual featured project artworks": all(f"assets/projects/{name}.svg?v=20261108-project-art" in readme for name in ("gitglobe", "nirdhoom", "saathi", "patchpilot", "rideforge", "smart-waste")),
+              "featured projects accurately scoped": all(token in readme for token in ("fork-based contribution", "prototype", "early MVP", "portfolio MVP", "synthetic")),
+              "no stale repository references": not any(f"github.com/kaustubhdua/{name}" in readme for name in ("Foodie", "HEALCONNECT", "inkloom")),
+              "theme-aware contribution history": all(f"assets/lifetime.{theme}.svg?v=20261108-self-hosted-history" in readme for theme in ("light", "dark")),
+              "contribution refresh is automated": Path(".github/workflows/profile-history.yml").is_file(),
+              
               "engineering fretboard illustration": "assets/fretboard-progress.svg?v=20261108-engineering-fretboard" in readme,
               "live statistics console": "assets/live-stats-console.svg?v=20261108-live-stats-console" in readme,
               "electric guitar detail": all(token in Path("assets/guitar-studio.svg").read_text(encoding="utf-8") for token in ("six strings", "double-cutaway", "pickup", "tuning")),
@@ -89,12 +92,27 @@ jobs:
 
           # Keep the curated repository links explicit and typo-resistant.
           expected_repositories = (
-              "GitGlobe", "nihdhoom", "Saathi", "Satark", "adapt-ai",
-              "JYC-Website", "smart_waste_project", "AkashChalak",
-              "Smart_bike_taxi_platform", "weather-core-matrix",
+              "GitGlobe", "nihdhoom", "Saathi", "PatchPilot",
+              "Smart_bike_taxi_platform", "smart_waste_project",
+              "Satark", "adapt-ai", "JYC-Website", "Jiit-toppers-",
+              "infracis", "Akash-Chalak", "Bharat-Sim",
+              "GenomeGuard", "CrickVision-", "weather-core-matrix",
+              "nord-studio-task-manager", "Portfolio-",
           )
           for repository in expected_repositories:
               assert f"https://github.com/kaustubhdua/{repository}" in readme, f"Missing project link: {repository}"
+
+          # Reject duplicate featured project cards and duplicate rows in the stack index.
+          featured_start = readme.index("FEATURED BUILDS / SIX PROJECTS")
+          featured_end = readme.index("<details>\\n<summary><strong>More builds", featured_start)
+          featured = readme[featured_start:featured_end]
+          for name in ("GitGlobe", "NIRDHOOM", "Saathi", "PatchPilot", "RideForge", "SMART WASTE"):
+              assert featured.count(name) == 2, f"Featured project should appear once in artwork and once in its description: {name}"
+          stack_start = readme.index("| Repository | Stack / engineering focus |")
+          stack_end = readme.index("**Profile positioning:**", stack_start)
+          stack_rows = re.findall(r"^\\| \\[([^]]+)\\]\\((https://github.com/kaustubhdua/[^)]+)\\)", readme[stack_start:stack_end], flags=re.M)
+          stack_urls = [url for _, url in stack_rows]
+          assert len(stack_urls) == len(set(stack_urls)), "Duplicate repository row in stack index"
 
           # Parse SVGs as XML and check accessibility, safe markup and motion fallbacks.
           heading_assets = tuple(sorted(Path("assets/headings").glob("*.svg")))
@@ -112,7 +130,7 @@ jobs:
                   assert "width:720px" in source, f"Reduced-motion title should remain fully visible: {path}"
               style = re.search(r"<style>(.*?)</style>", source, flags=re.S)
               assert style and style.group(1).count("{") == style.group(1).count("}"), f"Unbalanced heading CSS: {path}"
-          animated_assets = (Path("assets/profile-motion.svg"), Path("assets/profile-footer.svg"), Path("assets/system-map.svg"), Path("assets/guitar-studio.svg"), Path("assets/studio-status.svg"), Path("assets/signal-chain.svg"), Path("assets/vu-meter.svg"), Path("assets/fretboard-progress.svg"), Path("assets/studio-loop.svg"), Path("assets/cinematic-header.svg"), Path("assets/section-transition.svg"), Path("assets/featured-project-cards.svg"), Path("assets/live-stats-console.svg"), Path("assets/projects/gitglobe.svg"), Path("assets/projects/nirdhoom.svg"), Path("assets/projects/saathi.svg"), Path("assets/headings/studio-notes.svg"))
+          animated_assets = (Path("assets/profile-motion.svg"), Path("assets/profile-footer.svg"), Path("assets/system-map.svg"), Path("assets/guitar-studio.svg"), Path("assets/studio-status.svg"), Path("assets/signal-chain.svg"), Path("assets/vu-meter.svg"), Path("assets/fretboard-progress.svg"), Path("assets/studio-loop.svg"), Path("assets/cinematic-header.svg"), Path("assets/section-transition.svg"), Path("assets/featured-project-cards.svg"), Path("assets/live-stats-console.svg"), Path("assets/projects/gitglobe.svg"), Path("assets/projects/nirdhoom.svg"), Path("assets/projects/saathi.svg"), Path("assets/projects/patchpilot.svg"), Path("assets/projects/rideforge.svg"), Path("assets/projects/smart-waste.svg"), Path("assets/headings/studio-notes.svg"))
           system_map = Path("assets/system-map.svg").read_text(encoding="utf-8")
           assert "<animate" not in system_map.lower(), "System map should use CSS motion so reduced-motion preferences can disable every moving element"
           assert "translateX(660px)" in system_map, "System map particle should traverse all three stages"
@@ -129,6 +147,15 @@ jobs:
                   assert css.count("{") == css.count("}"), f"Unbalanced CSS: {path}"
                   durations = [float(value) for value in re.findall(r"animation:[^;}]*?(\d+(?:\.\d+)?)s", css) if "infinite" in css]
                   assert all(duration >= 1 for duration in durations), f"Unexpectedly rapid animation: {path}"
+
+          # Generated contribution cards must stay monochrome, self-contained and theme-aware.
+          for theme in ("light", "dark"):
+              path = Path(f"assets/lifetime.{theme}.svg")
+              source = path.read_text(encoding="utf-8")
+              ET.parse(path)
+              assert "prefers-reduced-motion" in source, f"Missing reduced-motion support: {path}"
+              assert not re.search(r"<script\\b|<foreignObject\\b|https?://", source, re.I), f"Unexpected executable/external content: {path}"
+              assert not any(color in source.lower() for color in ("#3fb950", "#0e4429", "#025325", "#006d32", "#068c2e", "#26a641", "#0db83a", "#39d353")), f"Non-monochrome palette remains in {path}"
 
           # Validate every local SVG, unique IDs, and internal fragment references.
           svg_files = sorted(Path("assets").rglob("*.svg"))
