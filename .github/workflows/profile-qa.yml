@@ -36,7 +36,8 @@ jobs:
               "animated footer": "assets/profile-footer.svg" in readme,
               "animated guitar section": "assets/guitar-studio.svg" in readme,
               "animated studio loop section": "assets/studio-loop.svg?v=20261108-studio-loop" in readme,
-              "featured project illustration": "assets/featured-project-cards.svg?v=20261108-featured-cards" in readme,
+              "individual featured project artwork": all(f"assets/projects/{name}.svg?v=20261108-project-art" in readme for name in ("gitglobe", "nirdhoom", "saathi")),
+              "live contribution activity timeline": "github-readme-activity-graph.vercel.app/graph?username=kaustubhdua" in readme,
               "engineering fretboard illustration": "assets/fretboard-progress.svg?v=20261108-engineering-fretboard" in readme,
               "live statistics console": "assets/live-stats-console.svg?v=20261108-live-stats-console" in readme,
               "electric guitar detail": all(token in Path("assets/guitar-studio.svg").read_text(encoding="utf-8") for token in ("six strings", "double-cutaway", "pickup", "tuning")),
@@ -110,7 +111,7 @@ jobs:
                   assert "width:720px" in source, f"Reduced-motion title should remain fully visible: {path}"
               style = re.search(r"<style>(.*?)</style>", source, flags=re.S)
               assert style and style.group(1).count("{") == style.group(1).count("}"), f"Unbalanced heading CSS: {path}"
-          animated_assets = (Path("assets/profile-motion.svg"), Path("assets/profile-footer.svg"), Path("assets/system-map.svg"), Path("assets/guitar-studio.svg"), Path("assets/studio-status.svg"), Path("assets/signal-chain.svg"), Path("assets/vu-meter.svg"), Path("assets/fretboard-progress.svg"), Path("assets/studio-loop.svg"), Path("assets/cinematic-header.svg"), Path("assets/section-transition.svg"), Path("assets/featured-project-cards.svg"), Path("assets/live-stats-console.svg"), Path("assets/headings/studio-notes.svg"))
+          animated_assets = (Path("assets/profile-motion.svg"), Path("assets/profile-footer.svg"), Path("assets/system-map.svg"), Path("assets/guitar-studio.svg"), Path("assets/studio-status.svg"), Path("assets/signal-chain.svg"), Path("assets/vu-meter.svg"), Path("assets/fretboard-progress.svg"), Path("assets/studio-loop.svg"), Path("assets/cinematic-header.svg"), Path("assets/section-transition.svg"), Path("assets/featured-project-cards.svg"), Path("assets/live-stats-console.svg"), Path("assets/projects/gitglobe.svg"), Path("assets/projects/nirdhoom.svg"), Path("assets/projects/saathi.svg"), Path("assets/headings/studio-notes.svg"))
           system_map = Path("assets/system-map.svg").read_text(encoding="utf-8")
           assert "<animate" not in system_map.lower(), "System map should use CSS motion so reduced-motion preferences can disable every moving element"
           assert "translateX(660px)" in system_map, "System map particle should traverse all three stages"
