@@ -336,8 +336,11 @@ These are technologies and engineering concepts visible in the repositories and 
 
 <img src="./assets/live-stats-console.svg?v=20261108-live-stats-console" width="100%" alt="Animated live GitHub statistics console header" loading="lazy"/>
 
-<a href="https://github.com/kaustubhdua">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=kaustubhdua&show_icons=true&hide_border=true&bg_color=0D1117&title_color=A0A0A0&text_color=C9C9C9&icon_color=E5E5E5&rank_icon=github&include_all_commits=true" height="170" alt="Live GitHub statistics for kaustubhdua" loading="lazy"/>
+<a href="https://github.com/kaustubhdua?tab=overview">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/overview.dark.svg?v=20261108-self-hosted-overview"/>
+    <img src="./assets/overview.light.svg?v=20261108-self-hosted-overview" height="170" alt="Self-hosted GitHub overview card with profile contribution and repository statistics, refreshed daily" loading="lazy"/>
+  </picture>
 </a>
 <a href="https://github.com/kaustubhdua?tab=repositories">
   <img src="./assets/most-used-languages.svg?v=20261009-live-card" height="170" alt="Automatically refreshed monochrome programming-language breakdown across owned non-fork, non-archived repositories" loading="lazy"/>
