@@ -25,6 +25,7 @@ Secondary work remains in the expandable archive. Fork-based/team projects are l
 
 - Removed the duplicate PatchPilot feature row and repaired the 05/05 numbering error.
 - Removed duplicate Weather Core Matrix and Nord Studio Task Manager rows from the stack index.
+- Removed the unused 90-day activity-chart workflow and its obsolete combined project-artwork asset; the README now uses the self-hosted overview/lifetime cards and six individual project illustrations.
 - Removed stale links to repositories that returned 404 during this audit: Foodie, HEALCONNECT and Inkloom.
 - Replaced the legacy AkashChalak link with the active Akash-Chalak repository.
 - Removed the inaccurate `private` label from Portfolio- after checking repository metadata.
@@ -57,7 +58,7 @@ The profile QA workflow validates:
 - self-hosted overview/lifetime cards remain monochrome and self-contained;
 - remote images return a successful response or a temporary-unavailability warning.
 
-Latest confirmed QA at the time of this report: [Profile README QA run](https://github.com/kaustubhdua/kaustubhdua/actions/runs/42417590938). It checked 28 local asset references, 4 internal anchors, 18 curated repository links, 37 SVG files and 16 remote image URLs. The run reported one non-blocking smoke-test warning for a Shields URL containing a Unicode arrow; that label has since been simplified to ASCII.
+Latest confirmed QA: [Profile README QA run](https://github.com/kaustubhdua/kaustubhdua/actions/runs/42417889118). It checked 29 local asset references, 4 internal anchors, 18 curated repository links, 38 SVG files and 15 remote image URLs. The previous Unicode URL warning was removed by simplifying the badge label to ASCII; the latest run completed without that warning.
 
 ## Remaining checks before merge
 
