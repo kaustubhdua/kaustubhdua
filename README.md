@@ -231,31 +231,27 @@ These are technologies and engineering concepts visible in the repositories and 
 
 | Repository | Stack / engineering focus |
 |:--|:--|
-| [GitGlobe](https://github.com/kaustubhdua/GitGlobe) | React, TypeScript, Vite, Three.js/WebGL, interactive repository discovery and data pipelines |
-| [NIRDHOOM](https://github.com/kaustubhdua/nihdhoom) | React, TypeScript, Vite, Tailwind CSS, Supabase/PostgreSQL, Leaflet, service-worker/PWA tooling |
-| [Saathi](https://github.com/kaustubhdua/Saathi) | Python, FastAPI, React/Next.js, Streamlit, multilingual intent routing, speech adapters, provider integrations |
-| [SATARK Sentinel](https://github.com/kaustubhdua/Satark) | Python, Streamlit, FastAPI workers (FIRSTLIGHT), OpenCV, pypdf, ReportLab, Docker; local deterministic triage, optional AI integrations |
-| [Adapt AI](https://github.com/kaustubhdua/adapt-ai) | Python, FastAPI, JavaScript, Tailwind CSS, Ollama/local inference, hardware profiling |
-| [JIIT Youth Club](https://github.com/kaustubhdua/JYC-Website) | React 19, Vite, React Router, Supabase, GSAP, Motion, OGL (WebGL), Playwright, Lighthouse and CodeQL workflows |
+| Repository | Stack / engineering focus |
+|:--|:--|
+| [GitGlobe](https://github.com/kaustubhdua/GitGlobe) · fork | React, TypeScript, Vite, Three.js/WebGL, interactive repository discovery and data pipelines |
+| [NIRDHOOM](https://github.com/kaustubhdua/nihdhoom) | React, TypeScript, Vite, Tailwind CSS, Supabase/PostgreSQL, Leaflet, service-worker/PWA tooling; prototype with demo/live data boundaries |
+| [Saathi](https://github.com/kaustubhdua/Saathi) | Python, FastAPI, React/Next.js, Streamlit, Hindi/Hinglish intent routing, local speech adapters and optional hosted integrations |
+| [PatchPilot](https://github.com/kaustubhdua/PatchPilot) | Python 3.11+, FastAPI, Pydantic, CLI, deterministic diff analysis, pytest, Ruff and Docker; early MVP |
+| [RideForge](https://github.com/kaustubhdua/Smart_bike_taxi_platform) | C++17, Boost.Beast HTTP API, PostgreSQL, React/TypeScript, Leaflet, routing, Dijkstra, Playwright and CTest; portfolio MVP |
+| [Smart Waste Collection](https://github.com/kaustubhdua/smart_waste_project) | Python, FastAPI, SQLAlchemy, Alembic, PostgreSQL/PostGIS, pandas, NumPy, scikit-learn, Streamlit, Folium, OR-Tools; synthetic-data prototype |
+| [SATARK Sentinel](https://github.com/kaustubhdua/Satark) · fork | Python, Streamlit, FastAPI workers (FIRSTLIGHT), OpenCV, pypdf, ReportLab, Docker; local deterministic triage and optional AI integrations |
+| [Adapt AI](https://github.com/kaustubhdua/adapt-ai) · team project / fork | Python, FastAPI, JavaScript, Tailwind CSS, Ollama/local inference, hardware profiling |
+| [JIIT Youth Club](https://github.com/kaustubhdua/JYC-Website) | React 19, Vite, React Router, Supabase, GSAP, Motion, OGL/WebGL, Playwright, Lighthouse and CodeQL workflows |
 | [JIIT Toppers](https://github.com/kaustubhdua/Jiit-toppers-) | Next.js, React, TypeScript, Prisma, PostgreSQL schema, Zod, ESLint and Node tests |
-| [Smart Waste Collection](https://github.com/kaustubhdua/smart_waste_project) | Python, FastAPI, SQLAlchemy, Alembic, PostgreSQL, pandas, NumPy, scikit-learn, Streamlit, Folium, Google OR-Tools, Docker Compose; synthetic-data prototype |
-| [AkashChalak](https://github.com/kaustubhdua/AkashChalak) · [alternate](https://github.com/kaustubhdua/Akash-Chalak) | Python, FastAPI, React, Leaflet, DBSCAN, geospatial interpolation and air-quality data adapters |
-| [RideForge](https://github.com/kaustubhdua/Smart_bike_taxi_platform) | C++17, Boost.Beast HTTP API, PostgreSQL, React/TypeScript, Leaflet, routing, Dijkstra, Playwright and CTest |
-| [PatchPilot](https://github.com/kaustubhdua/PatchPilot) | Python 3.11+, FastAPI, Pydantic, CLI tooling, deterministic diff analysis, pytest, Ruff and Docker |
-| [Infracis](https://github.com/kaustubhdua/infracis) | Next.js, React, TypeScript, Tailwind CSS, Leaflet, Supabase/PostgreSQL, Vitest, optional server-side Groq interpretation; evidence-first location due-diligence report, built with a teammate and not production-ready |
-| [Inkloom](https://github.com/kaustubhdua/inkloom) | TypeScript, React/Vite workspace, PostgreSQL, Drizzle ORM, Better Auth, Zod, Vitest, Playwright and Docker-oriented operations |
-| [BharatSim](https://github.com/kaustubhdua/bharat-sim) | Python, FastAPI, SQLite, React/TypeScript/Vite, Vitest, Android ADB worker, Appium/UiAutomator2, Docker Compose, GitHub Actions; MVP with a verified emulator fixture workflow |
-| [GenomeGuard](https://github.com/kaustubhdua/GenomeGuard) | Python 3.11+, Starlette, NumPy, cryptography (hash-chained audit log), PostgreSQL, vanilla JS frontend, Beacon v2-style and FHIR R4 Consent experiments, pytest, Ruff, Docker; research prototype on synthetic and public 1000 Genomes data |
-| [CrickVision](https://github.com/kaustubhdua/CrickVision-) | Python, PyTorch/Torchvision (pretrained Faster R-CNN), OpenCV, Streamlit dashboard, pytest, Ruff, mypy; experimental v0.3 prototype |
-| [Nord Studio Task Manager](https://github.com/kaustubhdua/nord-studio-task-manager) | Vanilla HTML, CSS and JavaScript, Node contract tests |
-| [Weather Core Matrix](https://github.com/kaustubhdua/weather-core-matrix) | Vanilla HTML, CSS and JavaScript, browser fetch API, Node contract tests |
-| [Developer portfolio](https://github.com/kaustubhdua/Portfolio-) · private | React 19, JavaScript, esbuild, custom WebGL 2 voxel renderer, generated assets, ESLint and Playwright checks |
-| [Weather Core Matrix](https://github.com/kaustubhdua/weather-core-matrix) | HTML, CSS, vanilla JavaScript, Fetch API, asynchronous UI states and request timeout handling |
-| [Nord Studio Task Manager](https://github.com/kaustubhdua/nord-studio-task-manager) | HTML, CSS, vanilla JavaScript, DOM events, task filtering and localStorage persistence |
-| [GitHub Skills exercise](https://github.com/kaustubhdua/skills-introduction-to-github) | Git fundamentals, branches, commits, pull requests and GitHub learning workflow; not a product-stack project |
-| [HEALCONNECT](https://github.com/kaustubhdua/HEALCONNECT) | Next.js/React, JavaScript, Jest, Tailwind CSS, Arduino/IoT prototype; verify current app entry points and remove generated build-output files from source control |
-| [Foodie](https://github.com/kaustubhdua/Foodie) | HTML/CSS/JavaScript app with Vite, Jest, Wrangler and Sharp tooling; verify PWA behavior and replace placeholder tests with meaningful cart/checkout behavior coverage; checkout/tracking claims are demo-only unless integrations are validated |
-| [Profile README](https://github.com/kaustubhdua/kaustubhdua) | Markdown, animated SVG/CSS, accessible image labels, Shields.io badges and repository-linked project cards |
+| [Infracis](https://github.com/kaustubhdua/infracis) | Next.js, React, TypeScript, Tailwind CSS, Leaflet, Supabase/PostgreSQL, Vitest, optional server-side Groq interpretation; team-built prototype |
+| [AkashChalak](https://github.com/kaustubhdua/Akash-Chalak) | Python, FastAPI, React, Leaflet, DBSCAN, geospatial interpolation and air-quality data adapters |
+| [BharatSim](https://github.com/kaustubhdua/Bharat-Sim) | Python, FastAPI, SQLite, React/TypeScript/Vite, Vitest, Android ADB worker, Appium/UiAutomator2, Docker Compose and GitHub Actions; controlled-beta MVP |
+| [GenomeGuard](https://github.com/kaustubhdua/GenomeGuard) | Python 3.11+, Starlette, NumPy, cryptography, PostgreSQL, vanilla JS, Beacon v2-style and FHIR R4 Consent experiments, pytest, Ruff and Docker; research prototype |
+| [CrickVision](https://github.com/kaustubhdua/CrickVision-) | Python, PyTorch/Torchvision, OpenCV, Streamlit, pytest, Ruff and mypy; experimental v0.3 prototype |
+| [Weather Core Matrix](https://github.com/kaustubhdua/weather-core-matrix) | Vanilla HTML, CSS and JavaScript, Fetch API, asynchronous UI states and request timeout handling |
+| [Nord Studio Task Manager](https://github.com/kaustubhdua/nord-studio-task-manager) | Vanilla HTML, CSS and JavaScript, DOM events, filtering, localStorage and Node contract tests |
+| [Developer portfolio](https://github.com/kaustubhdua/Portfolio-) | React 19, JavaScript, esbuild, custom WebGL 2 voxel renderer, generated assets, ESLint and Playwright checks |
+| [GitHub Skills exercise](https://github.com/kaustubhdua/skills-introduction-to-github) | Git fundamentals, branches, commits, pull requests and GitHub learning workflow; learning exercise |
 
 **Profile positioning:** Electronics and Computer Engineering student building across full-stack product development, applied AI/data, interactive visualisation, and software reliability. Production status varies by repository; see each project's README for its current limits and deployment truth.
 
