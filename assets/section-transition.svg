@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="66" viewBox="0 0 1200 66" role="img" aria-labelledby="title desc">
+<title id="title">Animated studio section transition</title>
+<desc id="desc">A thin monochrome divider that moves like a guitar signal chain, with a travelling highlight, pulsing connection points and a small waveform. Decorative section transition.</desc>
+<style>
+.line{stroke:#555;stroke-width:1}.flow{stroke:#eee;stroke-width:1.5;stroke-dasharray:3 9;animation:flow 8s linear infinite}.node{fill:#111;stroke:#aaa;stroke-width:1.2;transform-box:fill-box;transform-origin:center;animation:node 3s ease-in-out infinite}.node:nth-of-type(2){animation-delay:.7s}.node:nth-of-type(3){animation-delay:1.4s}.node:nth-of-type(4){animation-delay:2.1s}.spark{animation:spark 5s ease-in-out infinite}
+@keyframes flow{to{stroke-dashoffset:-144}}@keyframes node{0%,100%{transform:scale(.8);fill:#111}50%{transform:scale(1.25);fill:#ddd}}@keyframes spark{0%,100%{opacity:.15}50%{opacity:.8}}
+@media(prefers-reduced-motion:reduce){.flow,.node,.spark{animation:none!important}.node{fill:#aaa}}
+</style>
+<path class="line" d="M20 33H1180"/>
+<path class="flow" d="M20 33H1180"/>
+<g><circle class="node" cx="80" cy="33" r="4"/><circle class="node" cx="420" cy="33" r="4"/><circle class="node" cx="780" cy="33" r="4"/><circle class="node" cx="1120" cy="33" r="4"/></g>
+<path class="spark" d="M535 33H550L560 21L570 45L580 27L590 33H665" fill="none" stroke="#eee" stroke-width="1.4"/>
+<text x="20" y="13" fill="#777" font-family="ui-monospace,monospace" font-size="8" letter-spacing="2">SIGNAL CONTINUES</text>
+<text x="1180" y="13" text-anchor="end" fill="#777" font-family="ui-monospace,monospace" font-size="8" letter-spacing="2">NEXT TRACK</text>
+</svg>
