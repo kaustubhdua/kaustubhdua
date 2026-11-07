@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="236" viewBox="0 0 1200 236" role="img" aria-labelledby="title desc">
+<title id="title">Studio loop — monochrome sound in motion</title>
+<desc id="desc">A monochrome studio signal visual: a vinyl record rotates slowly while a waveform travels across the display and equalizer bars rise and fall. Decorative music-inspired animation, not live audio telemetry.</desc>
+<defs>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#171717"/><stop offset=".55" stop-color="#080808"/><stop offset="1" stop-color="#1c1c1c"/></linearGradient>
+  <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#f4efe5" stop-opacity="0"/><stop offset=".48" stop-color="#f4efe5"/><stop offset="1" stop-color="#f4efe5" stop-opacity="0"/></linearGradient>
+  <radialGradient id="disc"><stop stop-color="#bdbdbd"/><stop offset=".12" stop-color="#242424"/><stop offset=".72" stop-color="#090909"/><stop offset="1" stop-color="#444"/></radialGradient>
+  <pattern id="grooves" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="3.5" cy="3.5" r="2.6" fill="none" stroke="#aaa" stroke-opacity=".16" stroke-width=".55"/></pattern>
+  <clipPath id="wave-clip"><rect x="340" y="60" width="570" height="112" rx="5"/></clipPath>
+</defs>
+<style>
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:2px}
+.muted{fill:#888}.bright{fill:#eee}
+.record{transform-origin:165px 116px;animation:spin 18s linear infinite}
+.tonearm{transform-origin:258px 45px;animation:arm 7s ease-in-out infinite}
+.ring{transform-origin:165px 116px;animation:ring 4s ease-in-out infinite}
+.wave-path{fill:none;stroke:url(#wave);stroke-width:2.2;stroke-linecap:round;stroke-dasharray:4 8;animation:flow 8s linear infinite}
+.wave-glow{fill:none;stroke:#eee;stroke-opacity:.18;stroke-width:8;filter:url(#blur);animation:flow 8s linear infinite}
+.bar{transform-box:fill-box;transform-origin:center;animation:meter 1.35s ease-in-out infinite alternate}
+.bar:nth-child(3n){animation-delay:-.45s}.bar:nth-child(4n){animation-delay:-.8s}.bar:nth-child(5n){animation-delay:-.2s}
+.signal-dot{animation:blink 2.4s ease-in-out infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes arm{0%,12%{transform:rotate(-4deg)}48%,68%{transform:rotate(2deg)}100%{transform:rotate(-4deg)}}
+@keyframes ring{0%,100%{opacity:.18;transform:scale(.96)}50%{opacity:.7;transform:scale(1.04)}}
+@keyframes flow{to{stroke-dashoffset:-144}}
+@keyframes meter{from{transform:scaleY(.22);opacity:.35}to{transform:scaleY(1);opacity:1}}
+@keyframes blink{0%,100%{opacity:.3}50%{opacity:1}}
+@media(prefers-reduced-motion:reduce){.record,.tonearm,.ring,.wave-path,.wave-glow,.bar,.signal-dot{animation:none!important}.bar{transform:scaleY(.68);opacity:.75}.signal-dot{opacity:1}}
+</style>
+<rect x="1" y="1" width="1198" height="234" rx="12" fill="url(#panel)" stroke="#555" stroke-opacity=".8"/>
+<path d="M24 42H1176" stroke="#555" stroke-opacity=".55"/>
+<text class="mono muted" x="28" y="27" font-size="11">SIDE A / STUDIO SIGNAL</text>
+<text class="mono muted" x="1172" y="27" font-size="11" text-anchor="end">33⅓ RPM · MONO MIX</text>
+<!-- record deck -->
+<circle cx="165" cy="116" r="82" fill="#050505" stroke="#666" stroke-width="1.2"/>
+<circle class="ring" cx="165" cy="116" r="73" fill="none" stroke="#eee" stroke-opacity=".38" stroke-width="1"/>
+<g class="record">
+ <circle cx="165" cy="116" r="67" fill="url(#disc)" stroke="#777" stroke-width="1"/>
+ <circle cx="165" cy="116" r="62" fill="url(#grooves)"/>
+ <circle cx="165" cy="116" r="45" fill="none" stroke="#aaa" stroke-opacity=".18"/>
+ <circle cx="165" cy="116" r="34" fill="none" stroke="#aaa" stroke-opacity=".22"/>
+ <circle cx="165" cy="116" r="23" fill="#bdbdbd"/>
+ <circle cx="165" cy="116" r="18" fill="#111" stroke="#ddd" stroke-opacity=".65"/>
+ <circle cx="165" cy="116" r="3" fill="#eee"/>
+ <path d="M165 49A67 67 0 0 1 232 116" fill="none" stroke="#eee" stroke-width="2" stroke-opacity=".6"/>
+</g>
+<g class="tonearm"><path d="M258 45L245 117L218 132" fill="none" stroke="#bbb" stroke-width="5" stroke-linecap="round"/><path d="M258 45L245 117L218 132" fill="none" stroke="#333" stroke-width="1.5"/><circle cx="258" cy="45" r="9" fill="#777" stroke="#eee"/><path d="M212 128l12 8-9 10-11-7z" fill="#ddd" stroke="#555"/></g>
+<circle cx="42" cy="204" r="3" fill="#eee" class="signal-dot"/>
+<text class="mono muted" x="54" y="208" font-size="10">ROTATION / LOOPING</text>
+<!-- travelling waveform -->
+<g clip-path="url(#wave-clip)">
+ <path class="wave-glow" d="M330 116 C365 116 365 75 398 75S431 157 464 157 497 89 530 89 563 144 596 144 629 66 662 66 695 160 728 160 761 92 794 92 827 127 860 127 893 116 925 116"/>
+ <path class="wave-path" d="M330 116 C365 116 365 75 398 75S431 157 464 157 497 89 530 89 563 144 596 144 629 66 662 66 695 160 728 160 761 92 794 92 827 127 860 127 893 116 925 116"/>
+ <path d="M340 116H910" stroke="#777" stroke-opacity=".28" stroke-dasharray="2 8"/>
+</g>
+<text class="mono bright" x="340" y="51" font-size="12">IDEA / SIGNAL / ITERATION</text>
+<text class="mono muted" x="910" y="191" font-size="10" text-anchor="end">A LITTLE REVERB. A LOT OF INTENT.</text>
+<!-- animated level bars -->
+<g transform="translate(970 65)" fill="#ddd">
+ <rect class="bar" x="0" y="48" width="9" height="34" rx="2"/>
+ <rect class="bar" x="16" y="33" width="9" height="49" rx="2"/>
+ <rect class="bar" x="32" y="12" width="9" height="70" rx="2"/>
+ <rect class="bar" x="48" y="26" width="9" height="56" rx="2"/>
+ <rect class="bar" x="64" y="4" width="9" height="78" rx="2"/>
+ <rect class="bar" x="80" y="38" width="9" height="44" rx="2"/>
+ <rect class="bar" x="96" y="20" width="9" height="62" rx="2"/>
+ <rect class="bar" x="112" y="46" width="9" height="36" rx="2"/>
+ <rect class="bar" x="128" y="28" width="9" height="54" rx="2"/>
+ <rect class="bar" x="144" y="10" width="9" height="72" rx="2"/>
+ <rect class="bar" x="160" y="42" width="9" height="40" rx="2"/>
+ <rect class="bar" x="176" y="24" width="9" height="58" rx="2"/>
+</g>
+<path d="M28 220H1172" stroke="#555" stroke-opacity=".5"/>
+<text class="mono muted" x="28" y="216" font-size="9">NOT LIVE AUDIO TELEMETRY</text>
+<text class="mono muted" x="1172" y="216" font-size="9" text-anchor="end">KAUSTUBH DUA / ECM</text>
+</svg>
