@@ -25,21 +25,35 @@ I study **Electronics & Computer Engineering (ECM)** at JIIT Noida and build pra
 
 <h2 id="setlist"><img src="./assets/headings/setlist.svg?v=20261009-text-reveal-v2" alt="Setlist" width="100%" loading="lazy"/></h2>
 
-<sub>FEATURED BUILDS / THREE DISTINCT WORLDS, ONE ENGINEERING PLAYLIST</sub>
+<sub>FEATURED BUILDS / SIX PROJECTS, SIX DIFFERENT ENGINEERING PROBLEMS</sub>
 
 <table>
 <tr>
 <td width="33%" align="center" valign="top">
-<a href="https://github.com/kaustubhdua/GitGlobe"><img src="./assets/projects/gitglobe.svg?v=20261108-project-art" width="100%" alt="GitGlobe artwork: animated repository constellation and capability map" loading="lazy"/></a>
-<strong>GITGLOBE</strong><br/><sub>Spatial discovery</sub>
+<a href="https://github.com/kaustubhdua/GitGlobe"><img src="./assets/projects/gitglobe.svg?v=20261108-project-art" width="100%" alt="GitGlobe artwork: repository constellation and spatial discovery map" loading="lazy"/></a>
+<strong>GITGLOBE</strong><br/><sub>Spatial open-source discovery · fork-based contribution</sub>
 </td>
 <td width="33%" align="center" valign="top">
-<a href="https://github.com/kaustubhdua/nihdhoom"><img src="./assets/projects/nirdhoom.svg?v=20261108-project-art" width="100%" alt="NIRDHOOM artwork: animated agricultural field rows and connected service route" loading="lazy"/></a>
-<strong>NIRDHOOM</strong><br/><sub>Field coordination</sub>
+<a href="https://github.com/kaustubhdua/nihdhoom"><img src="./assets/projects/nirdhoom.svg?v=20261108-project-art" width="100%" alt="NIRDHOOM artwork: field rows and connected service route" loading="lazy"/></a>
+<strong>NIRDHOOM</strong><br/><sub>Field-first crop-residue coordination · prototype</sub>
 </td>
 <td width="33%" align="center" valign="top">
-<a href="https://github.com/kaustubhdua/Saathi"><img src="./assets/projects/saathi.svg?v=20261108-project-art" width="100%" alt="Saathi artwork: animated voice waveform, source markers and consent checkpoint" loading="lazy"/></a>
-<strong>SAATHI</strong><br/><sub>Voice-first assistance</sub>
+<a href="https://github.com/kaustubhdua/Saathi"><img src="./assets/projects/saathi.svg?v=20261108-project-art" width="100%" alt="Saathi artwork: voice waveform, source markers and consent checkpoint" loading="lazy"/></a>
+<strong>SAATHI</strong><br/><sub>Voice-first multilingual assistance · prototype</sub>
+</td>
+</tr>
+<tr>
+<td width="33%" align="center" valign="top">
+<a href="https://github.com/kaustubhdua/PatchPilot"><img src="./assets/projects/patchpilot.svg?v=20261108-project-art" width="100%" alt="PatchPilot artwork: code diff, evidence and test checkpoints" loading="lazy"/></a>
+<strong>PATCHPILOT</strong><br/><sub>Explainable PR risk triage · early MVP</sub>
+</td>
+<td width="33%" align="center" valign="top">
+<a href="https://github.com/kaustubhdua/Smart_bike_taxi_platform"><img src="./assets/projects/rideforge.svg?v=20261108-project-art" width="100%" alt="RideForge artwork: city grid, shortest route and dispatch markers" loading="lazy"/></a>
+<strong>RIDEFORGE</strong><br/><sub>Bike-taxi dispatch and routing · portfolio MVP</sub>
+</td>
+<td width="33%" align="center" valign="top">
+<a href="https://github.com/kaustubhdua/smart_waste_project"><img src="./assets/projects/smart-waste.svg?v=20261108-project-art" width="100%" alt="Smart Waste artwork: telemetry, priority scoring, capacity and route optimisation" loading="lazy"/></a>
+<strong>SMART WASTE</strong><br/><sub>Waste operations and route optimisation · engineering prototype</sub>
 </td>
 </tr>
 </table>
@@ -48,116 +62,78 @@ I study **Electronics & Computer Engineering (ECM)** at JIIT Noida and build pra
 <tr>
 <td width="50%" valign="top">
 
-<p><a href="https://github.com/kaustubhdua/GitGlobe"><img src="https://img.shields.io/badge/01%20%2F%20GITGLOBE-OPENING%20TRACK-303030?style=flat-square&labelColor=202020" alt="GitGlobe" loading="lazy"/></a></p>
+**01 / GITGLOBE — SPATIAL DISCOVERY**
 
-An interactive 3D map for exploring open-source repositories by capability — making software discovery feel spatial.
+An interactive 3D map for exploring open-source repositories by capability. This repository is a fork; review its fork history and commits for the contribution boundary.
 
 <sub><code>Three.js</code> <code>WebGL</code> <code>Embeddings</code> <code>Data pipelines</code></sub>
 
 </td>
 <td width="50%" valign="top">
 
-<p><a href="https://github.com/kaustubhdua/nihdhoom"><img src="https://img.shields.io/badge/02%20%2F%20NIRDHOOM-EARTH%20SONG-303030?style=flat-square&labelColor=202020" alt="NIRDHOOM" loading="lazy"/></a></p>
+**02 / NIRDHOOM — FIELD COORDINATION**
 
-A crop-residue coordination system connecting field requests, service workflows, operational evidence and buyer pathways.
+A field-first crop-residue coordination prototype connecting farmer records, machinery, dispatch, verification and residue offtake. Seeded/demo data is not field-pilot evidence.
 
-<sub><code>React</code> <code>Supabase</code> <code>PostgreSQL</code> <code>OR-Tools</code></sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<p><a href="https://github.com/kaustubhdua/Saathi"><img src="https://img.shields.io/badge/03%20%2F%20SAATHI-VOICE%20%26%20VERSE-303030?style=flat-square&labelColor=202020" alt="Saathi" loading="lazy"/></a></p>
-
-A voice-first, multilingual assistance platform built around source-aware answers, consent-based workflows and human escalation.
-
-<sub><code>Next.js</code> <code>FastAPI</code> <code>Python</code> <code>Speech APIs</code></sub>
-
-</td>
-<td width="50%" valign="top">
-
-<p><a href="https://github.com/kaustubhdua/PatchPilot"><img src="https://img.shields.io/badge/05%20%2F%20PATCHPILOT-EVIDENCE%20NOT%20GUESSWORK-303030?style=flat-square&labelColor=202020" alt="PatchPilot" loading="lazy"/></a></p>
-
-An explainable pull-request risk-triage MVP. It analyses diffs as untrusted text and emits evidence-backed signals; it is not a security verdict, and production precision/recall are not yet established.
-
-<sub><code>Python</code> <code>FastAPI</code> <code>pytest</code> <code>Docker</code></sub>
+<sub><code>React</code> <code>Vite</code> <code>Supabase</code> <code>PostgreSQL</code> <code>OR-Tools</code></sub>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<p><a href="https://github.com/kaustubhdua/adapt-ai"><img src="https://img.shields.io/badge/05%20%2F%20ADAPT%20AI-SIDE%20B-303030?style=flat-square&labelColor=202020" alt="Adapt AI" loading="lazy"/></a></p>
+**03 / SAATHI — VOICE-FIRST ASSISTANCE**
 
-A team-built local AI assistant that checks available hardware and recommends a suitable model for on-device chat, file and Python workflows.
+A multilingual assistance prototype with Hindi/Hinglish intent routing, source provenance, local speech defaults and consent-aware escalation. Live provider and persistence integrations remain deployment gates.
 
-<sub><code>FastAPI</code> <code>Ollama</code> <code>Local inference</code></sub>
-
-</td>
-<td width="50%" valign="top">
-
-<p><a href="https://github.com/kaustubhdua/JYC-Website"><img src="https://img.shields.io/badge/06%20%2F%20JIIT%20YOUTH%20CLUB-LIVE%20STAGE-303030?style=flat-square&labelColor=202020" alt="JIIT Youth Club Website" loading="lazy"/></a></p>
-
-The public website for JIIT Youth Club 128, covering its organisation, clubs, events, history, gallery and recruitment journey.
-
-<sub><code>React</code> <code>Vite</code> <code>Playwright</code> <code>CI</code></sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<p><a href="https://github.com/kaustubhdua/PatchPilot"><img src="https://img.shields.io/badge/07%20%2F%20PATCHPILOT-EVIDENCE%20OVER%20GUESSWORK-303030?style=flat-square&labelColor=202020" alt="PatchPilot" loading="lazy"/></a></p>
-
-An explainable pull-request risk triage tool that turns diffs into evidence-backed findings and actionable test suggestions.
-
-<sub><code>Python</code> <code>FastAPI</code> <code>Pydantic</code> <code>pytest</code> <code>CI security gates</code></sub>
+<sub><code>FastAPI</code> <code>React / Next.js</code> <code>Vosk</code> <code>eSpeak NG</code></sub>
 
 </td>
 <td width="50%" valign="top">
 
-<p><a href="https://github.com/kaustubhdua/Portfolio-"><img src="https://img.shields.io/badge/08%20%2F%20NETHER%20PORTFOLIO-INTERACTIVE%20WORLDS-303030?style=flat-square&labelColor=202020" alt="Nether Portfolio" loading="lazy"/></a></p>
+**04 / PATCHPILOT — EVIDENCE-LED REVIEW**
 
-A Minecraft-inspired portfolio with an original voxel renderer, animated environments, and a reduced-motion/static fallback.
+An early MVP that analyses unified diffs as untrusted text and emits explainable review signals. It does not execute submitted code or replace human review; production precision/recall are not established.
 
-<sub><code>React 19</code> <code>JavaScript</code> <code>WebGL 2</code> <code>esbuild</code></sub>
+<sub><code>Python</code> <code>FastAPI</code> <code>Pydantic</code> <code>pytest</code> <code>Docker</code></sub>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<p><a href="https://github.com/kaustubhdua/Smart_bike_taxi_platform"><img src="https://img.shields.io/badge/09%20%2F%20RIDEFORGE-ROUTE%20INTELLIGENCE-303030?style=flat-square&labelColor=202020" alt="RideForge" loading="lazy"/></a></p>
+**05 / RIDEFORGE — ROUTE INTELLIGENCE**
 
-A ride-matching foundation combining a real HTTP API, persisted fare quotes, driver operations and graph-based routing.
+A portfolio MVP combining a C++17 HTTP API, PostgreSQL-backed booking workflows, driver dispatch and graph-based shortest-path routing. See the release-readiness workflow for the current tested scope.
 
-<sub><code>C++17</code> <code>Boost.Beast</code> <code>PostgreSQL</code> <code>React</code> <code>Leaflet</code> <code>Playwright</code></sub>
+<sub><code>C++17</code> <code>Boost.Beast</code> <code>PostgreSQL</code> <code>React</code> <code>Leaflet</code></sub>
 
 </td>
 <td width="50%" valign="top">
 
-<p><img src="https://img.shields.io/badge/10%20%2F%20ENGINEERING%20FOCUS-TESTS%20OVER%20BADGES-303030?style=flat-square&labelColor=202020" alt="Engineering focus" loading="lazy"/></p>
+**06 / SMART WASTE — OPERATIONS OPTIMISATION**
 
-The common thread: make systems observable, test failure paths, preserve reproducibility and tie release claims to real evidence.
+An engineering prototype connecting IoT-style telemetry, priority scoring, vehicle-capacity constraints and OR-Tools route planning. Demo records are synthetic; no municipal deployment or sensor calibration is claimed.
 
-<sub><code>CI/CD</code> <code>Security</code> <code>Accessibility</code> <code>Performance</code></sub>
+<sub><code>Python</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>PostGIS</code> <code>OR-Tools</code></sub>
 
 </td>
 </tr>
 </table>
-
 <details>
-<summary><strong>Encore tracks ↗</strong></summary>
+<summary><strong>More builds / experiments ↗</strong></summary>
 
-- [Smart Waste Collection](https://github.com/kaustubhdua/smart_waste_project) — a predictive-to-optimisation pipeline using synthetic IoT-style data.
-- [SATARK](https://github.com/kaustubhdua/Satark) — a forked security-awareness triage workspace, not an antivirus; see the fork history for my individual changes.
-- [PatchPilot](https://github.com/kaustubhdua/PatchPilot) — early MVP; its starter benchmark is reproducible, but production detection precision/recall are not established.
-- [Infracis](https://github.com/kaustubhdua/infracis) — evidence-first location due diligence for property decisions; every finding is tied to a source, a timestamp and a method, or labelled unknown.
-- [Inkloom](https://github.com/kaustubhdua/inkloom) — early-access logo-design platform; generation is not live yet.
-- [AkashChalak](https://github.com/kaustubhdua/AkashChalak) — a satellite-assisted air-quality and hotspot decision-support prototype for India.
-- [RideForge](https://github.com/kaustubhdua/Smart_bike_taxi_platform) — a C++/PostgreSQL-backed bike-taxi API and routing platform.
-- [Weather Core Matrix](https://github.com/kaustubhdua/weather-core-matrix) — a focused weather-related project.
+- [SATARK Sentinel](https://github.com/kaustubhdua/Satark) — fork-based security-awareness and incident-investigation prototype; not an antivirus or forensic verdict
+- [Adapt AI](https://github.com/kaustubhdua/adapt-ai) — team-built, fork-based local AI assistant for hardware-aware Ollama model selection
+- [Infracis](https://github.com/kaustubhdua/infracis) — evidence-first location due diligence; prototype, not a property-safety guarantee
+- [AkashChalak](https://github.com/kaustubhdua/Akash-Chalak) — satellite-assisted air-quality and hotspot decision-support prototype
+- [BharatSim](https://github.com/kaustubhdua/Bharat-Sim) — Android resilience-testing MVP; production worker execution remains gated
+- [GenomeGuard](https://github.com/kaustubhdua/GenomeGuard) — genomic-data governance research prototype; not for clinical or production use
+- [CrickVision](https://github.com/kaustubhdua/CrickVision-) — local-first cricket computer-vision prototype; outputs are not official match statistics
+- [JIIT Youth Club website](https://github.com/kaustubhdua/JYC-Website) — public campus platform maintained by the authorized technical team
+- [JIIT Toppers](https://github.com/kaustubhdua/Jiit-toppers-) — student-focused academic platform
+- [Weather Core Matrix](https://github.com/kaustubhdua/weather-core-matrix) — focused weather frontend and request-state handling
+- [Nord Studio Task Manager](https://github.com/kaustubhdua/nord-studio-task-manager) — lightweight browser task manager
 
 [Browse all repositories →](https://github.com/kaustubhdua?tab=repositories)
 
