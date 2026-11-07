@@ -29,7 +29,7 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           username: kaustubhdua
-          cards: lifetime
+          cards: overview,lifetime
           output-dir: assets
           themes: light,dark
           palette: green
@@ -63,8 +63,9 @@ jobs:
               "#38834d": "#666666",
               "#216e39": "#494949",
           }
-          for theme in ("light", "dark"):
-              path = Path(f"assets/lifetime.{theme}.svg")
+          for card in ("overview", "lifetime"):
+            for theme in ("light", "dark"):
+              path = Path(f"assets/{card}.{theme}.svg")
               if not path.is_file():
                   raise SystemExit(f"Missing generated card: {path}")
               source = path.read_text(encoding="utf-8")
@@ -84,7 +85,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          git add assets/lifetime.light.svg assets/lifetime.dark.svg
+          git add assets/overview.light.svg assets/overview.dark.svg assets/lifetime.light.svg assets/lifetime.dark.svg
           if git diff --cached --quiet; then
             echo "Contribution history is already current."
             exit 0
