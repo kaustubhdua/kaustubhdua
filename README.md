@@ -2,6 +2,8 @@
 
 <img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3JuNbn6G1fWehaUubucloQMU8cb/e0930052-b661-4682-a281-67b390d8146e.png" width="100%" alt="Kaustubh Dua — Electronics and Computer Engineering at JIIT Noida, building practical software"/>
 
+<img src="./assets/cinematic-header.svg?v=20261108-cinematic-header" width="100%" alt="Cinematic monochrome animated identity panel with kinetic typography, orbiting signal motif and waveform" loading="lazy"/>
+
 <img src="./assets/profile-motion.svg?v=20261010-audio-ticker" width="100%" alt="Animated monochrome engineering build log" loading="lazy"/>
 
 <p>
@@ -152,6 +154,8 @@ The common thread: make systems observable, test failure paths, preserve reprodu
 
 ---
 
+<img src="./assets/section-transition.svg?v=20261108-signal-transition" width="100%" alt="Animated monochrome signal-chain transition" loading="lazy"/>
+
 <h2 id="rig-signal-chain"><img src="./assets/headings/rig-signal-chain.svg?v=20261009-text-reveal-v2" alt="Rig & Signal Chain" width="100%" loading="lazy"/></h2>
 
 <sub>The signal chain behind the work: languages are the strings, frameworks are the pedals, data is the signal, and tests keep the whole rig in tune. Each stack varies by project.</sub>
@@ -264,6 +268,8 @@ These are technologies and engineering concepts visible in the repositories and 
 
 ---
 
+<img src="./assets/section-transition.svg?v=20261108-signal-transition" width="100%" alt="Animated monochrome signal-chain transition" loading="lazy"/>
+
 <h2 id="on-the-turntable"><img src="./assets/headings/on-the-turntable.svg?v=20261009-text-reveal-v2" alt="On the Turntable" width="100%" loading="lazy"/></h2>
 
 <div align="center">
@@ -284,6 +290,8 @@ These are technologies and engineering concepts visible in the repositories and 
 </div>
 
 ---
+<img src="./assets/section-transition.svg?v=20261108-signal-transition" width="100%" alt="Animated monochrome signal-chain transition" loading="lazy"/>
+
 <h2 id="the-encore"><img src="./assets/headings/the-encore.svg?v=20261009-text-reveal-v2" alt="The Encore" width="100%" loading="lazy"/></h2>
 
 <div align="center">
@@ -303,6 +311,8 @@ These are technologies and engineering concepts visible in the repositories and 
 
 ---
  
+<img src="./assets/section-transition.svg?v=20261108-signal-transition" width="100%" alt="Animated monochrome signal-chain transition" loading="lazy"/>
+
 <h2 id="backstage-pass"><img src="./assets/headings/backstage-pass.svg?v=20261009-text-reveal-v2" alt="Backstage Pass" width="100%" loading="lazy"/></h2>
 
 <div align="center">
