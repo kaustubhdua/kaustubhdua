@@ -327,6 +327,8 @@ These are technologies and engineering concepts visible in the repositories and 
 
 <sub>SELF-HOSTED CONTRIBUTION HISTORY / Refreshed automatically by GitHub Actions. Unlike the animated contribution snake below, this chart shows year-by-year history.</sub>
 
+<sub><a href="https://github.com/kaustubhdua/kaustubhdua/actions/workflows/profile-history.yml">VIEW HISTORY REFRESH WORKFLOW ↗</a></sub>
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kaustubhdua/kaustubhdua/output/github-contribution-grid-snake-dark.svg"/>
