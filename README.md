@@ -25,6 +25,10 @@ I study **Electronics & Computer Engineering (ECM)** at JIIT Noida and build pra
 
 <h2 id="setlist"><img src="./assets/headings/setlist.svg?v=20261009-text-reveal-v2" alt="Setlist" width="100%" loading="lazy"/></h2>
 
+<img src="./assets/featured-project-cards.svg?v=20261108-featured-cards" width="100%" alt="Three illustrated featured project cards for GitGlobe, NIRDHOOM and Saathi; decorative summaries, with project links in the cards below" loading="lazy"/>
+
+<sub>FEATURED BUILDS / OPEN EACH PROJECT FROM ITS LINKED CARD BELOW</sub>
+
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -280,6 +284,8 @@ These are technologies and engineering concepts visible in the repositories and 
 
 <img src="./assets/studio-loop.svg?v=20261108-studio-loop" width="100%" alt="Animated monochrome vinyl record, flowing waveform and equalizer bars; decorative studio motion, not live audio telemetry" loading="lazy"/>
 
+<img src="./assets/fretboard-progress.svg?v=20261108-engineering-fretboard" width="100%" alt="Animated six-string guitar fretboard representing design, build, data, test, documentation and ship; illustrative workflow, not live progress" loading="lazy"/>
+
 **ON REPEAT / IRIS — GOO GOO DOLLS**
 
 <a href="https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs"><img src="https://img.shields.io/badge/SPOTIFY-LISTEN-252525?style=for-the-badge&logo=spotify&logoColor=white" alt="Listen to Iris by Goo Goo Dolls on Spotify" loading="lazy"/></a>
@@ -326,6 +332,8 @@ These are technologies and engineering concepts visible in the repositories and 
 
 
 <div align="center">
+
+<img src="./assets/live-stats-console.svg?v=20261108-live-stats-console" width="100%" alt="Animated live GitHub statistics console header" loading="lazy"/>
 
 <a href="https://github.com/kaustubhdua">
   <img src="https://github-readme-stats-fast.vercel.app/api?username=kaustubhdua&show_icons=true&hide_border=true&bg_color=0D1117&title_color=A0A0A0&text_color=C9C9C9&icon_color=E5E5E5&rank_icon=github&include_all_commits=true" height="170" alt="Live GitHub statistics for kaustubhdua" loading="lazy"/>
