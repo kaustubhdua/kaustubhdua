@@ -11,7 +11,7 @@
   <a href="#rig-signal-chain"><img src="https://img.shields.io/badge/02-RIG_%26_SIGNAL_CHAIN-252525?style=flat-square&labelColor=111111&color=252525" alt="Rig and signal chain" loading="lazy"/></a>
   <a href="#on-the-turntable"><img src="https://img.shields.io/badge/03-ON_THE_TURNTABLE-252525?style=flat-square&labelColor=111111&color=252525" alt="On the turntable" loading="lazy"/></a>
   <a href="#studio-loop"><img src="https://img.shields.io/badge/04-STUDIO_LOOP-252525?style=flat-square&labelColor=111111&color=252525" alt="Studio loop" loading="lazy"/></a>
-  <a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/ALL_REPOSITORIES-↗-252525?style=flat-square&labelColor=111111&color=252525" alt="All repositories" loading="lazy"/></a>
+  <a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/ALL_REPOSITORIES-252525?style=flat-square&labelColor=111111&color=252525" alt="All repositories" loading="lazy"/></a>
   <a href="https://github.com/kaustubhdua/kaustubhdua/actions/workflows/profile-qa.yml"><img src="https://img.shields.io/github/actions/workflow/status/kaustubhdua/kaustubhdua/profile-qa.yml?branch=main&label=PROFILE%20QA&style=flat-square&labelColor=111111&color=252525" alt="Profile README quality checks" loading="lazy"/></a>
 </p>
 
@@ -222,7 +222,7 @@ An engineering prototype connecting IoT-style telemetry, priority scoring, vehic
 ![Ruff](https://img.shields.io/badge/Ruff-252525?style=flat-square&logo=ruff&logoColor=F4EFE5)
 ![CMake](https://img.shields.io/badge/CMake-252525?style=flat-square&logo=cmake&logoColor=F4EFE5)
 
-<sub>Stack details and the repository each tool belongs to ↓ · [Repository-wide stack audit & improvement plan](./docs/REPOSITORY_STACK_AUDIT.md)</sub>
+<sub>Stack details and project evidence ↓ · [Current profile audit (8 Nov 2026)](./docs/PROFILE_AUDIT_2026-11-08.md) · [Historical repository-wide stack audit (19 Oct 2026)](./docs/REPOSITORY_STACK_AUDIT.md)</sub>
 
 <details>
 <summary><strong>Track-by-track stack notes · repository audit</strong></summary>
