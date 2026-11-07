@@ -5,7 +5,7 @@ on:
     - cron: "37 2 * * *"
   workflow_dispatch:
   push:
-    branches: [main, feat/monochrome-studio-motion]
+    branches: [main]
     paths:
       - ".github/workflows/profile-history.yml"
 
@@ -22,7 +22,7 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Checkout profile repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Render self-hosted lifetime contribution history
         uses: seijikohara/profile-cards-action@v1
@@ -31,6 +31,55 @@ jobs:
           username: kaustubhdua
           cards: lifetime
           output-dir: assets
-          themes: dark
-          commit: true
-          commit-message: "chore(profile): refresh contribution history [skip ci]"
+          themes: light,dark
+          palette: green
+          commit: false
+
+      - name: Apply the monochrome studio palette
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          import xml.etree.ElementTree as ET
+
+          # Convert the generator's contribution-green ramp to a neutral silver ramp.
+          palette = {
+              "#3fb950": "#BDBDBD",
+              "#0e4429": "#303030",
+              "#025325": "#494949",
+              "#006d32": "#666666",
+              "#068c2e": "#858585",
+              "#26a641": "#A0A0A0",
+              "#0db83a": "#A0A0A0",
+              "#39d353": "#D0D0D0",
+          }
+          for theme in ("light", "dark"):
+              path = Path(f"assets/lifetime.{theme}.svg")
+              if not path.is_file():
+                  raise SystemExit(f"Missing generated card: {path}")
+              source = path.read_text(encoding="utf-8")
+              for old, new in palette.items():
+                  source = re.sub(re.escape(old), new, source, flags=re.IGNORECASE)
+              root = ET.fromstring(source)
+              assert root.tag.endswith("svg"), f"Unexpected SVG root: {path}"
+              assert not re.search(r"<script\b|<foreignObject\b", source, re.I), f"Unsafe SVG element in {path}"
+              assert "prefers-reduced-motion" in source, f"Missing reduced-motion fallback in {path}"
+              assert not any(color in source.lower() for color in palette), f"Unconverted contribution palette in {path}"
+              path.write_text(source, encoding="utf-8")
+              print(f"Validated and themed {path}")
+          PY
+
+      - name: Commit refreshed cards only when content changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add assets/lifetime.light.svg assets/lifetime.dark.svg
+          if git diff --cached --quiet; then
+            echo "Contribution history is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(profile): refresh monochrome contribution history [skip ci]"
+          git push
