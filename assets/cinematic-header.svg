@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="330" viewBox="0 0 1536 330" role="img" aria-labelledby="title desc">
+<title id="title">Kaustubh Dua — after-hours engineering studio</title>
+<desc id="desc">A cinematic monochrome identity panel with animated typographic reveal, a rotating record-like orbit, a travelling signal waveform and subtle scanline texture. Decorative profile artwork, not live telemetry.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050505"/><stop offset=".52" stop-color="#171717"/><stop offset="1" stop-color="#080808"/></linearGradient>
+ <linearGradient id="silver" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#777"/><stop offset=".35" stop-color="#fff"/><stop offset=".7" stop-color="#aaa"/><stop offset="1" stop-color="#555"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#eee" stop-opacity=".14"/><stop offset="1" stop-color="#eee" stop-opacity="0"/></radialGradient>
+ <pattern id="grain" width="46" height="46" patternUnits="userSpaceOnUse"><circle cx="4" cy="8" r=".7" fill="#fff" opacity=".15"/><circle cx="31" cy="25" r=".55" fill="#fff" opacity=".12"/><path d="M0 45L46 0" stroke="#fff" stroke-opacity=".025"/></pattern>
+ <clipPath id="wave-clip"><rect x="72" y="226" width="850" height="42"/></clipPath>
+</defs>
+<style>
+.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:2px}
+.name{font-family:Inter,ui-sans-serif,system-ui,sans-serif;font-weight:850;letter-spacing:-5px}
+.kicker{animation:rise 1s ease-out both}.name1{animation:rise 1.15s .12s ease-out both}.name2{animation:rise 1.15s .28s ease-out both}
+.orbit{transform-origin:1260px 151px;animation:spin 24s linear infinite}
+.wave{stroke-dasharray:4 10;animation:travel 8s linear infinite}
+.scan{animation:scan 7s ease-in-out infinite}
+.pulse{animation:pulse 3.2s ease-in-out infinite}
+@keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes travel{to{stroke-dashoffset:-168}}
+@keyframes scan{0%,100%{transform:translateY(0);opacity:0}50%{transform:translateY(230px);opacity:.22}}
+@keyframes pulse{0%,100%{opacity:.3}50%{opacity:1}}
+@media(prefers-reduced-motion:reduce){.kicker,.name1,.name2,.orbit,.wave,.scan,.pulse{animation:none!important}.kicker,.name1,.name2{opacity:1;transform:none}}
+</style>
+<rect width="1536" height="330" rx="12" fill="url(#bg)"/>
+<rect width="1536" height="330" rx="12" fill="url(#grain)"/>
+<rect x="1" y="1" width="1534" height="328" rx="11" fill="none" stroke="#777" stroke-opacity=".55"/>
+<path d="M30 54H1506M30 294H1506" stroke="#888" stroke-opacity=".35"/>
+<path d="M30 54H250M1280 294H1506" stroke="url(#silver)" stroke-width="1.5"/>
+<text class="m kicker" x="54" y="37" fill="#aaa" font-size="11">JIIT NOIDA / ELECTRONICS &amp; COMPUTER ENGINEERING</text>
+<text class="m kicker" x="1480" y="37" fill="#888" font-size="10" text-anchor="end">FIELD NOTES — 001</text>
+<g class="name1"><text class="name" x="54" y="151" font-size="94" fill="#f1f1f1">KAUSTUBH</text></g>
+<g class="name2"><text class="name" x="58" y="222" font-size="66" fill="none" stroke="#aaa" stroke-width="1.2">DUA</text><text class="m" x="300" y="211" fill="#bdbdbd" font-size="12">BUILDING AT THE INTERSECTION OF</text><text class="m" x="300" y="235" fill="#eee" font-size="15">AI  /  DATA  /  SYSTEMS  /  PRODUCT ENGINEERING</text></g>
+<g clip-path="url(#wave-clip)"><path class="wave" d="M70 247H112L125 247L137 228L149 266L161 239L173 247H220L234 247L247 234L260 259L273 247H320L334 247L348 219L362 274L376 247H420L434 247L447 236L460 258L473 247H520L534 247L548 228L562 265L576 247H620L634 247L648 234L662 260L676 247H720L734 247L748 222L762 270L776 247H820L834 247L848 236L862 257L876 247H930" fill="none" stroke="url(#silver)" stroke-width="1.8"/></g>
+<circle cx="1260" cy="151" r="115" fill="url(#halo)"/>
+<g class="orbit" fill="none" stroke="#ddd">
+ <circle cx="1260" cy="151" r="84" stroke-opacity=".42" stroke-width="1"/>
+ <circle cx="1260" cy="151" r="66" stroke-opacity=".22" stroke-dasharray="2 7"/>
+ <circle cx="1260" cy="151" r="48" stroke-opacity=".4"/>
+ <path d="M1176 151H1344M1260 67V235" stroke-opacity=".2"/>
+ <circle cx="1260" cy="67" r="4" fill="#eee" stroke="none"/>
+ <circle cx="1344" cy="151" r="2.5" fill="#eee" stroke="none"/>
+</g>
+<circle class="pulse" cx="1260" cy="151" r="17" fill="none" stroke="#eee" stroke-width="1.5"/>
+<circle cx="1260" cy="151" r="5" fill="#eee"/>
+<rect class="scan" x="32" y="62" width="1472" height="1.2" fill="#fff"/>
+<text class="m" x="54" y="316" font-size="9" fill="#777">MAKE IT USEFUL. MAKE IT SOLID.</text>
+<text class="m" x="1480" y="316" font-size="9" fill="#777" text-anchor="end">PLAY LOUD / BUILD THOUGHTFULLY</text>
+</svg>
