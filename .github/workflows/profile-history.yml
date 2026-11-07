@@ -73,6 +73,7 @@ jobs:
               root = ET.fromstring(source)
               assert root.tag.endswith("svg"), f"Unexpected SVG root: {path}"
               assert not re.search(r"<script\b|<foreignObject\b", source, re.I), f"Unsafe SVG element in {path}"
+              assert not re.search(r"""(?:href|xlink:href|src)=["']https?://|url\(\s*https?://|@import""", source, re.I), f"External SVG resource in {path}"
               assert "prefers-reduced-motion" in source, f"Missing reduced-motion fallback in {path}"
               assert not any(color in source.lower() for color in palette), f"Unconverted contribution palette in {path}"
               path.write_text(source, encoding="utf-8")
