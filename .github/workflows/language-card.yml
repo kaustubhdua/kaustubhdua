@@ -13,14 +13,15 @@ permissions:
   contents: write
 
 concurrency:
-  group: language-card
+  group: language-card-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
   generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Fetch repository language totals
         env:
@@ -94,7 +95,9 @@ jobs:
         run: python -c "import xml.etree.ElementTree as ET; ET.parse('assets/most-used-languages.svg')"
 
       - name: Commit updated card
+        shell: bash
         run: |
+          set -euo pipefail
           if git diff --quiet -- assets/most-used-languages.svg; then
             echo "Language card is unchanged."
             exit 0
@@ -103,4 +106,16 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/most-used-languages.svg
           git commit -m "chore: refresh monochrome language card"
-          git push
+          # The contribution-history workflow may update different SVGs at the
+          # same time. Rebase the generated card commit before publishing.
+          for attempt in 1 2 3; do
+            git fetch origin "$GITHUB_REF_NAME"
+            git rebase "origin/$GITHUB_REF_NAME"
+            if git push origin "HEAD:$GITHUB_REF_NAME"; then
+              exit 0
+            fi
+            echo "Push raced with another branch update (attempt $attempt); retrying."
+            sleep "$((attempt * 2))"
+          done
+          echo "Could not publish refreshed language card after three attempts."
+          exit 1
