@@ -122,6 +122,10 @@ jobs:
               assert featured.count(f"./assets/projects/{slug}.svg?") == 1, f"Expected one artwork card: {slug}"
           assert all(f"**0{number} /" in featured for number in range(1, 7)), "Featured project sequence must run exactly from 01 to 06"
           assert featured.count("**0") == 6, "Featured project numbering contains a duplicate or missing item"
+          gallery_start = readme.index("FEATURED BUILDS / SIX PROJECTS")
+          gallery_end = readme.index("**01 / GITGLOBE — SPATIAL DISCOVERY**", gallery_start)
+          gallery = readme[gallery_start:gallery_end]
+          assert gallery.count('<td width="50%" align="center" valign="top">') == 6 and gallery.count("<tr>") == 3, "Featured project artwork must use a readable two-column, three-row grid"
           stack_start = readme.index("| Repository | Stack / engineering focus |")
           stack_end = readme.index("**Profile positioning:**", stack_start)
           stack_lines = [line for line in readme[stack_start:stack_end].splitlines() if line.startswith("| [")]
