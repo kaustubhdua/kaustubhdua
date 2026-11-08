@@ -26,7 +26,7 @@ jobs:
           checks = {
               "ECM identity": "electronics & computer engineering" in readme.lower(),
               "exact original banner URL": "d2ol7oe51mr4n9.cloudfront.net/user_3JuNbn6G1fWehaUubucloQMU8cb/e0930052-b661-4682-a281-67b390d8146e.png" in readme,
-              "featured projects": all(name in readme[readme.index("FEATURED BUILDS / SIX PROJECTS"):readme.index("<details>" + chr(10) + "<summary><strong>More builds")] for name in ("GitGlobe", "NIRDHOOM", "Saathi", "PatchPilot", "RideForge", "SMART WASTE")),
+              "featured projects": all(name in readme[readme.index("FEATURED BUILDS / SIX PROJECTS"):readme.index("<details>" + chr(10) + "<summary><strong>More builds")] for name in ("JIIT YOUTH CLUB", "NIRDHOOM", "Saathi", "PatchPilot", "RideForge", "SMART WASTE")),
               "recruiter quick links": all(url in readme for url in ("https://github.com/kaustubhdua", "https://www.linkedin.com/in/kaustubh-dua-2b5a76416", "mailto:kaustubhdua1991@gmail.com")),
               "clear three-part engineering focus": all(label in readme for label in ("Full-stack builds", "Applied AI & data", "Reliability & open source")),
               "compact core stack": all(f"![{name}]" in readme for name in ("Python", "TypeScript", "React", "FastAPI", "PostgreSQL", "PyTorch")),
@@ -42,7 +42,7 @@ jobs:
               "animated footer": "assets/profile-footer.svg" in readme,
               "animated guitar section": "assets/guitar-studio.svg" in readme,
               "animated studio loop section": "assets/studio-loop.svg?v=20261108-studio-loop" in readme,
-              "six individual featured project artworks": all(f"assets/projects/{name}.svg?v=20261108-project-art" in readme for name in ("gitglobe", "nirdhoom", "saathi", "patchpilot", "rideforge", "smart-waste")),
+              "six individual featured project artworks": all(f"assets/projects/{name}.svg?v=20261108-project-art" in readme for name in ("jyc", "nirdhoom", "saathi", "patchpilot", "rideforge", "smart-waste")),
               "featured projects accurately scoped": all(token in readme for token in ("fork-based contribution", "prototype", "early MVP", "portfolio MVP", "synthetic")),
               "no stale repository references": not any(f"github.com/kaustubhdua/{name}" in readme for name in ("Foodie", "HEALCONNECT", "inkloom")),
               "theme-aware contribution history": all(f"assets/lifetime.{theme}.svg?v=20261108-self-hosted-history" in readme for theme in ("light", "dark")),
@@ -110,7 +110,7 @@ jobs:
 
           # Keep the curated repository links explicit and typo-resistant.
           expected_repositories = (
-              "GitGlobe", "nihdhoom", "Saathi", "PatchPilot",
+              "nihdhoom", "Saathi", "PatchPilot",
               "Smart_bike_taxi_platform", "smart_waste_project",
               "Satark", "adapt-ai", "JYC-Website", "Jiit-toppers-",
               "infracis", "Akash-Chalak", "Bharat-Sim",
@@ -156,7 +156,7 @@ jobs:
                   assert "width:720px" in source, f"Reduced-motion title should remain fully visible: {path}"
               style = re.search(r"<style>(.*?)</style>", source, flags=re.S)
               assert style and style.group(1).count("{") == style.group(1).count("}"), f"Unbalanced heading CSS: {path}"
-          animated_assets = (Path("assets/profile-motion.svg"), Path("assets/profile-footer.svg"), Path("assets/system-map.svg"), Path("assets/guitar-studio.svg"), Path("assets/studio-status.svg"), Path("assets/signal-chain.svg"), Path("assets/vu-meter.svg"), Path("assets/fretboard-progress.svg"), Path("assets/studio-loop.svg"), Path("assets/cinematic-header.svg"), Path("assets/section-transition.svg"), Path("assets/live-stats-console.svg"), Path("assets/projects/gitglobe.svg"), Path("assets/projects/nirdhoom.svg"), Path("assets/projects/saathi.svg"), Path("assets/projects/patchpilot.svg"), Path("assets/projects/rideforge.svg"), Path("assets/projects/smart-waste.svg"), Path("assets/headings/studio-notes.svg"))
+          animated_assets = (Path("assets/profile-motion.svg"), Path("assets/profile-footer.svg"), Path("assets/system-map.svg"), Path("assets/guitar-studio.svg"), Path("assets/studio-status.svg"), Path("assets/signal-chain.svg"), Path("assets/vu-meter.svg"), Path("assets/fretboard-progress.svg"), Path("assets/studio-loop.svg"), Path("assets/cinematic-header.svg"), Path("assets/section-transition.svg"), Path("assets/live-stats-console.svg"), Path("assets/projects/jyc.svg"), Path("assets/projects/nirdhoom.svg"), Path("assets/projects/saathi.svg"), Path("assets/projects/patchpilot.svg"), Path("assets/projects/rideforge.svg"), Path("assets/projects/smart-waste.svg"), Path("assets/headings/studio-notes.svg"))
           system_map = Path("assets/system-map.svg").read_text(encoding="utf-8")
           assert "<animate" not in system_map.lower(), "System map should use CSS motion so reduced-motion preferences can disable every moving element"
           assert "translateX(660px)" in system_map, "System map particle should traverse all three stages"
