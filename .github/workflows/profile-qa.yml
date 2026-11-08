@@ -26,7 +26,7 @@ jobs:
           checks = {
               "ECM identity": "electronics & computer engineering" in readme.lower(),
               "exact original banner URL": "d2ol7oe51mr4n9.cloudfront.net/user_3JuNbn6G1fWehaUubucloQMU8cb/e0930052-b661-4682-a281-67b390d8146e.png" in readme,
-              "featured projects": all(name in readme for name in ("GitGlobe", "NIRDHOOM", "Saathi", "SATARK", "Adapt AI")),
+              "featured projects": all(name in readme[readme.index("FEATURED BUILDS / SIX PROJECTS"):readme.index("<details>" + chr(10) + "<summary><strong>More builds")] for name in ("GitGlobe", "NIRDHOOM", "Saathi", "PatchPilot", "RideForge", "SMART WASTE")),
               "recruiter quick links": all(url in readme for url in ("https://github.com/kaustubhdua", "https://www.linkedin.com/in/kaustubh-dua-2b5a76416", "mailto:kaustubhdua1991@gmail.com")),
               "clear three-part engineering focus": all(label in readme for label in ("Full-stack builds", "Applied AI & data", "Reliability & open source")),
               "compact core stack": all(f"![{name}]" in readme for name in ("Python", "TypeScript", "React", "FastAPI", "PostgreSQL", "PyTorch")),
@@ -122,6 +122,7 @@ jobs:
           stack_end = readme.index("**Profile positioning:**", stack_start)
           stack_lines = [line for line in readme[stack_start:stack_end].splitlines() if line.startswith("| [")]
           stack_urls = [line.split("](", 1)[1].split(")", 1)[0] for line in stack_lines]
+          assert readme[stack_start:stack_end].count("|:--|:--|") == 1, "Stack index must have exactly one Markdown header separator"
           assert len(stack_urls) == len(set(stack_urls)), "Duplicate repository row in stack index"
 
           # Parse SVGs as XML and check accessibility, safe markup and motion fallbacks.

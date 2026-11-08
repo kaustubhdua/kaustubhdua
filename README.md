@@ -263,7 +263,6 @@ These are technologies and engineering concepts visible in the repositories and 
 
 | Repository | Stack / engineering focus |
 |:--|:--|
-|:--|:--|
 | [GitGlobe](https://github.com/kaustubhdua/GitGlobe) · fork | React, TypeScript, Vite, Three.js/WebGL, interactive repository discovery and data pipelines |
 | [NIRDHOOM](https://github.com/kaustubhdua/nihdhoom) | React, TypeScript, Vite, Tailwind CSS, Supabase/PostgreSQL, Leaflet, service-worker/PWA tooling; prototype with demo/live data boundaries |
 | [Saathi](https://github.com/kaustubhdua/Saathi) | Python, FastAPI, React/Next.js, Streamlit, Hindi/Hinglish intent routing, local speech adapters and optional hosted integrations |
