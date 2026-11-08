@@ -1,6 +1,7 @@
 # Repository-wide technology stack audit
 
 **Audit date:** 2026-10-19  
+**Status:** Historical snapshot. Repository visibility, names and implementation status can change; do not treat this inventory or its CI observations as current. For the profile-specific recheck performed on 2026-11-08, see [PROFILE_AUDIT_2026-11-08.md](./PROFILE_AUDIT_2026-11-08.md).
 **Scope:** 20 repositories visible under `kaustubhdua`. This is a repository-level inventory from root trees, project manifests where present, and existing project documentation—not a claim that every source line or deployment was executed. Stack labels describe code/configuration evidence, not necessarily production use.
 
 ## Portfolio-wide recommendation

@@ -12,7 +12,7 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Validate README, links, and animated assets
         shell: bash
@@ -29,10 +29,22 @@ jobs:
               "featured projects": all(name in readme for name in ("GitGlobe", "NIRDHOOM", "Saathi", "SATARK", "Adapt AI")),
               "all six redesigned headings referenced": all(f"assets/headings/{name}.svg?v=20261009-text-reveal-v2" in readme for name in ("setlist", "rig-signal-chain", "on-the-turntable", "the-encore", "backstage-pass", "snake-contributions")),
               "animated build log": "assets/profile-motion.svg" in readme,
+              "cinematic monochrome header": "assets/cinematic-header.svg?v=20261108-cinematic-header" in readme,
+              "animated section transitions": readme.count("assets/section-transition.svg?v=20261108-signal-transition") == 4,
               "animated system map": "assets/system-map.svg" in readme,
               "system map cache version": "assets/system-map.svg?v=20261010-pipeline-beam-v2" in readme,
               "animated footer": "assets/profile-footer.svg" in readme,
               "animated guitar section": "assets/guitar-studio.svg" in readme,
+              "animated studio loop section": "assets/studio-loop.svg?v=20261108-studio-loop" in readme,
+              "six individual featured project artworks": all(f"assets/projects/{name}.svg?v=20261108-project-art" in readme for name in ("gitglobe", "nirdhoom", "saathi", "patchpilot", "rideforge", "smart-waste")),
+              "featured projects accurately scoped": all(token in readme for token in ("fork-based contribution", "prototype", "early MVP", "portfolio MVP", "synthetic")),
+              "no stale repository references": not any(f"github.com/kaustubhdua/{name}" in readme for name in ("Foodie", "HEALCONNECT", "inkloom")),
+              "theme-aware contribution history": all(f"assets/lifetime.{theme}.svg?v=20261108-self-hosted-history" in readme for theme in ("light", "dark")),
+              "self-hosted overview stats": all(f"assets/overview.{theme}.svg?v=20261108-self-hosted-overview" in readme for theme in ("light", "dark")),
+              "contribution refresh is automated": Path(".github/workflows/profile-history.yml").is_file(),
+              
+              "engineering fretboard illustration": "assets/fretboard-progress.svg?v=20261108-engineering-fretboard" in readme,
+              "live statistics console": "assets/live-stats-console.svg?v=20261108-live-stats-console" in readme,
               "electric guitar detail": all(token in Path("assets/guitar-studio.svg").read_text(encoding="utf-8") for token in ("six strings", "double-cutaway", "pickup", "tuning")),
               "lazy-loaded below-the-fold images": all((("d2ol7oe51mr4n9.cloudfront.net" in tag) or ('loading="lazy"' in tag.lower())) for tag in re.findall(r"<img[^>]*>", readme, flags=re.I)),
               "removed engineering approach": "## Engineering approach" not in readme,
@@ -40,7 +52,7 @@ jobs:
               "streak restored without duplicate activity chart": "streak-stats.demolab.com" in readme and "activity-assets/activity-90d.svg" not in readme,
               "single contribution snake section": readme.count('id="snake-eating-my-contribution-snake"') == 1,
               "original contribution snake palettes": "dist/github-contribution-grid-snake.svg" in Path(".github/workflows/snake.yml").read_text(encoding="utf-8") and "dist/github-contribution-grid-snake-dark.svg?palette=github-dark" in Path(".github/workflows/snake.yml").read_text(encoding="utf-8"),
-              "themed GitHub stats card": all(value in readme for value in ("bg_color=0D1117", "title_color=A0A0A0", "text_color=C9C9C9", "icon_color=E5E5E5")),
+              "no remote stats-card runtime": "github-readme-stats-fast.vercel.app" not in readme,
               "GitHub follow badge URL is valid": "https://img.shields.io/badge/GITHUB-FOLLOW-303030" in readme,
               "profile README stays distinct from the Minecraft portfolio project": not any(phrase in readme.lower() for phrase in ("minecraft-themed profile", "nether-themed profile")),
               "no placeholder copy": not any(text in readme.lower() for text in ("no description yet", "todo:", "lorem ipsum")),
@@ -81,12 +93,29 @@ jobs:
 
           # Keep the curated repository links explicit and typo-resistant.
           expected_repositories = (
-              "GitGlobe", "nihdhoom", "Saathi", "Satark", "adapt-ai",
-              "JYC-Website", "smart_waste_project", "AkashChalak",
-              "Smart_bike_taxi_platform", "weather-core-matrix",
+              "GitGlobe", "nihdhoom", "Saathi", "PatchPilot",
+              "Smart_bike_taxi_platform", "smart_waste_project",
+              "Satark", "adapt-ai", "JYC-Website", "Jiit-toppers-",
+              "infracis", "Akash-Chalak", "Bharat-Sim",
+              "GenomeGuard", "CrickVision-", "weather-core-matrix",
+              "nord-studio-task-manager", "Portfolio-",
           )
           for repository in expected_repositories:
               assert f"https://github.com/kaustubhdua/{repository}" in readme, f"Missing project link: {repository}"
+
+          # Reject duplicate featured project cards and duplicate rows in the stack index.
+          featured_start = readme.index("FEATURED BUILDS / SIX PROJECTS")
+          featured_end = readme.index("<details>" + chr(10) + "<summary><strong>More builds", featured_start)
+          featured = readme[featured_start:featured_end]
+          for slug in ("gitglobe", "nirdhoom", "saathi", "patchpilot", "rideforge", "smart-waste"):
+              assert featured.count(f"./assets/projects/{slug}.svg?") == 1, f"Expected one artwork card: {slug}"
+          assert all(f"**0{number} /" in featured for number in range(1, 7)), "Featured project sequence must run exactly from 01 to 06"
+          assert featured.count("**0") == 6, "Featured project numbering contains a duplicate or missing item"
+          stack_start = readme.index("| Repository | Stack / engineering focus |")
+          stack_end = readme.index("**Profile positioning:**", stack_start)
+          stack_lines = [line for line in readme[stack_start:stack_end].splitlines() if line.startswith("| [")]
+          stack_urls = [line.split("](", 1)[1].split(")", 1)[0] for line in stack_lines]
+          assert len(stack_urls) == len(set(stack_urls)), "Duplicate repository row in stack index"
 
           # Parse SVGs as XML and check accessibility, safe markup and motion fallbacks.
           heading_assets = tuple(sorted(Path("assets/headings").glob("*.svg")))
@@ -104,7 +133,7 @@ jobs:
                   assert "width:720px" in source, f"Reduced-motion title should remain fully visible: {path}"
               style = re.search(r"<style>(.*?)</style>", source, flags=re.S)
               assert style and style.group(1).count("{") == style.group(1).count("}"), f"Unbalanced heading CSS: {path}"
-          animated_assets = (Path("assets/profile-motion.svg"), Path("assets/profile-footer.svg"), Path("assets/system-map.svg"), Path("assets/guitar-studio.svg"), Path("assets/studio-status.svg"), Path("assets/signal-chain.svg"), Path("assets/vu-meter.svg"), Path("assets/fretboard-progress.svg"), Path("assets/headings/studio-notes.svg"))
+          animated_assets = (Path("assets/profile-motion.svg"), Path("assets/profile-footer.svg"), Path("assets/system-map.svg"), Path("assets/guitar-studio.svg"), Path("assets/studio-status.svg"), Path("assets/signal-chain.svg"), Path("assets/vu-meter.svg"), Path("assets/fretboard-progress.svg"), Path("assets/studio-loop.svg"), Path("assets/cinematic-header.svg"), Path("assets/section-transition.svg"), Path("assets/live-stats-console.svg"), Path("assets/projects/gitglobe.svg"), Path("assets/projects/nirdhoom.svg"), Path("assets/projects/saathi.svg"), Path("assets/projects/patchpilot.svg"), Path("assets/projects/rideforge.svg"), Path("assets/projects/smart-waste.svg"), Path("assets/headings/studio-notes.svg"))
           system_map = Path("assets/system-map.svg").read_text(encoding="utf-8")
           assert "<animate" not in system_map.lower(), "System map should use CSS motion so reduced-motion preferences can disable every moving element"
           assert "translateX(660px)" in system_map, "System map particle should traverse all three stages"
@@ -121,6 +150,19 @@ jobs:
                   assert css.count("{") == css.count("}"), f"Unbalanced CSS: {path}"
                   durations = [float(value) for value in re.findall(r"animation:[^;}]*?(\d+(?:\.\d+)?)s", css) if "infinite" in css]
                   assert all(duration >= 1 for duration in durations), f"Unexpectedly rapid animation: {path}"
+
+          # Generated contribution cards must stay monochrome, self-contained and theme-aware.
+          for card in ("overview", "lifetime"):
+              for theme in ("light", "dark"):
+                  path = Path(f"assets/{card}.{theme}.svg")
+              source = path.read_text(encoding="utf-8")
+              ET.parse(path)
+              assert 'role="img"' in source and "aria-label=" in source, f"Missing accessible image semantics: {path}"
+              assert "<title>" in source and "<desc>" in source, f"Missing SVG title/description: {path}"
+              assert "prefers-reduced-motion" in source, f"Missing reduced-motion support: {path}"
+              assert not re.search(r"<script\\b|<foreignObject\\b", source, re.I), f"Unexpected executable content: {path}"
+              assert not any(token in source.lower() for token in ('href="http://', 'href="https://', 'src="http://', 'src="https://', 'url(http://', 'url(https://', '@import')), f"External SVG resource: {path}"
+              assert not any(color in source.lower() for color in ("#3fb950", "#0e4429", "#025325", "#006d32", "#068c2e", "#26a641", "#0db83a", "#39d353", "#1a7f37", "#30a14e", "#9be9a8", "#5bdb79", "#40c463", "#4ab763", "#38834d", "#216e39")), f"Non-monochrome palette remains in {path}"
 
           # Validate every local SVG, unique IDs, and internal fragment references.
           svg_files = sorted(Path("assets").rglob("*.svg"))
