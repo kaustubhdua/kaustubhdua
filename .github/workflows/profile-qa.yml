@@ -133,12 +133,11 @@ jobs:
           gallery_end = readme.index("</table>", gallery_table_start)
           gallery = readme[gallery_table_start:gallery_end]
           assert gallery.count('<td width="50%" align="center" valign="top">') == 6 and gallery.count("<tr>") == 3, "Featured project artwork must use a readable two-column, three-row grid"
-          stack_start = readme.index("| Repository | Stack / engineering focus |")
-          stack_end = readme.index("**Profile positioning:**", stack_start)
-          stack_lines = [line for line in readme[stack_start:stack_end].splitlines() if line.startswith("| [")]
-          stack_urls = [line.split("](", 1)[1].split(")", 1)[0] for line in stack_lines]
-          assert readme[stack_start:stack_end].count("|:--|:--|") == 1, "Stack index must have exactly one Markdown header separator"
-          assert len(stack_urls) == len(set(stack_urls)), "Duplicate repository row in stack index"
+          # The profile is a concise project overview; deep technical detail belongs in the linked research index.
+          assert "./docs/PROJECT_RESEARCH_INDEX.md" in readme, "Missing project research index"
+          assert all(f"**0{number} /" in featured for number in range(1, 7)), "Featured summaries must remain numbered"
+          assert featured.count("FLOW /") == 0, "Do not repeat workflow summaries in the profile overview"
+          assert "| Repository | Stack / engineering focus |" not in readme, "The redundant stack index should stay removed"
 
           # Parse SVGs as XML and check accessibility, safe markup and motion fallbacks.
           heading_assets = tuple(sorted(Path("assets/headings").glob("*.svg")))
