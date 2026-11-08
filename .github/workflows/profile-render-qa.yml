@@ -96,6 +96,12 @@ jobs:
                   imageCount: images.length,
                   brokenLocalImages,
                   hasFeaturedProjects: root.innerText.includes("FEATURED BUILDS / SIX PROJECTS"),
+                  projectArtworkWidths: [...root.querySelectorAll('img[src*="/assets/projects/"]')].map(img => Math.round(img.getBoundingClientRect().width)),
+                  projectGalleryRows: (() => {
+                    const image = root.querySelector('img[src*="/assets/projects/gitglobe.svg"]');
+                    const table = image?.closest("table");
+                    return table ? [...table.querySelectorAll("tr")].map(row => row.querySelectorAll("td").length) : [];
+                  })(),
                   hasIrisSection: root.innerText.includes("ON REPEAT / IRIS"),
                   hasSpotifyLink: links.some(url => url.startsWith("https://open.spotify.com/track/")),
                   hasYouTubeLink: links.some(url => url.includes("youtube.com/results?search_query=Goo+Goo+Dolls+Iris")),
@@ -105,6 +111,12 @@ jobs:
 
               if (!state.hasFeaturedProjects || !state.hasIrisSection || !state.hasSpotifyLink || !state.hasYouTubeLink) {
                 throw new Error(`Required profile content missing in ${test.theme}/${test.width}: ${JSON.stringify(state)}`);
+              }
+              if (JSON.stringify(state.projectGalleryRows) !== JSON.stringify([2, 2, 2])) {
+                throw new Error(`Featured project gallery is not a two-column grid in ${test.theme}/${test.width}: ${JSON.stringify(state.projectGalleryRows)}`);
+              }
+              if (mobile && state.projectArtworkWidths.some(width => width < 120)) {
+                throw new Error(`Featured artwork is too narrow on mobile in ${test.theme}: ${JSON.stringify(state.projectArtworkWidths)}`);
               }
               if (state.prefersDark !== (test.theme === "dark")) {
                 throw new Error(`Browser theme emulation failed for ${test.theme}/${test.width}`);
