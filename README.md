@@ -44,31 +44,31 @@ I’m an **Electronics & Computer Engineering student at JIIT Noida**, building 
 <tr>
 <td width="50%" align="center" valign="top">
 <a href="https://github.com/kaustubhdua/JYC-Website"><img src="./assets/projects/jyc.svg?v=20261108-project-art" width="100%" alt="JIIT Youth Club artwork: campus community, events and digital platform" loading="lazy"/></a>
-<strong>JIIT YOUTH CLUB</strong><br/><sub>Campus community platform · technical team</sub>
+<strong>JIIT YOUTH CLUB</strong><br/><sub>Campus community platform · technical team</sub><br/><sub>STACK / React 19 · Vite 8 · React Router · Supabase · OGL/WebGL · GSAP · Motion · Sharp</sub>
 </td>
 <td width="50%" align="center" valign="top">
 <a href="https://github.com/kaustubhdua/nihdhoom"><img src="./assets/projects/nirdhoom.svg?v=20261108-project-art" width="100%" alt="NIRDHOOM artwork: field rows and connected service route" loading="lazy"/></a>
-<strong>NIRDHOOM</strong><br/><sub>Field-first crop-residue coordination · prototype</sub>
+<strong>NIRDHOOM</strong><br/><sub>Field-first crop-residue coordination · prototype</sub><br/><sub>STACK / React 19 · TypeScript · Vite 8 · Tailwind 4 · Supabase · PostgreSQL/PostGIS · Three.js · Leaflet · FastAPI/OR-Tools</sub>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center" valign="top">
 <a href="https://github.com/kaustubhdua/Saathi"><img src="./assets/projects/saathi.svg?v=20261108-project-art" width="100%" alt="Saathi artwork: voice waveform, source markers and consent checkpoint" loading="lazy"/></a>
-<strong>SAATHI</strong><br/><sub>Voice-first multilingual assistance · prototype</sub>
+<strong>SAATHI</strong><br/><sub>Voice-first multilingual assistance · prototype</sub><br/><sub>STACK / Python/FastAPI · Next.js 16 · React 19 · Ollama · Vosk · Tesseract · eSpeak NG · FFmpeg · WebSockets</sub>
 </td>
 <td width="50%" align="center" valign="top">
 <a href="https://github.com/kaustubhdua/PatchPilot"><img src="./assets/projects/patchpilot.svg?v=20261108-project-art" width="100%" alt="PatchPilot artwork: code diff, evidence and test checkpoints" loading="lazy"/></a>
-<strong>PATCHPILOT</strong><br/><sub>Explainable PR risk triage · early MVP</sub>
+<strong>PATCHPILOT</strong><br/><sub>Explainable PR risk triage · early MVP</sub><br/><sub>STACK / Python · FastAPI · Pydantic · Vanilla JS · pytest · Ruff · Docker</sub>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center" valign="top">
 <a href="https://github.com/kaustubhdua/Smart_bike_taxi_platform"><img src="./assets/projects/rideforge.svg?v=20261108-project-art" width="100%" alt="RideForge artwork: city grid, shortest route and dispatch markers" loading="lazy"/></a>
-<strong>RIDEFORGE</strong><br/><sub>Bike-taxi dispatch and routing · portfolio MVP</sub>
+<strong>RIDEFORGE</strong><br/><sub>Bike-taxi dispatch and routing · portfolio MVP</sub><br/><sub>STACK / C++17 · Boost.Beast · PostgreSQL · OpenSSL · React/TypeScript · Vite · Leaflet · Playwright</sub>
 </td>
 <td width="50%" align="center" valign="top">
 <a href="https://github.com/kaustubhdua/smart_waste_project"><img src="./assets/projects/smart-waste.svg?v=20261108-project-art" width="100%" alt="Smart Waste artwork: telemetry, priority scoring, capacity and route optimisation" loading="lazy"/></a>
-<strong>SMART WASTE</strong><br/><sub>Waste operations and route optimisation · engineering prototype</sub>
+<strong>SMART WASTE</strong><br/><sub>Waste operations and route optimisation · engineering prototype</sub><br/><sub>STACK / Python/FastAPI · PostgreSQL/PostGIS · SQLAlchemy/Alembic · OR-Tools/OSRM · pandas/scikit-learn · Streamlit/Folium</sub>
 </td>
 </tr>
 </table>
@@ -78,33 +78,43 @@ I’m an **Electronics & Computer Engineering student at JIIT Noida**, building 
 
 **SATARK Sentinel** · [Source](https://github.com/kaustubhdua/Satark)  
 Security-awareness and incident-investigation workflow with evidence preservation, case isolation and deterministic triage. It is response support—not antivirus software or an automated forensic verdict.
+<sub>STACK / Python · Streamlit · Next.js 15 · React 19 · FastAPI · Ollama (optional) · OpenCV · PDF.js · jsQR · ReportLab</sub>
 
 **Adapt AI** · [Source](https://github.com/kaustubhdua/adapt-ai)  
 Team-built local-AI assistant exploring hardware-aware model selection and Ollama inference. The public repository is a fork-based contribution; individual scope should be attributed from its commit history.
+<sub>STACK / Python · FastAPI · Ollama · psutil · GPUtil · Vanilla JS · Tailwind CDN · Chart.js</sub>
 
 **Infracis** · [Source](https://github.com/kaustubhdua/infracis)  
 Evidence-first location due-diligence prototype combining geospatial context, provider-backed data and explainable risk signals. It is decision support, not a guarantee that a property or location is safe.
+<sub>STACK / Next.js 15 · React 18 · TypeScript · Tailwind 3 · Leaflet · Vitest · FastAPI/Redis backend prepared separately</sub>
 
 **AkashChalak** · [Source](https://github.com/kaustubhdua/Akash-Chalak)  
 Satellite-assisted air-quality and hotspot decision-support prototype using geospatial processing, clustering/interpolation and map-based exploration. Treat outputs as estimates with source and coverage limits, not regulatory measurements.
+<sub>STACK / Python · FastAPI · React/Leaflet · scikit-learn/DBSCAN · GeoPandas · Rasterio · xarray · NetCDF4 · Earth Engine</sub>
 
 **BharatSim** · [Source](https://github.com/kaustubhdua/Bharat-Sim)  
 Android resilience-testing MVP combining a planning API, evidence records and an ADB/Appium worker path. Production worker execution, controlled device coverage and deployment acceptance remain gated.
+<sub>STACK / Python/FastAPI · React 19 · TypeScript · Vite 8 · PostgreSQL · PyJWT · Android ADB/Emulator · Playwright</sub>
 
 **GenomeGuard** · [Source](https://github.com/kaustubhdua/GenomeGuard)  
 Genomic-data governance research prototype exploring consent, auditability, variant interpretation workflows and privacy-aware data boundaries. It is not a clinical diagnostic or production healthcare system.
+<sub>STACK / Python · Starlette · PostgreSQL · NumPy · cryptography · scikit-learn (optional) · FHIR R4</sub>
 
 **CrickVision** · [Source](https://github.com/kaustubhdua/CrickVision-)  
 Local-first cricket video computer-vision toolkit for generic person detection, shot-boundary heuristics and experimental tracking/calibration. It has no validated cricket-trained model or official-statistics accuracy claim.
+<sub>STACK / Python · PyTorch · Torchvision · OpenCV · NumPy · Pillow · Streamlit</sub>
 
 **JIIT Toppers** · [Source](https://github.com/kaustubhdua/Jiit-toppers-)  
 Student-focused academic platform with structured academic calculations, exam-calendar workflows, CSV handling and a PYQ study vault. The implementation audit and tests document the current feature boundaries.
+<sub>STACK / Next.js 16 · React 19 · TypeScript · Supabase SSR · Prisma · PostgreSQL · Zod</sub>
 
 **Weather Core Matrix** · [Source](https://github.com/kaustubhdua/weather-core-matrix)  
 Vanilla-JavaScript weather client demonstrating resilient asynchronous UI states, request timeouts, input encoding and explicit network/provider failures. It depends on the public wttr.in service.
+<sub>STACK / HTML · CSS · JavaScript · Fetch API · wttr.in</sub>
 
 **Nord Studio Task Manager** · [Source](https://github.com/kaustubhdua/nord-studio-task-manager)  
 Minimal browser task manager demonstrating accessible task creation, priority/filter state, localStorage persistence and explicit storage-error handling. Data remains local to the browser.
+<sub>STACK / HTML · CSS · JavaScript · localStorage</sub>
 
 [Browse all repositories →](https://github.com/kaustubhdua?tab=repositories)
 
@@ -156,7 +166,7 @@ Minimal browser task manager demonstrating accessible task creation, priority/fi
 
 </div>
 
-<sub>Specialist work across the portfolio includes C++17/Boost.Beast, Three.js/WebGL, OR-Tools, PyTorch, Ollama, Leaflet/PostGIS, OpenCV, Prisma and other project-specific tools. They are intentionally not presented as universal day-to-day dependencies.</sub>
+<sub>Project-specific stacks, optional integrations and supporting tools are documented per repository—not presented as universal skills. <a href="./docs/PROJECT_TECHNOLOGY_AUDIT.md">Open the complete 16-project technology audit and source trail ↗</a>.</sub>
 
 ---
 
