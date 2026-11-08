@@ -17,7 +17,21 @@
 
 <img src="./assets/academic-kicker.svg?v=20261010-academic-kicker" width="100%" alt="Electronics and Computer Engineering · JIIT Noida" loading="lazy"/>
 
-I study **Electronics & Computer Engineering (ECM)** at JIIT Noida and build practical software across **AI, data, systems and product engineering** — turning complex problems into useful, testable tools.
+I’m an **Electronics & Computer Engineering student at JIIT Noida**, building full-stack software and applied-AI systems. I care about dependable backends, useful data workflows and interfaces that make complex work easier to use.
+
+<table>
+<tr>
+<td width="33%" valign="top"><sub>01 / PRODUCT</sub><br/><strong>Full-stack builds</strong><br/><sub>From clear interfaces to dependable APIs.</sub></td>
+<td width="33%" valign="top"><sub>02 / INTELLIGENCE</sub><br/><strong>Applied AI & data</strong><br/><sub>Practical models, optimisation and useful workflows.</sub></td>
+<td width="33%" valign="top"><sub>03 / ENGINEERING</sub><br/><strong>Reliability & open source</strong><br/><sub>Tests, careful boundaries and maintainable systems.</sub></td>
+</tr>
+</table>
+
+<p align="center">
+  <a href="https://github.com/kaustubhdua">GITHUB</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/kaustubh-dua-2b5a76416">LINKEDIN</a> &nbsp;·&nbsp;
+  <a href="mailto:kaustubhdua1991@gmail.com">EMAIL</a>
+</p>
 
 </div>
 
@@ -163,6 +177,24 @@ An engineering prototype connecting IoT-style telemetry, priority scoring, vehic
 
 </div>
 
+**THE CORE RIG / TOOLS I REACH FOR MOST**
+
+![Python](https://img.shields.io/badge/Python-252525?style=flat-square&logo=python&logoColor=F4EFE5)
+![TypeScript](https://img.shields.io/badge/TypeScript-252525?style=flat-square&logo=typescript&logoColor=F4EFE5)
+![React](https://img.shields.io/badge/React-252525?style=flat-square&logo=react&logoColor=F4EFE5)
+![FastAPI](https://img.shields.io/badge/FastAPI-252525?style=flat-square&logo=fastapi&logoColor=F4EFE5)
+![C++17](https://img.shields.io/badge/C%2B%2B17-252525?style=flat-square&logo=cplusplus&logoColor=F4EFE5)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-252525?style=flat-square&logo=postgresql&logoColor=F4EFE5)
+![Supabase](https://img.shields.io/badge/Supabase-252525?style=flat-square&logo=supabase&logoColor=F4EFE5)
+![PyTorch](https://img.shields.io/badge/PyTorch-252525?style=flat-square&logo=pytorch&logoColor=F4EFE5)
+![OR-Tools](https://img.shields.io/badge/Google_OR--Tools-252525?style=flat-square&logo=google&logoColor=F4EFE5)
+![Three.js](https://img.shields.io/badge/Three.js-252525?style=flat-square&logo=threedotjs&logoColor=F4EFE5)
+![Docker](https://img.shields.io/badge/Docker-252525?style=flat-square&logo=docker&logoColor=F4EFE5)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-252525?style=flat-square&logo=githubactions&logoColor=F4EFE5)
+
+<details>
+<summary><strong>Full stack inventory / every tool by track ↗</strong></summary>
+
 **01 · Languages & foundations**  
 ![Python](https://img.shields.io/badge/Python-252525?style=flat-square&logo=python&logoColor=F4EFE5)
 ![TypeScript](https://img.shields.io/badge/TypeScript-252525?style=flat-square&logo=typescript&logoColor=F4EFE5)
@@ -221,6 +253,8 @@ An engineering prototype connecting IoT-style telemetry, priority scoring, vehic
 ![ESLint](https://img.shields.io/badge/ESLint-252525?style=flat-square&logo=eslint&logoColor=F4EFE5)
 ![Ruff](https://img.shields.io/badge/Ruff-252525?style=flat-square&logo=ruff&logoColor=F4EFE5)
 ![CMake](https://img.shields.io/badge/CMake-252525?style=flat-square&logo=cmake&logoColor=F4EFE5)
+
+</details>
 
 <sub>Stack details and project evidence ↓ · [Current profile audit (8 Nov 2026)](./docs/PROFILE_AUDIT_2026-11-08.md) · [Historical repository-wide stack audit (19 Oct 2026)](./docs/REPOSITORY_STACK_AUDIT.md)</sub>
 

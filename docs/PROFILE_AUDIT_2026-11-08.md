@@ -2,7 +2,7 @@
 
 ## Scope and method
 
-Reviewed the `kaustubhdua/kaustubhdua` profile repository, current README, project metadata and root READMEs for linked portfolio repositories, profile GitHub Actions workflows, and SVG assets on the review branch `feat/monochrome-studio-motion`.
+Reviewed the `kaustubhdua/kaustubhdua` profile repository, README, linked project metadata and root READMEs, GitHub Actions workflows, and self-hosted SVG assets. The monochrome studio-motion work from PR #6 is now merged to `main`; this audit is being extended by the recruiter-hierarchy refinement branch.
 
 The audit checks repository existence/visibility, fork status, documented project maturity, repeated or stale project entries, local asset references, contribution-card generation, SVG safety/accessibility, reduced-motion support, and CI evidence. It does **not** claim a pixel-perfect browser audit: GitHub's actual rendered profile still needs a manual light/dark/mobile preview.
 
@@ -60,13 +60,25 @@ The profile QA workflow validates:
 
 Latest confirmed QA: [Profile README QA run](https://github.com/kaustubhdua/kaustubhdua/actions/runs/42418002455). It checked 29 local asset references, 4 internal anchors, 18 curated repository links, 38 SVG files and 15 remote image URLs. The previous Unicode URL warning was removed by simplifying the badge label to ASCII; the latest run completed without that warning.
 
+## Recruiter-hierarchy refinement (8 Nov 2026)
+
+The next pass applies design patterns found in current profile README galleries and animated-profile writeups: a clear first-screen identity, compact focus areas, a small core tool set, and optional detail rather than a wall of badges. Motion remains self-hosted SVG so the README does not depend on embedded JavaScript.
+
+- Added direct GitHub, LinkedIn and email links near the profile introduction.
+- Reframed the intro around three concrete themes: full-stack product work, applied AI/data, and reliability/open source.
+- Kept a 12-tool core stack visible and moved the exhaustive tool inventory into a collapsible section; the repository-by-repository evidence table remains available below it.
+- Preserved the monochrome palette, original banner, guitar illustration, Studio Loop vinyl/waveform animation, Iris listening links, contribution snake and self-hosted contribution cards.
+- Extended profile QA to guard the new first-screen links and focus areas, compact stack treatment, and the music identity/listening links.
+
+The music section is intentionally unchanged in this refinement. Its animated guitar and vinyl artwork is decorative motion; the Spotify and YouTube links remain the actual listening destinations.
+
 ## Remaining checks before merge
 
-1. Manually preview the profile on GitHub in light mode, dark mode and a narrow/mobile viewport. CI parses source assets but cannot prove GitHub's final layout rendering.
-2. Recheck external streak/badge/music providers periodically; those are still external runtime dependencies.
-3. After merge, confirm the scheduled card workflow runs on `main` and the generated SVGs refresh there.
-4. Keep the PR draft until the final latest-head QA and visual review are complete.
+1. Run the latest-head profile QA workflow and resolve any failures.
+2. Preview the GitHub-rendered profile in light mode, dark mode and a narrow/mobile viewport. Source-level CI cannot fully prove GitHub's final rendering.
+3. Recheck external streak, badge and music destinations periodically; those remain external runtime dependencies.
+4. Confirm the scheduled contribution-card workflow continues to refresh the self-hosted assets on `main` after merge.
 
 ## Review boundary
 
-All changes described here are confined to the review branch and draft PR #6. The restored `main` README remains unchanged; merging requires explicit approval.
+The original monochrome studio-motion work is merged on `main`. The recruiter-hierarchy refinement is isolated to `refine/monochrome-recruiter-profile-20261108` pending its latest-head QA and rendered-profile review.
