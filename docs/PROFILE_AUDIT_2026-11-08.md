@@ -107,3 +107,52 @@ The change is deliberately a subtraction pass: no new colour, external music emb
 ## Verification
 
 The updated Profile README QA workflow is the release gate for this pass. A passing run will validate the README references, all project links, SVG XML/accessibility/reduced-motion rules, monochrome generated cards in both themes, and remote image endpoints. GitHub's rendered light/dark/mobile preview remains a separate manual check; source-level validation cannot prove GitHub's final layout.
+
+
+## Final verification — 8 Nov 2026
+
+The final refinement is merged to `main` as [PR #13](https://github.com/kaustubhdua/kaustubhdua/pull/13), merge commit `19f08980d41562772d987d1f123a9fc026d55de5`.
+
+### Mobile presentation
+
+- Changed the six featured artwork cards from a cramped three-column table to a two-column, three-row grid. Each artwork is now approximately 127 CSS pixels wide in the 390px mobile viewport, instead of roughly 80px.
+- The project detail cards remain a two-column table; project scope and maturity labels are unchanged.
+- Preserved the monochrome palette, original hero banner, cinematic header, guitar illustration, vinyl/waveform loop, Iris listening links and limited section transitions.
+- Clarified that the Iris track display inside the guitar artwork is decorative, not a functional player. Spotify and YouTube are the listening destinations.
+- Reworded the statistics console so it no longer implies daily live telemetry: self-hosted profile cards refresh daily, the language card weekly, and the streak card is provided by an external service.
+
+### Actual GitHub-style browser rendering
+
+Added `.github/workflows/profile-render-qa.yml`. It renders the checked-out README using GitHub's GFM Markdown API, injects that HTML into GitHub's own public profile page styling, resolves artwork against the checked-out branch, and runs Playwright at four combinations:
+
+- Desktop: 1440 × 1000, light and dark.
+- Mobile: 390 × 844, light and dark.
+
+The browser job checks the real rendered content, both listening destinations, all local README artwork, browser page errors, document horizontal overflow, the two-column/three-row featured grid and mobile artwork width. It uploads four screenshots as a 14-day workflow artifact.
+
+Latest main-branch run: [Profile rendered browser QA](https://github.com/kaustubhdua/kaustubhdua/actions/runs/42488011000). All four cases passed:
+- 99 README images found per rendered page; no broken local artwork.
+- No browser page errors.
+- Document width matched the viewport at both desktop and mobile sizes; no horizontal page overflow.
+- The six featured project images rendered as two columns by three rows.
+- Mobile artwork width: 127px per project card.
+- Featured project section, Iris section, Spotify link and YouTube link were present in every case.
+
+The generated desktop/mobile light/dark screenshots are available in the [rendered profile artifact](https://github.com/kaustubhdua/kaustubhdua/actions/runs/42488011000/artifacts/13620327360).
+
+### Final workflow verification
+
+All four workflows passed on main commit `19f08980d41562772d987d1f123a9fc026d55de5`:
+- [Profile README QA](https://github.com/kaustubhdua/kaustubhdua/actions/runs/42488011029)
+- [Profile rendered browser QA](https://github.com/kaustubhdua/kaustubhdua/actions/runs/42488011000)
+- [Contribution history refresh](https://github.com/kaustubhdua/kaustubhdua/actions/runs/42488011096)
+- [Contribution snake generation](https://github.com/kaustubhdua/kaustubhdua/actions/runs/42488011085)
+
+The contribution-history refresh no longer suppresses all CI with `[skip ci]`; the snake generator now runs on its schedule, manually, or when its own workflow changes, rather than on every unrelated push. The browser workflow uses Node 24-compatible first-party actions.
+
+### Remaining external dependencies
+
+The profile itself and its self-hosted SVG artwork are checked in the repository. The following are external services and can still have independent outages or rate limits: Shields.io badges, Spotify/YouTube destinations, the streak card provider, the original banner CDN and GitHub-hosted raw asset delivery. These cannot be guaranteed by repository CI.
+
+No repository-side blocker remains from the source, content, link, SVG, mobile-layout or rendered-browser checks completed here. Private contribution visibility remains controlled by GitHub account/profile settings. The separate `Portfolio-` repository was not changed.
+
