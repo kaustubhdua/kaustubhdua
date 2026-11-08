@@ -364,7 +364,7 @@ These are technologies and engineering concepts visible in the repositories and 
 
 <div align="center">
 
-<img src="./assets/live-stats-console.svg?v=20261108-live-stats-console" width="100%" alt="Animated live GitHub statistics console header" loading="lazy"/>
+<img src="./assets/live-stats-console.svg?v=20261108-live-stats-console" width="100%" alt="Animated monochrome header for daily-refreshed GitHub statistics, language distribution and contribution streak cards" loading="lazy"/>
 
 <a href="https://github.com/kaustubhdua?tab=overview">
   <picture>
