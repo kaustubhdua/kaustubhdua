@@ -195,7 +195,7 @@ Node.js · Docker · Docker Compose · CMake · OpenSSL · libcurl · nlohmann/j
 
 **Provider integrations (project-specific / optional)**
 
-Open-Meteo · Overpass · NASA GIBS · wttr.in · CPCB · NASA FIRMS · Google Earth Engine · Copernicus CDS · Sarvam · Groq · Exotel · CARTO Voyager. `canvas-confetti` and `@hugeicons/*` are UI libraries; ADB/Android Emulator/Appium are isolated device-test tooling; `streamlit-folium` is the Streamlit map adapter. These are external services, optional adapters or data providers—not all installed runtime dependencies.
+Open-Meteo · Overpass · NASA GIBS · wttr.in · CPCB · NASA FIRMS · Google Earth Engine · Copernicus CDS · Sarvam · Groq · Exotel · CARTO Voyager · Wazuh (optional telemetry adapter) · Microsoft Defender/Entra (prepared, not live-validated response adapters). `canvas-confetti` and `@hugeicons/*` are UI libraries; ADB/Android Emulator/Appium are isolated device-test tooling; `streamlit-folium` is the Streamlit map adapter. These are external services, optional adapters or data providers—not all installed runtime dependencies.
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-252525?style=flat-square&logo=pytorch&logoColor=F4EFE5)
 
