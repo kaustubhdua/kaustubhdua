@@ -48,6 +48,8 @@ jobs:
               "theme-aware contribution history": all(f"assets/lifetime.{theme}.svg?v=20261108-self-hosted-history" in readme for theme in ("light", "dark")),
               "self-hosted overview stats": all(f"assets/overview.{theme}.svg?v=20261108-self-hosted-overview" in readme for theme in ("light", "dark")),
               "contribution refresh is automated": Path(".github/workflows/profile-history.yml").is_file(),
+              "history refresh commit does not suppress QA": "[skip ci]" not in Path(".github/workflows/profile-history.yml").read_text(encoding="utf-8"),
+              "snake push refresh is scoped to its own workflow": '"      - ".github/workflows/snake.yml"' in Path(".github/workflows/snake.yml").read_text(encoding="utf-8"),
               
               "music section uses a restrained two-visual set": readme.count("assets/guitar-studio.svg") == 1 and readme.count("assets/studio-loop.svg?v=20261108-studio-loop") == 1 and "assets/fretboard-progress.svg" not in readme,
               "no redundant academic kicker": "assets/academic-kicker.svg" not in readme,
