@@ -40,8 +40,6 @@ I’m an **Electronics & Computer Engineering student at JIIT Noida**, building 
 
 <sub>FEATURED BUILDS / SIX PROJECTS, SIX DIFFERENT ENGINEERING PROBLEMS</sub>
 
-<sub><a href="./docs/PROJECT_RESEARCH_INDEX.md">PROJECT RESEARCH & EVIDENCE INDEX ↗</a> · Deep dives, implementation boundaries and source links for featured and expanded projects.</sub>
-
 <table>
 <tr>
 <td width="50%" align="center" valign="top">
@@ -74,8 +72,6 @@ I’m an **Electronics & Computer Engineering student at JIIT Noida**, building 
 </td>
 </tr>
 </table>
-
-<sub>Implementation detail, architecture, evidence links and honest release boundaries live in the <a href="./docs/PROJECT_RESEARCH_INDEX.md">project research index</a> and each portfolio case study. The profile stays a quick overview rather than repeating every project's stack and workflow.</sub>
 
 <details>
 <summary><strong>More builds / experiments ↗</strong></summary>
@@ -151,75 +147,6 @@ Minimal browser task manager demonstrating accessible task creation, priority/fi
 ![Docker](https://img.shields.io/badge/Docker-252525?style=flat-square&logo=docker&logoColor=F4EFE5)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-252525?style=flat-square&logo=githubactions&logoColor=F4EFE5)
 
-<details>
-<summary><strong>Full stack inventory / every tool by track ↗</strong></summary>
-
-**01 · Languages & foundations**  
-![Python](https://img.shields.io/badge/Python-252525?style=flat-square&logo=python&logoColor=F4EFE5)
-![TypeScript](https://img.shields.io/badge/TypeScript-252525?style=flat-square&logo=typescript&logoColor=F4EFE5)
-![JavaScript](https://img.shields.io/badge/JavaScript-252525?style=flat-square&logo=javascript&logoColor=F4EFE5)
-![C++17](https://img.shields.io/badge/C%2B%2B17-252525?style=flat-square&logo=cplusplus&logoColor=F4EFE5)
-![Java](https://img.shields.io/badge/Java-252525?style=flat-square&logo=openjdk&logoColor=F4EFE5)
-![HTML](https://img.shields.io/badge/HTML-252525?style=flat-square&logo=html5&logoColor=F4EFE5)
-![CSS](https://img.shields.io/badge/CSS-252525?style=flat-square&logo=css3&logoColor=F4EFE5)
-![SQL](https://img.shields.io/badge/SQL-252525?style=flat-square&logo=postgresql&logoColor=F4EFE5)
-
-**02 · Frontend & visual computing**  
-![React](https://img.shields.io/badge/React-252525?style=flat-square&logo=react&logoColor=F4EFE5)
-![Next.js](https://img.shields.io/badge/Next.js-252525?style=flat-square&logo=nextdotjs&logoColor=F4EFE5)
-![Vite](https://img.shields.io/badge/Vite-252525?style=flat-square&logo=vite&logoColor=F4EFE5)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-252525?style=flat-square&logo=tailwindcss&logoColor=F4EFE5)
-![GSAP](https://img.shields.io/badge/GSAP-252525?style=flat-square&logo=greensock&logoColor=F4EFE5)
-![Three.js](https://img.shields.io/badge/Three.js-252525?style=flat-square&logo=threedotjs&logoColor=F4EFE5)
-![WebGL 2](https://img.shields.io/badge/WebGL_2-252525?style=flat-square&logo=webgl&logoColor=F4EFE5)
-![Leaflet](https://img.shields.io/badge/Leaflet-252525?style=flat-square&logo=leaflet&logoColor=F4EFE5)
-![PostGIS](https://img.shields.io/badge/PostGIS-252525?style=flat-square&logo=postgresql&logoColor=F4EFE5)
-
-**03 · APIs, data & persistence**  
-![FastAPI](https://img.shields.io/badge/FastAPI-252525?style=flat-square&logo=fastapi&logoColor=F4EFE5)
-![Boost.Beast](https://img.shields.io/badge/Boost.Beast-252525?style=flat-square&logo=boost&logoColor=F4EFE5)
-![OpenAPI](https://img.shields.io/badge/OpenAPI-252525?style=flat-square&logo=swagger&logoColor=F4EFE5)
-![Starlette](https://img.shields.io/badge/Starlette-252525?style=flat-square&logo=starlette&logoColor=F4EFE5)
-![Streamlit](https://img.shields.io/badge/Streamlit-252525?style=flat-square&logo=streamlit&logoColor=F4EFE5)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-252525?style=flat-square&logo=postgresql&logoColor=F4EFE5)
-![SQLite](https://img.shields.io/badge/SQLite-252525?style=flat-square&logo=sqlite&logoColor=F4EFE5)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-252525?style=flat-square&logo=sqlalchemy&logoColor=F4EFE5)
-![Supabase](https://img.shields.io/badge/Supabase-252525?style=flat-square&logo=supabase&logoColor=F4EFE5)
-![Drizzle ORM](https://img.shields.io/badge/Drizzle_ORM-252525?style=flat-square&logo=drizzle&logoColor=F4EFE5)
-![Prisma](https://img.shields.io/badge/Prisma-252525?style=flat-square&logo=prisma&logoColor=F4EFE5)
-![Zod](https://img.shields.io/badge/Zod-252525?style=flat-square&logo=zod&logoColor=F4EFE5)
-
-**04 · Applied AI, optimisation & geospatial**  
-![scikit-learn](https://img.shields.io/badge/scikit--learn-252525?style=flat-square&logo=scikitlearn&logoColor=F4EFE5)
-![PyTorch](https://img.shields.io/badge/PyTorch-252525?style=flat-square&logo=pytorch&logoColor=F4EFE5)
-![OpenCV](https://img.shields.io/badge/OpenCV-252525?style=flat-square&logo=opencv&logoColor=F4EFE5)
-![Ollama](https://img.shields.io/badge/Ollama-252525?style=flat-square&logo=ollama&logoColor=F4EFE5)
-![OR-Tools](https://img.shields.io/badge/Google_OR--Tools-252525?style=flat-square&logo=google&logoColor=F4EFE5)
-![Pandas](https://img.shields.io/badge/pandas-252525?style=flat-square&logo=pandas&logoColor=F4EFE5)
-![NumPy](https://img.shields.io/badge/NumPy-252525?style=flat-square&logo=numpy&logoColor=F4EFE5)
-![DBSCAN](https://img.shields.io/badge/DBSCAN-252525?style=flat-square&logo=scikitlearn&logoColor=F4EFE5)
-
-**05 · Quality, delivery & runtime**  
-![Node.js](https://img.shields.io/badge/Node.js-252525?style=flat-square&logo=nodedotjs&logoColor=F4EFE5)
-![Git](https://img.shields.io/badge/Git-252525?style=flat-square&logo=git&logoColor=F4EFE5)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-252525?style=flat-square&logo=githubactions&logoColor=F4EFE5)
-![Pytest](https://img.shields.io/badge/Pytest-252525?style=flat-square&logo=pytest&logoColor=F4EFE5)
-![Playwright](https://img.shields.io/badge/Playwright-252525?style=flat-square&logo=playwright&logoColor=F4EFE5)
-![Appium](https://img.shields.io/badge/Appium-252525?style=flat-square&logo=appium&logoColor=F4EFE5)
-![Android](https://img.shields.io/badge/Android_ADB-252525?style=flat-square&logo=android&logoColor=F4EFE5)
-![Vitest](https://img.shields.io/badge/Vitest-252525?style=flat-square&logo=vitest&logoColor=F4EFE5)
-![Docker](https://img.shields.io/badge/Docker-252525?style=flat-square&logo=docker&logoColor=F4EFE5)
-![ESLint](https://img.shields.io/badge/ESLint-252525?style=flat-square&logo=eslint&logoColor=F4EFE5)
-![Ruff](https://img.shields.io/badge/Ruff-252525?style=flat-square&logo=ruff&logoColor=F4EFE5)
-![CMake](https://img.shields.io/badge/CMake-252525?style=flat-square&logo=cmake&logoColor=F4EFE5)
-
-</details>
-
-<sub>Stack details and project evidence ↓ · [Current profile audit (8 Nov 2026)](./docs/PROFILE_AUDIT_2026-11-08.md) · [Historical repository-wide stack audit (19 Oct 2026)](./docs/REPOSITORY_STACK_AUDIT.md)</sub>
-
-<sub>Project evidence and implementation boundaries: [current profile audit](./docs/PROFILE_AUDIT_2026-11-08.md) · [historical repository stack audit](./docs/REPOSITORY_STACK_AUDIT.md). The expanded inventory above is the single stack reference; project-specific details live in each repository.</sub>
-
-</details>
 
 ---
 
@@ -251,21 +178,6 @@ Minimal browser task manager demonstrating accessible task creation, priority/fi
 <div align="center">
 
 <h3 id="snake-eating-my-contribution-snake"><img src="./assets/headings/snake-contributions.svg?v=20261009-text-reveal-v2" alt="Snake Eating My Contribution Snake" width="100%" loading="lazy"/></h3>
-
-<h3><sub>THE LIVE SESSION / CONTRIBUTION HISTORY</sub></h3>
-
-<p align="center">
-  <a href="https://github.com/kaustubhdua?tab=overview">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./assets/lifetime.dark.svg?v=20261108-self-hosted-history"/>
-      <img src="./assets/lifetime.light.svg?v=20261108-self-hosted-history" width="100%" alt="Self-hosted GitHub contribution history by year, rendered in a monochrome theme and refreshed by GitHub Actions" loading="lazy"/>
-    </picture>
-  </a>
-</p>
-
-<sub>SELF-HOSTED CONTRIBUTION HISTORY / Daily GitHub GraphQL refresh. The year-by-year card is separate from the animated contribution snake. Contribution timestamps follow GitHub's UTC calendar; private activity is included only when the profile and token settings allow it.</sub>
-
-<sub><a href="https://github.com/kaustubhdua/kaustubhdua/actions/workflows/profile-history.yml">VIEW HISTORY REFRESH WORKFLOW ↗</a></sub>
 
 <p align="center">
   <picture>
