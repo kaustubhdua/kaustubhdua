@@ -195,7 +195,7 @@ Open-Meteo · Overpass · NASA GIBS · wttr.in · Sarvam · Groq · Exotel. Thes
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-252525?style=flat-square&logo=pytorch&logoColor=F4EFE5)
 
-<a href="./docs/PROJECT_TECHNOLOGY_AUDIT.md">Read the full 16-project audit, implementation boundaries and source links ↗</a>
+<a href="./docs/PROJECT_RESEARCH_INDEX.md">Project stories and implementation evidence ↗</a> · <a href="./docs/PROJECT_TECHNOLOGY_AUDIT.md">Read the full 16-project audit, implementation boundaries and source links ↗</a>
 
 </details>
 
