@@ -64,7 +64,7 @@ I’m an **Electronics & Computer Engineering student at JIIT Noida**, building 
 <tr>
 <td width="50%" align="center" valign="top">
 <a href="https://github.com/kaustubhdua/Smart_bike_taxi_platform"><img src="./assets/projects/rideforge.svg?v=20261108-project-art" width="100%" alt="RideForge artwork: city grid, shortest route and dispatch markers" loading="lazy"/></a>
-<strong>RIDEFORGE</strong><br/><sub>Bike-taxi dispatch and routing · portfolio MVP</sub><br/><sub>STACK / C++17 · Boost.Beast · PostgreSQL · OpenSSL · React/TypeScript · Vite · Leaflet · Playwright</sub>
+<strong>RIDEFORGE</strong><br/><sub>Bike-taxi dispatch and routing · portfolio MVP</sub><br/><sub>STACK / C++17 · Boost.Beast · PostgreSQL · OpenSSL · React/TypeScript · Vite 6 · Leaflet · Playwright</sub>
 </td>
 <td width="50%" align="center" valign="top">
 <a href="https://github.com/kaustubhdua/smart_waste_project"><img src="./assets/projects/smart-waste.svg?v=20261108-project-art" width="100%" alt="Smart Waste artwork: telemetry, priority scoring, capacity and route optimisation" loading="lazy"/></a>
