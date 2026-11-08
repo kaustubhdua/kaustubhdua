@@ -171,3 +171,18 @@ A final workflow review found that the weekly language-card generator still used
 - The merged language-card workflow completed successfully, including fetching repository language totals, validating the generated SVG and committing the refreshed monochrome card: [run 42488777101](https://github.com/kaustubhdua/kaustubhdua/actions/runs/42488777101).
 
 The profile README, original banner, monochrome palette, guitar/vinyl music treatment and listening links were not changed in this maintenance pass. The separate `Portfolio-` repository remains untouched.
+
+
+## Repository hygiene follow-up — 8 Nov 2026
+
+A final asset-reference sweep compared every checked-in SVG against the README, automated QA and documentation. Seven legacy SVGs had no remaining references anywhere in the default-branch source or docs, so they were removed rather than leaving unused artwork in the repository:
+
+- `capability-wall.svg`
+- `profile-banner.svg`
+- `profile-guitar.svg`
+- `project-bento.svg`
+- `signal-divider.svg`
+- `stack-stream.svg`
+- `workshop-command.svg`
+
+The remaining historical/retired visual fixtures are retained where the QA workflow explicitly parses them or asserts that they stay out of the README. No current README asset reference was missing at the time of the sweep. The six featured project illustrations and the restrained guitar/vinyl music artwork remain intact.
