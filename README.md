@@ -81,7 +81,7 @@ Field-first crop-residue coordination across farmer requests, machine capacity, 
 <sub>STACK / React 19 · TypeScript · Vite 8 · Supabase · PostgreSQL/PostGIS · Leaflet · Three.js · FastAPI · OR-Tools</sub>
 
 **PatchPilot** · [Source](https://github.com/kaustubhdua/PatchPilot)  
-Deterministic, explainable triage for untrusted pull-request diffs. It does not clone or execute submitted code and is not a formal security audit; production precision/recall are not established.
+Deterministic, explainable triage for untrusted pull-request diffs · early MVP. It does not clone or execute submitted code and is not a formal security audit; production precision/recall are not established.
 <sub>STACK / Python · FastAPI · Pydantic · Vanilla JavaScript · HTTPX · pytest · Ruff · Docker</sub>
 
 **Adapt AI** · [Source](https://github.com/kaustubhdua/adapt-ai)  
