@@ -72,13 +72,19 @@ The next pass applies design patterns found in current profile README galleries 
 
 The music section is intentionally unchanged in this refinement. Its animated guitar and vinyl artwork is decorative motion; the Spotify and YouTube links remain the actual listening destinations.
 
-## Remaining checks before merge
+## Final state — 8 Nov 2026
 
-1. Run the latest-head profile QA workflow and resolve any failures.
-2. Preview the GitHub-rendered profile in light mode, dark mode and a narrow/mobile viewport. Source-level CI cannot fully prove GitHub's final rendering.
-3. Recheck external streak, badge and music destinations periodically; those remain external runtime dependencies.
-4. Confirm the scheduled contribution-card workflow continues to refresh the self-hosted assets on `main` after merge.
+- Recruiter-hierarchy refinement PR [#7](https://github.com/kaustubhdua/kaustubhdua/pull/7) was merged to `main` as `5518ce829313b19ac936470d7ebcf692f0a11267`.
+- Latest-head Profile README QA [run #480](https://github.com/kaustubhdua/kaustubhdua/actions/runs/42485267431) completed successfully. The job passed the new quick-link, three-part focus, compact-stack and music-preservation assertions, plus the existing README, link, SVG safety/accessibility, reduced-motion, monochrome palette and external-image checks.
+- The job checked 29 local asset references, 4 internal anchors, 18 curated repository links, 38 SVG files and 15 remote image URLs.
+- The music section was byte-for-byte unchanged by the README refinement. Spotify and YouTube links remain present; the guitar and Studio Loop animations remain self-hosted.
+
+## Remaining manual checks
+
+1. Preview the GitHub-rendered profile in light mode, dark mode and a narrow/mobile viewport. Source-level CI cannot fully prove GitHub's final rendering. Automated hosted page inspection was unavailable during this pass because the connected browser-research service had exhausted its daily credits.
+2. Recheck external streak, badge and music destinations periodically; those remain external runtime dependencies.
+3. Confirm the scheduled contribution-card workflow continues to refresh the self-hosted assets on `main`.
 
 ## Review boundary
 
-The original monochrome studio-motion work is merged on `main`. The recruiter-hierarchy refinement is isolated to `refine/monochrome-recruiter-profile-20261108` pending its latest-head QA and rendered-profile review.
+The monochrome studio-motion work and recruiter-hierarchy refinement are both merged to `main`. No changes were made to the separate `Portfolio-` repository.
