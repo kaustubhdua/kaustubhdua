@@ -138,7 +138,6 @@ Minimal browser task manager demonstrating accessible task creation, priority/fi
 
 ![Python](https://img.shields.io/badge/Python-252525?style=flat-square&logo=python&logoColor=F4EFE5)
 ![TypeScript](https://img.shields.io/badge/TypeScript-252525?style=flat-square&logo=typescript&logoColor=F4EFE5)
-![C++17](https://img.shields.io/badge/C%2B%2B17-252525?style=flat-square&logo=cplusplus&logoColor=F4EFE5)
 ![React](https://img.shields.io/badge/React-252525?style=flat-square&logo=react&logoColor=F4EFE5)
 ![Next.js](https://img.shields.io/badge/Next.js-252525?style=flat-square&logo=nextdotjs&logoColor=F4EFE5)
 ![FastAPI](https://img.shields.io/badge/FastAPI-252525?style=flat-square&logo=fastapi&logoColor=F4EFE5)
@@ -157,7 +156,7 @@ Minimal browser task manager demonstrating accessible task creation, priority/fi
 
 </div>
 
-<sub>Specialist work across the portfolio includes Three.js/WebGL, OR-Tools, PyTorch, Ollama, Leaflet/PostGIS, OpenCV, Prisma and other project-specific tools. They are intentionally not presented as universal day-to-day dependencies.</sub>
+<sub>Specialist work across the portfolio includes C++17/Boost.Beast, Three.js/WebGL, OR-Tools, PyTorch, Ollama, Leaflet/PostGIS, OpenCV, Prisma and other project-specific tools. They are intentionally not presented as universal day-to-day dependencies.</sub>
 
 ---
 
