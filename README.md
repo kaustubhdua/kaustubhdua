@@ -128,25 +128,36 @@ Minimal browser task manager demonstrating accessible task creation, priority/fi
 
 <div align="center">
 
-**CORE STACK / TOOLS I REACH FOR MOST**
+**ENGINEERING TOOLKIT / VERIFIED ACROSS PROJECTS**
 
-<sub>Project-specific stacks vary; the expanded inventory is below.</sub>
+<sub>Core technologies recurring across the codebase. Specialist libraries and infrastructure are documented with the projects that use them.</sub>
 
-</div>
+<div align="center">
+
+**LANGUAGES & APPLICATIONS**
 
 ![Python](https://img.shields.io/badge/Python-252525?style=flat-square&logo=python&logoColor=F4EFE5)
 ![TypeScript](https://img.shields.io/badge/TypeScript-252525?style=flat-square&logo=typescript&logoColor=F4EFE5)
-![React](https://img.shields.io/badge/React-252525?style=flat-square&logo=react&logoColor=F4EFE5)
-![FastAPI](https://img.shields.io/badge/FastAPI-252525?style=flat-square&logo=fastapi&logoColor=F4EFE5)
 ![C++17](https://img.shields.io/badge/C%2B%2B17-252525?style=flat-square&logo=cplusplus&logoColor=F4EFE5)
+![React](https://img.shields.io/badge/React-252525?style=flat-square&logo=react&logoColor=F4EFE5)
+![Next.js](https://img.shields.io/badge/Next.js-252525?style=flat-square&logo=nextdotjs&logoColor=F4EFE5)
+![FastAPI](https://img.shields.io/badge/FastAPI-252525?style=flat-square&logo=fastapi&logoColor=F4EFE5)
+
+**DATA & DELIVERY**
+
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-252525?style=flat-square&logo=postgresql&logoColor=F4EFE5)
 ![Supabase](https://img.shields.io/badge/Supabase-252525?style=flat-square&logo=supabase&logoColor=F4EFE5)
-![PyTorch](https://img.shields.io/badge/PyTorch-252525?style=flat-square&logo=pytorch&logoColor=F4EFE5)
-![OR-Tools](https://img.shields.io/badge/Google_OR--Tools-252525?style=flat-square&logo=google&logoColor=F4EFE5)
-![Three.js](https://img.shields.io/badge/Three.js-252525?style=flat-square&logo=threedotjs&logoColor=F4EFE5)
 ![Docker](https://img.shields.io/badge/Docker-252525?style=flat-square&logo=docker&logoColor=F4EFE5)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-252525?style=flat-square&logo=githubactions&logoColor=F4EFE5)
 
+**QUALITY**
+
+![Pytest](https://img.shields.io/badge/Pytest-252525?style=flat-square&logo=pytest&logoColor=F4EFE5)
+![Playwright](https://img.shields.io/badge/Playwright-252525?style=flat-square&logo=playwright&logoColor=F4EFE5)
+
+</div>
+
+<sub>Specialist work across the portfolio includes Three.js/WebGL, OR-Tools, PyTorch, Ollama, Leaflet/PostGIS, OpenCV, Prisma and other project-specific tools. They are intentionally not presented as universal day-to-day dependencies.</sub>
 
 ---
 
