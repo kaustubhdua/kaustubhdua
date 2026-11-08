@@ -39,6 +39,8 @@ I’m an **Electronics & Computer Engineering student at JIIT Noida**, building 
 
 <sub>FEATURED BUILDS / SIX PROJECTS, SIX DIFFERENT ENGINEERING PROBLEMS</sub>
 
+<sub><a href="./docs/PROJECT_RESEARCH_INDEX.md">PROJECT RESEARCH & EVIDENCE INDEX ↗</a> · Deep dives, implementation boundaries and source links for featured and expanded projects.</sub>
+
 <table>
 <tr>
 <td width="50%" align="center" valign="top">
