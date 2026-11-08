@@ -197,13 +197,11 @@ Minimal browser task manager demonstrating accessible task creation, priority/fi
 
 <div align="center">
 
-**THE RIG / TOOLS I BUILD WITH**
+**CORE STACK / TOOLS I REACH FOR MOST**
 
-<sub>A project-led stack, not a claim that every tool appears in every repository.</sub>
+<sub>Project-specific stacks vary; the expanded inventory is below.</sub>
 
 </div>
-
-**THE CORE RIG / TOOLS I REACH FOR MOST**
 
 ![Python](https://img.shields.io/badge/Python-252525?style=flat-square&logo=python&logoColor=F4EFE5)
 ![TypeScript](https://img.shields.io/badge/TypeScript-252525?style=flat-square&logo=typescript&logoColor=F4EFE5)
@@ -284,33 +282,7 @@ Minimal browser task manager demonstrating accessible task creation, priority/fi
 
 <sub>Stack details and project evidence ↓ · [Current profile audit (8 Nov 2026)](./docs/PROFILE_AUDIT_2026-11-08.md) · [Historical repository-wide stack audit (19 Oct 2026)](./docs/REPOSITORY_STACK_AUDIT.md)</sub>
 
-<details>
-<summary><strong>Track-by-track stack notes · repository audit</strong></summary>
-
-These are technologies and engineering concepts visible in the repositories and their project documentation—not a claim that every tool is used in every project. Some integrations are optional or prototype-stage.
-
-| Repository | Stack / engineering focus |
-|:--|:--|
-| [NIRDHOOM](https://github.com/kaustubhdua/nihdhoom) | React, TypeScript, Vite, Tailwind CSS, Supabase/PostgreSQL, Leaflet, service-worker/PWA tooling; prototype with demo/live data boundaries |
-| [Saathi](https://github.com/kaustubhdua/Saathi) | Python, FastAPI, React/Next.js, Streamlit, Hindi/Hinglish intent routing, local speech adapters and optional hosted integrations |
-| [PatchPilot](https://github.com/kaustubhdua/PatchPilot) | Python 3.11+, FastAPI, Pydantic, CLI, deterministic diff analysis, pytest, Ruff and Docker; early MVP |
-| [RideForge](https://github.com/kaustubhdua/Smart_bike_taxi_platform) | C++17, Boost.Beast HTTP API, PostgreSQL, React/TypeScript, Leaflet, routing, Dijkstra, Playwright and CTest; portfolio MVP |
-| [Smart Waste Collection](https://github.com/kaustubhdua/smart_waste_project) | Python, FastAPI, SQLAlchemy, Alembic, PostgreSQL/PostGIS, pandas, NumPy, scikit-learn, Streamlit, Folium, OR-Tools; synthetic-data prototype |
-| [SATARK Sentinel](https://github.com/kaustubhdua/Satark) · fork | Python, Streamlit, FastAPI workers (FIRSTLIGHT), OpenCV, pypdf, ReportLab, Docker; local deterministic triage and optional AI integrations |
-| [Adapt AI](https://github.com/kaustubhdua/adapt-ai) · team project / fork | Python, FastAPI, JavaScript, Tailwind CSS, Ollama/local inference, hardware profiling |
-| [JIIT Youth Club](https://github.com/kaustubhdua/JYC-Website) | React 19, Vite, React Router, Supabase, GSAP, Motion, OGL/WebGL, Playwright, Lighthouse and CodeQL workflows |
-| [JIIT Toppers](https://github.com/kaustubhdua/Jiit-toppers-) | Next.js, React, TypeScript, Prisma, PostgreSQL schema, Zod, ESLint and Node tests |
-| [Infracis](https://github.com/kaustubhdua/infracis) | Next.js, React, TypeScript, Tailwind CSS, Leaflet, Supabase/PostgreSQL, Vitest, optional server-side Groq interpretation; team-built prototype |
-| [AkashChalak](https://github.com/kaustubhdua/Akash-Chalak) | Python, FastAPI, React, Leaflet, DBSCAN, geospatial interpolation and air-quality data adapters |
-| [BharatSim](https://github.com/kaustubhdua/Bharat-Sim) | Python, FastAPI, SQLite, React/TypeScript/Vite, Vitest, Android ADB worker, Appium/UiAutomator2, Docker Compose and GitHub Actions; controlled-beta MVP |
-| [GenomeGuard](https://github.com/kaustubhdua/GenomeGuard) | Python 3.11+, Starlette, NumPy, cryptography, PostgreSQL, vanilla JS, Beacon v2-style and FHIR R4 Consent experiments, pytest, Ruff and Docker; research prototype |
-| [CrickVision](https://github.com/kaustubhdua/CrickVision-) | Python, PyTorch/Torchvision, OpenCV, Streamlit, pytest, Ruff and mypy; experimental v0.3 prototype |
-| [Weather Core Matrix](https://github.com/kaustubhdua/weather-core-matrix) | Vanilla HTML, CSS and JavaScript, Fetch API, asynchronous UI states and request timeout handling |
-| [Nord Studio Task Manager](https://github.com/kaustubhdua/nord-studio-task-manager) | Vanilla HTML, CSS and JavaScript, DOM events, filtering, localStorage and Node contract tests |
-| [Developer portfolio](https://github.com/kaustubhdua/Portfolio-) | React 19, JavaScript, esbuild, custom WebGL 2 voxel renderer, generated assets, ESLint and Playwright checks |
-| [GitHub Skills exercise](https://github.com/kaustubhdua/skills-introduction-to-github) | Git fundamentals, branches, commits, pull requests and GitHub learning workflow; learning exercise |
-
-**Profile positioning:** Electronics and Computer Engineering student building across full-stack product development, applied AI/data, interactive visualisation, and software reliability. Production status varies by repository; see each project's README for its current limits and deployment truth.
+<sub>Project evidence and implementation boundaries: [current profile audit](./docs/PROFILE_AUDIT_2026-11-08.md) · [historical repository stack audit](./docs/REPOSITORY_STACK_AUDIT.md). The expanded inventory above is the single stack reference; project-specific details live in each repository.</sub>
 
 </details>
 
@@ -334,12 +306,10 @@ These are technologies and engineering concepts visible in the repositories and 
 <a href="https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs"><img src="https://img.shields.io/badge/SPOTIFY-LISTEN-252525?style=for-the-badge&logo=spotify&logoColor=white" alt="Listen to Iris by Goo Goo Dolls on Spotify" loading="lazy"/></a>
 <a href="https://www.youtube.com/results?search_query=Goo+Goo+Dolls+Iris+official"><img src="https://img.shields.io/badge/YOUTUBE-PLAY-252525?style=for-the-badge&logo=youtube&logoColor=white" alt="Find the official Iris music video on YouTube" loading="lazy"/></a>
 
-<sub>THE RESET BETWEEN BUILDS / CURRENTLY ON REPEAT: IRIS.</sub>
 
 </div>
 
 ---
-<img src="./assets/section-transition.svg?v=20261108-signal-transition" width="100%" alt="Animated monochrome signal-chain transition" loading="lazy"/>
 
 <h2 id="the-encore"><img src="./assets/headings/the-encore.svg?v=20261009-text-reveal-v2" alt="The Encore" width="100%" loading="lazy"/></h2>
 
@@ -379,12 +349,6 @@ These are technologies and engineering concepts visible in the repositories and 
 
 <h2 id="backstage-pass"><img src="./assets/headings/backstage-pass.svg?v=20261009-text-reveal-v2" alt="Backstage Pass" width="100%" loading="lazy"/></h2>
 
-<div align="center">
-
-<a href="https://github.com/kaustubhdua?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-EXPLORE-303030?style=for-the-badge&labelColor=202020&logo=github&logoColor=E5E5E5" alt="Explore repositories" loading="lazy"/></a>
-<a href="https://github.com/kaustubhdua?tab=stars"><img src="https://img.shields.io/badge/STARRED-WORK-303030?style=for-the-badge&labelColor=202020&logo=github&logoColor=E5E5E5" alt="Starred repositories" loading="lazy"/></a>
-<a href="https://github.com/kaustubhdua"><img src="https://img.shields.io/badge/GITHUB-FOLLOW-303030?style=for-the-badge&labelColor=202020&logo=github&logoColor=E5E5E5" alt="Follow on GitHub" loading="lazy"/></a>
-
 </div>
 
 
@@ -418,8 +382,6 @@ These are technologies and engineering concepts visible in the repositories and 
 <div align="center">
 
 <img src="./assets/profile-footer.svg?v=20261010-signal-spark" width="100%" alt="Animated monochrome footer: build thoughtfully, verify everything" loading="lazy"/>
-
-<a href="https://github.com/kaustubhdua?tab=repositories">EXPLORE ALL REPOSITORIES ↗</a>
 
 <sub>Play loud. Build thoughtfully. Leave a little reverb.</sub>
 
