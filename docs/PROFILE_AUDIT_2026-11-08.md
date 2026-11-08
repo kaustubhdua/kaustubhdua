@@ -202,3 +202,42 @@ The repository has 15 non-default branches in addition to `main`. Several have d
 The `main` branch is reported as unprotected and the repository has no rulesets. Branch protection/ruleset administration was not available through the connected GitHub actions. For stronger release safety, the owner should enable a ruleset requiring pull requests and the Profile README QA check, while allowing the scheduled bot workflows to publish their generated assets. Do not enable a blanket required-check rule until the generated-asset workflows and bot bypass are configured, or scheduled refreshes may be blocked.
 
 These are repository administration/cleanup tasks, not defects in the profile README or its current workflows. No project content, music artwork, or visual theme changes are pending.
+
+
+## Branch and protection recheck — 8 Nov 2026
+
+The live branch inventory was re-read from GitHub after the final main QA run. Main is at c4f471db655b2feb67790991641217c5d38a6d37. The repository currently has 15 non-default branches:
+
+| Branch | Ahead of main | Behind main | Assessment |
+|---|---:|---:|---|
+| docs/profile-evidence-refresh | 0 | 107 | Fully contained in main; stale candidate |
+| feat/monochrome-studio-motion | 0 | 24 | Fully contained in main; stale candidate |
+| update-stack | 0 | 88 | Fully contained in main; stale candidate |
+| add-infracis | 1 | 86 | Diverged; one unique README change |
+| improve-profile-readme | 3 | 324 | Diverged; unique README/workflow/asset changes |
+| profile/final-audit-and-render-guards | 2 | 13 | Diverged; unique QA and audit-doc changes |
+| profile/final-workflow-hardening | 3 | 12 | Diverged; unique language-card and QA workflow changes |
+| profile/finish-accessibility-and-workflow | 6 | 17 | Diverged; unique workflow, README and SVG changes |
+| profile/precision-and-markdown-qa | 2 | 18 | Diverged; unique QA and README changes |
+| profile/rendered-browser-qa | 11 | 15 | Diverged; includes a rendered-browser workflow and README/workflow changes |
+| recruiter-profile-alignment-20261107 | 3 | 84 | Diverged; substantial alternate README revision |
+| refine/monochrome-recruiter-profile-20261108 | 3 | 22 | Diverged; README, QA and audit-doc changes |
+| refine/profile-visual-restraint-20261108 | 3 | 20 | Diverged; README, QA and audit-doc changes |
+| activity-assets | — | — | No common ancestor with main; do not delete without separate review |
+| output | — | — | No common ancestor with main; do not delete without separate review |
+
+The three fully-contained branches are safe candidates for deletion from a commit-graph perspective, but the connected GitHub integration does not expose a branch-delete operation. The other branches contain unique commits or unrelated histories; no branch was force-moved or deleted. This preserves potentially useful work rather than treating age or divergence as proof of redundancy.
+
+### Protection status and required owner action
+
+A fresh read of the GitHub repository rulesets endpoint returned an empty list. The connected GitHub integration cannot read the branch-protection endpoint (403, integration permission boundary) and exposes no write operation for repository rulesets or branch protection. Therefore protection cannot be enabled by this automation session.
+
+Recommended owner configuration in GitHub repository Settings → Rules → Rulesets:
+
+1. Create an active branch ruleset targeting main.
+2. Require a pull request before merging; require at least one approval only if another reviewer is available.
+3. Require the Profile README QA check after confirming its exact check name from a recent successful run.
+4. Keep force pushes and branch deletion restricted.
+5. Explicitly account for the scheduled contribution-card/language-card/snake workflows that write generated assets. Test their bot bypass or publishing path before enforcing required checks, so routine asset refreshes do not become blocked.
+
+The three fully-contained branches can be deleted manually after confirming they are no longer needed. Review the unique commits on all diverged/unrelated branches before any deletion. No changes were made to the separate Portfolio- repository.
