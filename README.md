@@ -42,8 +42,8 @@ I’m an **Electronics & Computer Engineering student at JIIT Noida**, building 
 <table>
 <tr>
 <td width="50%" align="center" valign="top">
-<a href="https://github.com/kaustubhdua/GitGlobe"><img src="./assets/projects/gitglobe.svg?v=20261108-project-art" width="100%" alt="GitGlobe artwork: repository constellation and spatial discovery map" loading="lazy"/></a>
-<strong>GITGLOBE</strong><br/><sub>Spatial open-source discovery · fork-based contribution</sub>
+<a href="https://github.com/kaustubhdua/JYC-Website"><img src="./assets/projects/jyc.svg?v=20261108-project-art" width="100%" alt="JIIT Youth Club artwork: campus community, events and digital platform" loading="lazy"/></a>
+<strong>JIIT YOUTH CLUB</strong><br/><sub>Campus community platform · technical team</sub>
 </td>
 <td width="50%" align="center" valign="top">
 <a href="https://github.com/kaustubhdua/nihdhoom"><img src="./assets/projects/nirdhoom.svg?v=20261108-project-art" width="100%" alt="NIRDHOOM artwork: field rows and connected service route" loading="lazy"/></a>
@@ -76,18 +76,18 @@ I’m an **Electronics & Computer Engineering student at JIIT Noida**, building 
 <tr>
 <td width="50%" valign="top">
 
-**01 / GITGLOBE — SPATIAL DISCOVERY**
+**01 / JIIT YOUTH CLUB — CAMPUS PLATFORM**
 
-An interactive 3D map for exploring open-source repositories by capability. This repository is a fork; review its fork history and commits for the contribution boundary.
+A public campus platform built around club discovery, events, team profiles and student-facing information. The repository includes a substantial React application, Supabase-backed features, motion/WebGL work and dedicated browser, Lighthouse and security workflows. Contribution scope should be read from repository history.
 
-<sub><code>Three.js</code> <code>WebGL</code> <code>Embeddings</code> <code>Data pipelines</code></sub>
+<sub><code>React 19</code> <code>Vite</code> <code>Supabase</code> <code>GSAP</code> <code>WebGL</code></sub>
 
 </td>
 <td width="50%" valign="top">
 
 **02 / NIRDHOOM — FIELD COORDINATION**
 
-A field-first crop-residue coordination prototype connecting farmer records, machinery, dispatch, verification and residue offtake. Seeded/demo data is not field-pilot evidence.
+A field-first crop-residue network connecting field requests, consent, time-bound machine capacity, operator evidence, verified residue lots and buyer demand. The product differentiator is traceable coordination across the chain—not another agriculture dashboard. Seeded records are not field-pilot evidence.
 
 <sub><code>React</code> <code>Vite</code> <code>Supabase</code> <code>PostgreSQL</code> <code>OR-Tools</code></sub>
 
@@ -98,7 +98,7 @@ A field-first crop-residue coordination prototype connecting farmer records, mac
 
 **03 / SAATHI — VOICE-FIRST ASSISTANCE**
 
-A multilingual assistance prototype with Hindi/Hinglish intent routing, source provenance, local speech defaults and consent-aware escalation. Live provider and persistence integrations remain deployment gates.
+A Hindi/Hinglish voice-assistance MVP with deterministic intent routing, source-aware tool results, local speech options and human escalation. Its synthetic intent/entity suites are regression fixtures, not speech-accuracy claims; provider-backed voice and durable consent-bound household workflows remain release gates.
 
 <sub><code>FastAPI</code> <code>React / Next.js</code> <code>Vosk</code> <code>eSpeak NG</code></sub>
 
@@ -107,7 +107,7 @@ A multilingual assistance prototype with Hindi/Hinglish intent routing, source p
 
 **04 / PATCHPILOT — EVIDENCE-LED REVIEW**
 
-An early MVP that analyses unified diffs as untrusted text and emits explainable review signals. It does not execute submitted code or replace human review; production precision/recall are not established.
+A deterministic unified-diff triage tool that reports parser integrity, risky paths, evidence-linked findings and test suggestions. It never executes submitted code. Its risk score is a heuristic, and its small synthetic labelled corpus does not establish production precision or recall.
 
 <sub><code>Python</code> <code>FastAPI</code> <code>Pydantic</code> <code>pytest</code> <code>Docker</code></sub>
 
@@ -118,7 +118,7 @@ An early MVP that analyses unified diffs as untrusted text and emits explainable
 
 **05 / RIDEFORGE — ROUTE INTELLIGENCE**
 
-A portfolio MVP combining a C++17 HTTP API, PostgreSQL-backed booking workflows, driver dispatch and graph-based shortest-path routing. See the release-readiness workflow for the current tested scope.
+A multi-role bike-taxi MVP with a C++17 API, transactional PostgreSQL bookings, expiring driver offers, sequential redispatch, graph-based routing and live ride-event recovery. It is not a public or commercial ride service; real-device, deployment and regulatory evidence remain outstanding.
 
 <sub><code>C++17</code> <code>Boost.Beast</code> <code>PostgreSQL</code> <code>React</code> <code>Leaflet</code></sub>
 
@@ -127,7 +127,7 @@ A portfolio MVP combining a C++17 HTTP API, PostgreSQL-backed booking workflows,
 
 **06 / SMART WASTE — OPERATIONS OPTIMISATION**
 
-An engineering prototype connecting IoT-style telemetry, priority scoring, vehicle-capacity constraints and OR-Tools route planning. Demo records are synthetic; no municipal deployment or sensor calibration is claimed.
+A full-stack waste-operations prototype spanning authenticated device telemetry, provenance-aware records, PostGIS nearby-bin search, collection-job lifecycles, OR-Tools capacity routing and driver verification. Demo records are synthetic; no municipal deployment, physical sensor calibration or operational-savings claim is made.
 
 <sub><code>Python</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>PostGIS</code> <code>OR-Tools</code></sub>
 
@@ -137,17 +137,35 @@ An engineering prototype connecting IoT-style telemetry, priority scoring, vehic
 <details>
 <summary><strong>More builds / experiments ↗</strong></summary>
 
-- [SATARK Sentinel](https://github.com/kaustubhdua/Satark) — fork-based security-awareness and incident-investigation prototype; not an antivirus or forensic verdict
-- [Adapt AI](https://github.com/kaustubhdua/adapt-ai) — team-built, fork-based local AI assistant for hardware-aware Ollama model selection
-- [Infracis](https://github.com/kaustubhdua/infracis) — evidence-first location due diligence; prototype, not a property-safety guarantee
-- [AkashChalak](https://github.com/kaustubhdua/Akash-Chalak) — satellite-assisted air-quality and hotspot decision-support prototype
-- [BharatSim](https://github.com/kaustubhdua/Bharat-Sim) — Android resilience-testing MVP; production worker execution remains gated
-- [GenomeGuard](https://github.com/kaustubhdua/GenomeGuard) — genomic-data governance research prototype; not for clinical or production use
-- [CrickVision](https://github.com/kaustubhdua/CrickVision-) — local-first cricket computer-vision prototype; outputs are not official match statistics
-- [JIIT Youth Club website](https://github.com/kaustubhdua/JYC-Website) — public campus platform maintained by the authorized technical team
-- [JIIT Toppers](https://github.com/kaustubhdua/Jiit-toppers-) — student-focused academic platform
-- [Weather Core Matrix](https://github.com/kaustubhdua/weather-core-matrix) — focused weather frontend and request-state handling
-- [Nord Studio Task Manager](https://github.com/kaustubhdua/nord-studio-task-manager) — lightweight browser task manager
+**SATARK Sentinel** · [Source](https://github.com/kaustubhdua/Satark)  
+Security-awareness and incident-investigation workflow with evidence preservation, case isolation and deterministic triage. It is response support—not antivirus software or an automated forensic verdict.
+
+**Adapt AI** · [Source](https://github.com/kaustubhdua/adapt-ai)  
+Team-built local-AI assistant exploring hardware-aware model selection and Ollama inference. The public repository is a fork; individual contribution should be attributed from its commit history.
+
+**Infracis** · [Source](https://github.com/kaustubhdua/infracis)  
+Evidence-first location due-diligence prototype combining geospatial context, provider-backed data and explainable risk signals. It is decision support, not a guarantee that a property or location is safe.
+
+**AkashChalak** · [Source](https://github.com/kaustubhdua/Akash-Chalak)  
+Satellite-assisted air-quality and hotspot decision-support prototype using geospatial processing, clustering/interpolation and map-based exploration. Treat outputs as estimates with source and coverage limits, not regulatory measurements.
+
+**BharatSim** · [Source](https://github.com/kaustubhdua/Bharat-Sim)  
+Android resilience-testing MVP combining a planning API, evidence records and an ADB/Appium worker path. Production worker execution, controlled device coverage and deployment acceptance remain gated.
+
+**GenomeGuard** · [Source](https://github.com/kaustubhdua/GenomeGuard)  
+Genomic-data governance research prototype exploring consent, auditability, variant interpretation workflows and privacy-aware data boundaries. It is not a clinical diagnostic or production healthcare system.
+
+**CrickVision** · [Source](https://github.com/kaustubhdua/CrickVision-)  
+Local-first cricket video computer-vision toolkit for generic person detection, shot-boundary heuristics and experimental tracking/calibration. It has no validated cricket-trained model or official-statistics accuracy claim.
+
+**JIIT Toppers** · [Source](https://github.com/kaustubhdua/Jiit-toppers-)  
+Student-focused academic platform with structured academic calculations, exam-calendar workflows, CSV handling and a PYQ study vault. The implementation audit and tests document the current feature boundaries.
+
+**Weather Core Matrix** · [Source](https://github.com/kaustubhdua/weather-core-matrix)  
+Vanilla-JavaScript weather client demonstrating resilient asynchronous UI states, request timeouts, input encoding and explicit network/provider failures. It depends on the public wttr.in service.
+
+**Nord Studio Task Manager** · [Source](https://github.com/kaustubhdua/nord-studio-task-manager)  
+Minimal browser task manager demonstrating accessible task creation, priority/filter state, localStorage persistence and explicit storage-error handling. Data remains local to the browser.
 
 [Browse all repositories →](https://github.com/kaustubhdua?tab=repositories)
 
@@ -265,7 +283,6 @@ These are technologies and engineering concepts visible in the repositories and 
 
 | Repository | Stack / engineering focus |
 |:--|:--|
-| [GitGlobe](https://github.com/kaustubhdua/GitGlobe) · fork | React, TypeScript, Vite, Three.js/WebGL, interactive repository discovery and data pipelines |
 | [NIRDHOOM](https://github.com/kaustubhdua/nihdhoom) | React, TypeScript, Vite, Tailwind CSS, Supabase/PostgreSQL, Leaflet, service-worker/PWA tooling; prototype with demo/live data boundaries |
 | [Saathi](https://github.com/kaustubhdua/Saathi) | Python, FastAPI, React/Next.js, Streamlit, Hindi/Hinglish intent routing, local speech adapters and optional hosted integrations |
 | [PatchPilot](https://github.com/kaustubhdua/PatchPilot) | Python 3.11+, FastAPI, Pydantic, CLI, deterministic diff analysis, pytest, Ruff and Docker; early MVP |
