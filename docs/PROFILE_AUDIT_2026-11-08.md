@@ -156,3 +156,18 @@ The profile itself and its self-hosted SVG artwork are checked in the repository
 
 No repository-side blocker remains from the source, content, link, SVG, mobile-layout or rendered-browser checks completed here. Private contribution visibility remains controlled by GitHub account/profile settings. The separate `Portfolio-` repository was not changed.
 
+
+
+## Final maintenance hardening — 8 Nov 2026
+
+A final workflow review found that the weekly language-card generator still used the older checkout action and pushed generated SVGs without rebasing. This left one inconsistent action version and a possible race with the daily contribution-history refresh.
+
+- Updated the language-card workflow to `actions/checkout@v7`, matching the Node 24-compatible action baseline used by the other profile workflows.
+- Added a bounded job timeout and branch-scoped concurrency.
+- Added fetch/rebase/retry handling before publishing the generated language SVG, preventing unrelated concurrent profile updates from causing avoidable push failures.
+- Extended the Profile README QA assertions to guard the action version and safe-push contract.
+- Merged as [PR #15](https://github.com/kaustubhdua/kaustubhdua/pull/15), commit `7f353211fb7fd5efa705c0ea3630a240a7b0e4e3`.
+- The PR QA passed: [run 42488741281](https://github.com/kaustubhdua/kaustubhdua/actions/runs/42488741281).
+- The merged language-card workflow completed successfully, including fetching repository language totals, validating the generated SVG and committing the refreshed monochrome card: [run 42488777101](https://github.com/kaustubhdua/kaustubhdua/actions/runs/42488777101).
+
+The profile README, original banner, monochrome palette, guitar/vinyl music treatment and listening links were not changed in this maintenance pass. The separate `Portfolio-` repository remains untouched.
