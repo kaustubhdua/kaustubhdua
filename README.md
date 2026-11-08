@@ -48,17 +48,17 @@ I’m an **Electronics & Computer Engineering student at JIIT Noida**, building 
 </td>
 <td width="50%" align="center" valign="top">
 <a href="https://github.com/kaustubhdua/Smart_bike_taxi_platform"><img src="./assets/projects/rideforge.svg?v=20261108-project-art" width="100%" alt="RideForge transactional dispatch and routing artwork" loading="lazy"/></a>
-<strong>RIDEFORGE</strong><br/><sub>Transactional bike-taxi booking and dispatch · portfolio MVP</sub><br/><sub>STACK / C++17 · Boost.Beast · PostgreSQL · OpenSSL · React 19 · TypeScript · Vite 6 · Leaflet · Playwright</sub>
+<strong>RIDEFORGE</strong><br/><sub>Transactional bike-taxi booking and dispatch · portfolio MVP · strict short-lived auth</sub><br/><sub>STACK / C++17 · Boost.Beast · PostgreSQL · OpenSSL · React 19 · TypeScript · Vite 6 · Leaflet · Playwright</sub>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center" valign="top">
 <a href="https://github.com/kaustubhdua/Bharat-Sim"><img src="./assets/projects/bharatsim.svg?v=20261108-project-art" width="100%" alt="BharatSim Android resilience testing artwork" loading="lazy"/></a>
-<strong>BHARATSIM</strong><br/><sub>Android resilience testing · controlled-beta MVP · synthetic fixture CI</sub><br/><sub>STACK / Python · FastAPI · React 19 · TypeScript · PostgreSQL · ADB · Android Emulator · Appium · Playwright</sub>
+<strong>BHARATSIM</strong><br/><sub>Android resilience testing · controlled-beta MVP · single-slot worker leases</sub><br/><sub>STACK / Python · FastAPI · React 19 · TypeScript · PostgreSQL · ADB · Android Emulator · Appium · Playwright</sub>
 </td>
 <td width="50%" align="center" valign="top">
 <a href="https://github.com/kaustubhdua/Satark"><img src="./assets/projects/satark.svg?v=20261108-project-art" width="100%" alt="SATARK Sentinel incident investigation artwork" loading="lazy"/></a>
-<strong>SATARK SENTINEL</strong><br/><sub>Evidence-first incident investigation · security prototype</sub><br/><sub>STACK / Python · FastAPI · Next.js 15 · React 19 · Ollama · OpenCV · PDF.js · jsQR · Docker · CodeQL</sub>
+<strong>SATARK SENTINEL</strong><br/><sub>Evidence-first incident investigation · DNS-pinned URL evidence</sub><br/><sub>STACK / Python · FastAPI · Next.js 15 · React 19 · Ollama · OpenCV · PDF.js · jsQR · Docker · CodeQL</sub>
 </td>
 </tr>
 <tr>
