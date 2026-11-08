@@ -54,7 +54,7 @@ I’m an **Electronics & Computer Engineering student at JIIT Noida**, building 
 <tr>
 <td width="50%" align="center" valign="top">
 <a href="https://github.com/kaustubhdua/Bharat-Sim"><img src="./assets/projects/bharatsim.svg?v=20261108-project-art" width="100%" alt="BharatSim Android resilience testing artwork" loading="lazy"/></a>
-<strong>BHARATSIM</strong><br/><sub>Android resilience testing · controlled-beta MVP</sub><br/><sub>STACK / Python · FastAPI · React 19 · TypeScript · PostgreSQL · ADB · Android Emulator · Appium · Playwright</sub>
+<strong>BHARATSIM</strong><br/><sub>Android resilience testing · controlled-beta MVP · synthetic fixture CI</sub><br/><sub>STACK / Python · FastAPI · React 19 · TypeScript · PostgreSQL · ADB · Android Emulator · Appium · Playwright</sub>
 </td>
 <td width="50%" align="center" valign="top">
 <a href="https://github.com/kaustubhdua/Satark"><img src="./assets/projects/satark.svg?v=20261108-project-art" width="100%" alt="SATARK Sentinel incident investigation artwork" loading="lazy"/></a>
