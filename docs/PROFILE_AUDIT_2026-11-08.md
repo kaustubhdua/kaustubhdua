@@ -186,3 +186,19 @@ A final asset-reference sweep compared every checked-in SVG against the README, 
 - `workshop-command.svg`
 
 The remaining historical/retired visual fixtures are retained where the QA workflow explicitly parses them or asserts that they stay out of the README. No current README asset reference was missing at the time of the sweep. The six featured project illustrations and the restrained guitar/vinyl music artwork remain intact.
+
+
+## Final release-boundary check — 8 Nov 2026
+
+- Latest default-branch profile QA passed on `7715991af742759403bb640ce38c77ba1d67d3ed`: [run 42490159715](https://github.com/kaustubhdua/kaustubhdua/actions/runs/42490159715).
+- Rendered browser QA passed after the unused-asset cleanup: [run 42490145996](https://github.com/kaustubhdua/kaustubhdua/actions/runs/42490145996). All four desktop/mobile light/dark cases rendered 99 images, reported no broken local images or page errors, had no document-width overflow, and retained the six-card two-column gallery and Iris/Spotify/YouTube links. [Screenshots](https://github.com/kaustubhdua/kaustubhdua/actions/runs/42490145996/artifacts/13621222889).
+- The final README asset-reference sweep found no missing local assets. Seven unreferenced legacy SVGs were removed; 31 SVG files remain, including QA fixtures and deliberately retained historical art.
+- GitHub currently reports no open pull requests and no open issues.
+
+### GitHub account/repository settings still requiring owner action
+
+The repository has 15 non-default branches in addition to `main`. Several have diverged unique commits; two old branches (`activity-assets` and `output`) have no common ancestor with current `main`. They were not deleted because their contents cannot be proven redundant from a simple branch comparison. Review them individually before deleting. The active GitHub connection exposes branch reads but not branch deletion.
+
+The `main` branch is reported as unprotected and the repository has no rulesets. Branch protection/ruleset administration was not available through the connected GitHub actions. For stronger release safety, the owner should enable a ruleset requiring pull requests and the Profile README QA check, while allowing the scheduled bot workflows to publish their generated assets. Do not enable a blanket required-check rule until the generated-asset workflows and bot bypass are configured, or scheduled refreshes may be blocked.
+
+These are repository administration/cleanup tasks, not defects in the profile README or its current workflows. No project content, music artwork, or visual theme changes are pending.
