@@ -126,8 +126,8 @@ jobs:
           featured = readme[featured_start:featured_end]
           for slug in ("jyc", "nirdhoom", "saathi", "patchpilot", "rideforge", "smart-waste"):
               assert featured.count(f"./assets/projects/{slug}.svg?") == 1, f"Expected one artwork card: {slug}"
-          assert all(f"**0{number} /" in featured for number in range(1, 7)), "Featured project sequence must run exactly from 01 to 06"
-          assert featured.count("**0") == 6, "Featured project numbering contains a duplicate or missing item"
+          assert all(name in featured for name in ("JIIT YOUTH CLUB", "NIRDHOOM", "SAATHI", "PATCHPILOT", "RIDEFORGE", "SMART WASTE")), "All six featured project names must be visible"
+          assert featured.count("./assets/projects/") == 6, "Featured gallery must contain exactly six project artworks"
           gallery_start = readme.index("FEATURED BUILDS / SIX PROJECTS")
           gallery_table_start = readme.index("<table>", gallery_start)
           gallery_end = readme.index("</table>", gallery_table_start)
