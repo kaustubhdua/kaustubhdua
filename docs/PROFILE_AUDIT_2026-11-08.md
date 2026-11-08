@@ -88,3 +88,22 @@ The music section is intentionally unchanged in this refinement. Its animated gu
 ## Review boundary
 
 The monochrome studio-motion work and recruiter-hierarchy refinement are both merged to `main`. No changes were made to the separate `Portfolio-` repository.
+
+
+## Visual restraint pass — 8 Nov 2026
+
+A follow-up polish pass reduces decorative repetition without changing the profile's monochrome identity or removing its music feature:
+
+- Kept the original supplied banner and the cinematic monochrome identity header; removed the extra animated audio ticker and duplicate academic kicker from the opening stack.
+- Kept the guitar-studio illustration, the vinyl/waveform Studio Loop and the real Spotify/YouTube listening destinations for “Iris”.
+- Removed the third fretboard-progress illustration from the music section. The guitar and record visuals now carry the music story without repeating the same motif.
+- Reduced identical signal-chain section transitions from four to two, retaining the chapter breaks around the personal music and contribution sections.
+- Tightened the music caption to explain its role as a reset between builds rather than adding another decorative slogan.
+- Strengthened Profile README QA to enforce this visual restraint and to validate all four light/dark contribution-card SVGs. The previous workflow accidentally checked only the dark variant because its validation body sat outside the inner theme loop.
+- Corrected SVG QA regular expressions so script/foreignObject and CSS fragment references are checked as intended.
+
+The change is deliberately a subtraction pass: no new colour, external music embed, autoplay, JavaScript, or additional animation has been introduced.
+
+## Verification
+
+The updated Profile README QA workflow is the release gate for this pass. A passing run will validate the README references, all project links, SVG XML/accessibility/reduced-motion rules, monochrome generated cards in both themes, and remote image endpoints. GitHub's rendered light/dark/mobile preview remains a separate manual check; source-level validation cannot prove GitHub's final layout.
