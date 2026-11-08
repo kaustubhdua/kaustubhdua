@@ -83,6 +83,7 @@ I’m an **Electronics & Computer Engineering student at JIIT Noida**, building 
 A public campus platform built around club discovery, events, team profiles and student-facing information. The repository includes a substantial React application, Supabase-backed features, motion/WebGL work and dedicated browser, Lighthouse and security workflows. Contribution scope should be read from repository history.
 
 <sub><code>React 19</code> <code>Vite</code> <code>Supabase</code> <code>GSAP</code> <code>WebGL</code></sub>
+<sub>FLOW / Discover → explore → join → participate</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -92,6 +93,7 @@ A public campus platform built around club discovery, events, team profiles and 
 A field-first crop-residue network connecting field requests, consent, time-bound machine capacity, operator evidence, verified residue lots and buyer demand. The product differentiator is traceable coordination across the chain—not another agriculture dashboard. Seeded records are not field-pilot evidence.
 
 <sub><code>React</code> <code>Vite</code> <code>Supabase</code> <code>PostgreSQL</code> <code>OR-Tools</code></sub>
+<sub>FLOW / Field request → machine slot → dispatch → verified residue lot</sub>
 
 </td>
 </tr>
@@ -103,6 +105,7 @@ A field-first crop-residue network connecting field requests, consent, time-boun
 A Hindi/Hinglish voice-assistance MVP with deterministic intent routing, source-aware tool results, local speech options and human escalation. Its synthetic intent/entity suites are regression fixtures, not speech-accuracy claims; provider-backed voice and durable consent-bound household workflows remain release gates.
 
 <sub><code>FastAPI</code> <code>React / Next.js</code> <code>Vosk</code> <code>eSpeak NG</code></sub>
+<sub>FLOW / Intent → sourced tool → local voice → human escalation</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -112,6 +115,7 @@ A Hindi/Hinglish voice-assistance MVP with deterministic intent routing, source-
 A deterministic unified-diff triage tool that reports parser integrity, risky paths, evidence-linked findings and test suggestions. It never executes submitted code. Its risk score is a heuristic, and its small synthetic labelled corpus does not establish production precision or recall.
 
 <sub><code>Python</code> <code>FastAPI</code> <code>Pydantic</code> <code>pytest</code> <code>Docker</code></sub>
+<sub>FLOW / Unified diff → integrity checks → evidence → reviewer guidance</sub>
 
 </td>
 </tr>
@@ -123,6 +127,7 @@ A deterministic unified-diff triage tool that reports parser integrity, risky pa
 A multi-role bike-taxi MVP with a C++17 API, transactional PostgreSQL bookings, expiring driver offers, sequential redispatch, graph-based routing and live ride-event recovery. It is not a public or commercial ride service; real-device, deployment and regulatory evidence remain outstanding.
 
 <sub><code>C++17</code> <code>Boost.Beast</code> <code>PostgreSQL</code> <code>React</code> <code>Leaflet</code></sub>
+<sub>FLOW / Quote → booking → driver offer → expiry/redispatch → trip</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -132,6 +137,7 @@ A multi-role bike-taxi MVP with a C++17 API, transactional PostgreSQL bookings, 
 A full-stack waste-operations prototype spanning authenticated device telemetry, provenance-aware records, PostGIS nearby-bin search, collection-job lifecycles, OR-Tools capacity routing and driver verification. Demo records are synthetic; no municipal deployment, physical sensor calibration or operational-savings claim is made.
 
 <sub><code>Python</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>PostGIS</code> <code>OR-Tools</code></sub>
+<sub>FLOW / Telemetry → priority → approved jobs → optimized route → verification</sub>
 
 </td>
 </tr>
