@@ -34,9 +34,9 @@ jobs:
               "music identity and listening links preserved": all(token in readme for token in ("ON REPEAT / IRIS — GOO GOO DOLLS", "https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs", "https://www.youtube.com/results?search_query=Goo+Goo+Dolls+Iris+official", "assets/guitar-studio.svg", "assets/studio-loop.svg")),
 
               "all six redesigned headings referenced": all(f"assets/headings/{name}.svg?v=20261009-text-reveal-v2" in readme for name in ("setlist", "rig-signal-chain", "on-the-turntable", "the-encore", "backstage-pass", "snake-contributions")),
-              "animated build log": "assets/profile-motion.svg" in readme,
+              "no redundant audio ticker": "assets/profile-motion.svg" not in readme,
               "cinematic monochrome header": "assets/cinematic-header.svg?v=20261108-cinematic-header" in readme,
-              "animated section transitions": readme.count("assets/section-transition.svg?v=20261108-signal-transition") == 4,
+              "animated section transitions are restrained": readme.count("assets/section-transition.svg?v=20261108-signal-transition") == 2,
               "animated system map": "assets/system-map.svg" in readme,
               "system map cache version": "assets/system-map.svg?v=20261010-pipeline-beam-v2" in readme,
               "animated footer": "assets/profile-footer.svg" in readme,
@@ -49,7 +49,8 @@ jobs:
               "self-hosted overview stats": all(f"assets/overview.{theme}.svg?v=20261108-self-hosted-overview" in readme for theme in ("light", "dark")),
               "contribution refresh is automated": Path(".github/workflows/profile-history.yml").is_file(),
               
-              "engineering fretboard illustration": "assets/fretboard-progress.svg?v=20261108-engineering-fretboard" in readme,
+              "music section uses a restrained two-visual set": readme.count("assets/guitar-studio.svg") == 1 and readme.count("assets/studio-loop.svg?v=20261108-studio-loop") == 1 and "assets/fretboard-progress.svg" not in readme,
+              "no redundant academic kicker": "assets/academic-kicker.svg" not in readme,
               "live statistics console": "assets/live-stats-console.svg?v=20261108-live-stats-console" in readme,
               "electric guitar detail": all(token in Path("assets/guitar-studio.svg").read_text(encoding="utf-8") for token in ("six strings", "double-cutaway", "pickup", "tuning")),
               "lazy-loaded below-the-fold images": all((("d2ol7oe51mr4n9.cloudfront.net" in tag) or ('loading="lazy"' in tag.lower())) for tag in re.findall(r"<img[^>]*>", readme, flags=re.I)),
@@ -161,14 +162,14 @@ jobs:
           for card in ("overview", "lifetime"):
               for theme in ("light", "dark"):
                   path = Path(f"assets/{card}.{theme}.svg")
-              source = path.read_text(encoding="utf-8")
-              ET.parse(path)
-              assert 'role="img"' in source and "aria-label=" in source, f"Missing accessible image semantics: {path}"
-              assert "<title>" in source and "<desc>" in source, f"Missing SVG title/description: {path}"
-              assert "prefers-reduced-motion" in source, f"Missing reduced-motion support: {path}"
-              assert not re.search(r"<script\\b|<foreignObject\\b", source, re.I), f"Unexpected executable content: {path}"
-              assert not any(token in source.lower() for token in ('href="http://', 'href="https://', 'src="http://', 'src="https://', 'url(http://', 'url(https://', '@import')), f"External SVG resource: {path}"
-              assert not any(color in source.lower() for color in ("#3fb950", "#0e4429", "#025325", "#006d32", "#068c2e", "#26a641", "#0db83a", "#39d353", "#1a7f37", "#30a14e", "#9be9a8", "#5bdb79", "#40c463", "#4ab763", "#38834d", "#216e39")), f"Non-monochrome palette remains in {path}"
+                  source = path.read_text(encoding="utf-8")
+                  ET.parse(path)
+                  assert 'role="img"' in source and "aria-label=" in source, f"Missing accessible image semantics: {path}"
+                  assert "<title>" in source and "<desc>" in source, f"Missing SVG title/description: {path}"
+                  assert "prefers-reduced-motion" in source, f"Missing reduced-motion support: {path}"
+                  assert not re.search(r"<script\b|<foreignObject\b", source, re.I), f"Unexpected executable content: {path}"
+                  assert not any(token in source.lower() for token in ('href="http://', 'href="https://', 'src="http://', 'src="https://', 'url(http://', 'url(https://', '@import')), f"External SVG resource: {path}"
+                  assert not any(color in source.lower() for color in ("#3fb950", "#0e4429", "#025325", "#006d32", "#068c2e", "#26a641", "#0db83a", "#39d353", "#1a7f37", "#30a14e", "#9be9a8", "#5bdb79", "#40c463", "#4ab763", "#38834d", "#216e39")), f"Non-monochrome palette remains in {path}"
 
           # Validate every local SVG, unique IDs, and internal fragment references.
           svg_files = sorted(Path("assets").rglob("*.svg"))

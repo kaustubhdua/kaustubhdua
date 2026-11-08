@@ -4,7 +4,6 @@
 
 <img src="./assets/cinematic-header.svg?v=20261108-cinematic-header" width="100%" alt="Cinematic monochrome animated identity panel with kinetic typography, orbiting signal motif and waveform" loading="lazy"/>
 
-<img src="./assets/profile-motion.svg?v=20261010-audio-ticker" width="100%" alt="Animated monochrome engineering build log" loading="lazy"/>
 
 <p>
   <a href="#setlist"><img src="https://img.shields.io/badge/01-SETLIST-252525?style=flat-square&labelColor=111111&color=252525" alt="Setlist" loading="lazy"/></a>
@@ -15,7 +14,6 @@
   <a href="https://github.com/kaustubhdua/kaustubhdua/actions/workflows/profile-qa.yml"><img src="https://img.shields.io/github/actions/workflow/status/kaustubhdua/kaustubhdua/profile-qa.yml?branch=main&label=PROFILE%20QA&style=flat-square&labelColor=111111&color=252525" alt="Profile README quality checks" loading="lazy"/></a>
 </p>
 
-<img src="./assets/academic-kicker.svg?v=20261010-academic-kicker" width="100%" alt="Electronics and Computer Engineering · JIIT Noida" loading="lazy"/>
 
 I’m an **Electronics & Computer Engineering student at JIIT Noida**, building full-stack software and applied-AI systems. I care about dependable backends, useful data workflows and interfaces that make complex work easier to use.
 
@@ -163,7 +161,7 @@ An engineering prototype connecting IoT-style telemetry, priority scoring, vehic
 
 ---
 
-<img src="./assets/section-transition.svg?v=20261108-signal-transition" width="100%" alt="Animated monochrome signal-chain transition" loading="lazy"/>
+
 
 <h2 id="rig-signal-chain"><img src="./assets/headings/rig-signal-chain.svg?v=20261009-text-reveal-v2" alt="Rig & Signal Chain" width="100%" loading="lazy"/></h2>
 
@@ -304,14 +302,13 @@ These are technologies and engineering concepts visible in the repositories and 
 
 <img src="./assets/studio-loop.svg?v=20261108-studio-loop" width="100%" alt="Animated monochrome vinyl record, flowing waveform and equalizer bars; decorative studio motion, not live audio telemetry" loading="lazy"/>
 
-<img src="./assets/fretboard-progress.svg?v=20261108-engineering-fretboard" width="100%" alt="Animated six-string guitar fretboard representing design, build, data, test, documentation and ship; illustrative workflow, not live progress" loading="lazy"/>
 
 **ON REPEAT / IRIS — GOO GOO DOLLS**
 
 <a href="https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs"><img src="https://img.shields.io/badge/SPOTIFY-LISTEN-252525?style=for-the-badge&logo=spotify&logoColor=white" alt="Listen to Iris by Goo Goo Dolls on Spotify" loading="lazy"/></a>
 <a href="https://www.youtube.com/results?search_query=Goo+Goo+Dolls+Iris+official"><img src="https://img.shields.io/badge/YOUTUBE-PLAY-252525?style=for-the-badge&logo=youtube&logoColor=white" alt="Find the official Iris music video on YouTube" loading="lazy"/></a>
 
-<sub>THE RIFF · THE FEEL · THE RESET — six strings, endless sound.</sub>
+<sub>THE RESET BETWEEN BUILDS / CURRENTLY ON REPEAT: IRIS.</sub>
 
 </div>
 
@@ -352,7 +349,7 @@ These are technologies and engineering concepts visible in the repositories and 
 
 ---
  
-<img src="./assets/section-transition.svg?v=20261108-signal-transition" width="100%" alt="Animated monochrome signal-chain transition" loading="lazy"/>
+
 
 <h2 id="backstage-pass"><img src="./assets/headings/backstage-pass.svg?v=20261009-text-reveal-v2" alt="Backstage Pass" width="100%" loading="lazy"/></h2>
 
