@@ -295,7 +295,7 @@ These are technologies and engineering concepts visible in the repositories and 
 
 <div align="center">
 
-<img src="./assets/guitar-studio.svg?v=20261009-fret-spacing" width="100%" alt="Animated black-and-white studio scene with a detailed black double-cutaway electric guitar, six strings, fretboard, pickups, amplifier, Iris music player and animated equalizer" loading="lazy"/>
+<img src="./assets/guitar-studio.svg?v=20261009-fret-spacing" width="100%" alt="Animated black-and-white studio scene with a detailed black double-cutaway electric guitar, six strings, fretboard, pickups and amplifier; a decorative Iris by Goo Goo Dolls track display, not a playable music player" loading="lazy"/>
 
 <h3 id="studio-loop"><sub>THE STUDIO LOOP / SIGNAL IN MOTION</sub></h3>
 
@@ -364,7 +364,7 @@ These are technologies and engineering concepts visible in the repositories and 
 
 <div align="center">
 
-<img src="./assets/live-stats-console.svg?v=20261108-live-stats-console" width="100%" alt="Animated live GitHub statistics console header" loading="lazy"/>
+<img src="./assets/live-stats-console.svg?v=20261108-live-stats-console" width="100%" alt="Animated monochrome header for daily-refreshed GitHub statistics, language distribution and contribution streak cards" loading="lazy"/>
 
 <a href="https://github.com/kaustubhdua?tab=overview">
   <picture>
