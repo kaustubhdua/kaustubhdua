@@ -78,6 +78,7 @@ jobs:
                   assert 'loading="lazy"' in tag.lower(), f"Image should lazy-load: {tag[:120]}"
           guitar_tag = next((tag for tag in images if "guitar-studio.svg" in tag), "")
           assert "electric guitar" in guitar_tag.lower() and "six strings" in guitar_tag.lower(), "Guitar image alt text should describe the real instrument"
+          assert "not a playable music player" in guitar_tag.lower(), "Decorative track artwork must not be described as a functional player"
 
           # Every local asset referenced by the README must exist in the repository.
           refs = re.findall(r'(?:src|href)="(\./assets/[^"]+)"', readme)
