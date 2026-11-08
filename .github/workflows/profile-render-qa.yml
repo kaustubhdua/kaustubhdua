@@ -119,7 +119,7 @@ jobs:
                   hasFeaturedProjects: root.innerText.includes("FEATURED BUILDS / SIX PROJECTS"),
                   projectArtworkWidths: [...root.querySelectorAll('img[src*="/assets/projects/"]')].map(img => Math.round(img.getBoundingClientRect().width)),
                   projectGalleryRows: (() => {
-                    const image = root.querySelector('img[src*="/assets/projects/gitglobe.svg"]');
+                    const image = root.querySelector('img[src*="/assets/projects/jyc.svg"]');
                     const table = image?.closest("table");
                     return table ? [...table.querySelectorAll("tr")].map(row => row.querySelectorAll("td").length) : [];
                   })(),
