@@ -43,32 +43,32 @@ I’m an **Electronics & Computer Engineering student at JIIT Noida**, building 
 <table>
 <tr>
 <td width="50%" align="center" valign="top">
-<a href="https://github.com/kaustubhdua/JYC-Website"><img src="./assets/projects/jyc.svg?v=20261108-project-art" width="100%" alt="JIIT Youth Club artwork: campus community, events and digital platform" loading="lazy"/></a>
-<strong>JIIT YOUTH CLUB</strong><br/><sub>Campus community platform · technical team</sub><br/><sub>STACK / React 19 · Vite 8 · React Router · Supabase · OGL/WebGL · GSAP · Motion · Sharp</sub>
+<a href="https://github.com/kaustubhdua/JYC-Website"><img src="./assets/projects/jyc.svg?v=20261108-resume-set" width="100%" alt="JIIT Youth Club official campus platform artwork" loading="lazy"/></a>
+<strong>JIIT YOUTH CLUB 128</strong><br/><sub>Official campus platform · technical team</sub><br/><sub>STACK / React 19 · TypeScript · Vite 8 · React Router · Supabase · WebGL/OGL · GSAP · Sharp · PWA</sub>
 </td>
 <td width="50%" align="center" valign="top">
-<a href="https://github.com/kaustubhdua/nihdhoom"><img src="./assets/projects/nirdhoom.svg?v=20261108-project-art" width="100%" alt="NIRDHOOM artwork: field rows and connected service route" loading="lazy"/></a>
-<strong>NIRDHOOM</strong><br/><sub>Field-first crop-residue coordination · prototype</sub><br/><sub>STACK / React 19 · TypeScript · Vite 8 · Tailwind 4 · Supabase · PostgreSQL/PostGIS · Three.js · Leaflet · FastAPI/OR-Tools</sub>
-</td>
-</tr>
-<tr>
-<td width="50%" align="center" valign="top">
-<a href="https://github.com/kaustubhdua/Saathi"><img src="./assets/projects/saathi.svg?v=20261108-project-art" width="100%" alt="Saathi artwork: voice waveform, source markers and consent checkpoint" loading="lazy"/></a>
-<strong>SAATHI</strong><br/><sub>Voice-first multilingual assistance · prototype</sub><br/><sub>STACK / Python/FastAPI · Next.js 16 · React 19 · Ollama · Vosk · Tesseract · eSpeak NG · FFmpeg · WebSockets</sub>
-</td>
-<td width="50%" align="center" valign="top">
-<a href="https://github.com/kaustubhdua/PatchPilot"><img src="./assets/projects/patchpilot.svg?v=20261108-project-art" width="100%" alt="PatchPilot artwork: code diff, evidence and test checkpoints" loading="lazy"/></a>
-<strong>PATCHPILOT</strong><br/><sub>Explainable PR risk triage · early MVP</sub><br/><sub>STACK / Python · FastAPI · Pydantic · Vanilla JS · pytest · Ruff · Docker</sub>
+<a href="https://github.com/kaustubhdua/Smart_bike_taxi_platform"><img src="./assets/projects/rideforge.svg?v=20261108-resume-set" width="100%" alt="RideForge transactional dispatch and routing artwork" loading="lazy"/></a>
+<strong>RIDEFORGE</strong><br/><sub>Transactional bike-taxi booking and dispatch · personal engineering project</sub><br/><sub>STACK / C++17 · Boost.Beast · PostgreSQL · OpenSSL · React 19 · TypeScript · Vite 6 · Leaflet · Playwright</sub>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center" valign="top">
-<a href="https://github.com/kaustubhdua/Smart_bike_taxi_platform"><img src="./assets/projects/rideforge.svg?v=20261108-project-art" width="100%" alt="RideForge artwork: city grid, shortest route and dispatch markers" loading="lazy"/></a>
-<strong>RIDEFORGE</strong><br/><sub>Bike-taxi dispatch and routing · portfolio MVP</sub><br/><sub>STACK / C++17 · Boost.Beast · PostgreSQL · OpenSSL · React/TypeScript · Vite 6 · Leaflet · Playwright</sub>
+<a href="https://github.com/kaustubhdua/Bharat-Sim"><img src="./assets/projects/bharatsim.svg?v=20261108-resume-set" width="100%" alt="BharatSim Android resilience testing artwork" loading="lazy"/></a>
+<strong>BHARATSIM</strong><br/><sub>Android resilience testing · controlled-beta MVP</sub><br/><sub>STACK / Python · FastAPI · React 19 · TypeScript · PostgreSQL · ADB · Android Emulator · Appium · Playwright</sub>
 </td>
 <td width="50%" align="center" valign="top">
-<a href="https://github.com/kaustubhdua/smart_waste_project"><img src="./assets/projects/smart-waste.svg?v=20261108-project-art" width="100%" alt="Smart Waste artwork: telemetry, priority scoring, capacity and route optimisation" loading="lazy"/></a>
-<strong>SMART WASTE</strong><br/><sub>Waste operations and route optimisation · engineering prototype</sub><br/><sub>STACK / Python/FastAPI · PostgreSQL/PostGIS · SQLAlchemy/Alembic · OR-Tools/OSRM · pandas/scikit-learn · Streamlit/Folium</sub>
+<a href="https://github.com/kaustubhdua/Satark"><img src="./assets/projects/satark.svg?v=20261108-resume-set" width="100%" alt="SATARK Sentinel incident investigation artwork" loading="lazy"/></a>
+<strong>SATARK SENTINEL</strong><br/><sub>Evidence-first incident investigation · security prototype</sub><br/><sub>STACK / Python · FastAPI · Next.js 15 · React 19 · Ollama · OpenCV · PDF.js · jsQR · Docker · CodeQL</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center" valign="top">
+<a href="https://github.com/kaustubhdua/Saathi"><img src="./assets/projects/saathi.svg?v=20261108-resume-set" width="100%" alt="Saathi multilingual voice assistance artwork" loading="lazy"/></a>
+<strong>SAATHI</strong><br/><sub>Local-first Hindi/Hinglish voice assistance · multi-contributor MVP</sub><br/><sub>STACK / Python · FastAPI · Next.js 16 · React 19 · Ollama · Vosk · Tesseract · eSpeak NG · WebSockets</sub>
+</td>
+<td width="50%" align="center" valign="top">
+<a href="https://github.com/kaustubhdua/smart_waste_project"><img src="./assets/projects/smart-waste.svg?v=20261108-resume-set" width="100%" alt="Smart Waste operations and fleet optimization artwork" loading="lazy"/></a>
+<strong>SMART WASTE</strong><br/><sub>Waste operations and fleet optimization · engineering prototype</sub><br/><sub>STACK / Python · FastAPI · PostgreSQL/PostGIS · SQLAlchemy · OR-Tools · OSRM · scikit-learn · Streamlit</sub>
 </td>
 </tr>
 </table>
@@ -76,9 +76,13 @@ I’m an **Electronics & Computer Engineering student at JIIT Noida**, building 
 <details>
 <summary><strong>More builds / experiments ↗</strong></summary>
 
-**SATARK Sentinel** · [Source](https://github.com/kaustubhdua/Satark)  
-Security-awareness and incident-investigation workflow with evidence preservation, case isolation and deterministic triage. It is response support—not antivirus software or an automated forensic verdict.
-<sub>STACK / Python · Streamlit · Next.js 15 · React 19 · FastAPI · Ollama (optional) · OpenCV · PDF.js · jsQR · ReportLab</sub>
+**NIRDHOOM** · [Source](https://github.com/kaustubhdua/nihdhoom)  
+Field-first crop-residue coordination across farmer requests, machine capacity, dispatch and traceable residue lots. Multi-contributor prototype; seeded and indicative records are not field-pilot outcomes.
+<sub>STACK / React 19 · TypeScript · Vite 8 · Supabase · PostgreSQL/PostGIS · Leaflet · Three.js · FastAPI · OR-Tools</sub>
+
+**PatchPilot** · [Source](https://github.com/kaustubhdua/PatchPilot)  
+Deterministic, explainable triage for untrusted pull-request diffs. It does not clone or execute submitted code and is not a formal security audit; production precision/recall are not established.
+<sub>STACK / Python · FastAPI · Pydantic · Vanilla JavaScript · HTTPX · pytest · Ruff · Docker</sub>
 
 **Adapt AI** · [Source](https://github.com/kaustubhdua/adapt-ai)  
 Team-built local-AI assistant exploring hardware-aware model selection and Ollama inference. The public repository is a fork-based contribution; individual scope should be attributed from its commit history.
@@ -91,10 +95,6 @@ Evidence-first location due-diligence prototype combining geospatial context, pr
 **AkashChalak** · [Source](https://github.com/kaustubhdua/Akash-Chalak)  
 Satellite-assisted air-quality and hotspot decision-support prototype using geospatial processing, clustering/interpolation and map-based exploration. Treat outputs as estimates with source and coverage limits, not regulatory measurements.
 <sub>STACK / Python · FastAPI · React/Leaflet · scikit-learn/DBSCAN · GeoPandas · Rasterio · xarray · NetCDF4 · Earth Engine</sub>
-
-**BharatSim** · [Source](https://github.com/kaustubhdua/Bharat-Sim)  
-Android resilience-testing MVP combining a planning API, evidence records and an ADB/Appium worker path. Production worker execution, controlled device coverage and deployment acceptance remain gated.
-<sub>STACK / Python/FastAPI · React 19 · TypeScript · Vite 8 · PostgreSQL · PyJWT · Android ADB/Emulator · Playwright</sub>
 
 **GenomeGuard** · [Source](https://github.com/kaustubhdua/GenomeGuard)  
 Genomic-data governance research prototype exploring consent, auditability, variant interpretation workflows and privacy-aware data boundaries. It is not a clinical diagnostic or production healthcare system.
