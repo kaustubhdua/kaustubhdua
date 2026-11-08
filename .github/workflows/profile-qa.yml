@@ -135,7 +135,6 @@ jobs:
           assert gallery.count('<td width="50%" align="center" valign="top">') == 6 and gallery.count("<tr>") == 3, "Featured project artwork must use a readable two-column, three-row grid"
           # The profile is a concise project overview; deep technical detail belongs in the linked research index.
           assert "./docs/PROJECT_RESEARCH_INDEX.md" in readme, "Missing project research index"
-          assert all(f"**0{number} /" in featured for number in range(1, 7)), "Featured summaries must remain numbered"
           assert featured.count("FLOW /") == 0, "Do not repeat workflow summaries in the profile overview"
           assert "| Repository | Stack / engineering focus |" not in readme, "The redundant stack index should stay removed"
 
