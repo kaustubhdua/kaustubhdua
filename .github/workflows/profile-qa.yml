@@ -51,7 +51,8 @@ jobs:
               
               "music section uses a restrained two-visual set": readme.count("assets/guitar-studio.svg") == 1 and readme.count("assets/studio-loop.svg?v=20261108-studio-loop") == 1 and "assets/fretboard-progress.svg" not in readme,
               "no redundant academic kicker": "assets/academic-kicker.svg" not in readme,
-              "live statistics console": "assets/live-stats-console.svg?v=20261108-live-stats-console" in readme,
+              "profile statistics console": "assets/live-stats-console.svg?v=20261108-live-stats-console" in readme and "daily-refreshed GitHub statistics" in readme,
+              "statistics refresh cadence is described accurately": "SELF-HOSTED CARDS REFRESH DAILY OR WEEKLY" in Path("assets/live-stats-console.svg").read_text(encoding="utf-8") and "LIVE GITHUB CONSOLE" not in Path("assets/live-stats-console.svg").read_text(encoding="utf-8"),
               "electric guitar detail": all(token in Path("assets/guitar-studio.svg").read_text(encoding="utf-8") for token in ("six strings", "double-cutaway", "pickup", "tuning")),
               "lazy-loaded below-the-fold images": all((("d2ol7oe51mr4n9.cloudfront.net" in tag) or ('loading="lazy"' in tag.lower())) for tag in re.findall(r"<img[^>]*>", readme, flags=re.I)),
               "removed engineering approach": "## Engineering approach" not in readme,
