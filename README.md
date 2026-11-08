@@ -75,18 +75,6 @@ I’m an **Electronics & Computer Engineering student at JIIT Noida**, building 
 </tr>
 </table>
 
-**01 / JIIT YOUTH CLUB** — Campus platform for discovering societies, events, people and student-facing information.
-
-**02 / NIRDHOOM** — Field-to-offtake coordination connecting farmer requests, machine capacity, operator evidence and verified residue lots.
-
-**03 / SAATHI** — Hindi/Hinglish assistance built around deterministic routing, sourced answers, local speech options and human escalation.
-
-**04 / PATCHPILOT** — Explainable code-diff triage that surfaces parser integrity, risky changes and evidence-linked review signals without executing submitted code.
-
-**05 / RIDEFORGE** — Bike-taxi MVP focused on transactional bookings, expiring driver offers, redispatch and route-aware trip handling.
-
-**06 / SMART WASTE** — Waste-collection operations prototype connecting device telemetry, approved jobs, capacity-aware routing and driver verification.
-
 <sub>Implementation detail, architecture, evidence links and honest release boundaries live in the <a href="./docs/PROJECT_RESEARCH_INDEX.md">project research index</a> and each portfolio case study. The profile stays a quick overview rather than repeating every project's stack and workflow.</sub>
 
 <details>
