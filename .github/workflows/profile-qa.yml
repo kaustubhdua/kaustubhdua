@@ -27,6 +27,12 @@ jobs:
               "ECM identity": "electronics & computer engineering" in readme.lower(),
               "exact original banner URL": "d2ol7oe51mr4n9.cloudfront.net/user_3JuNbn6G1fWehaUubucloQMU8cb/e0930052-b661-4682-a281-67b390d8146e.png" in readme,
               "featured projects": all(name in readme for name in ("GitGlobe", "NIRDHOOM", "Saathi", "SATARK", "Adapt AI")),
+              "recruiter quick links": all(url in readme for url in ("https://github.com/kaustubhdua", "https://www.linkedin.com/in/kaustubh-dua-2b5a76416", "mailto:kaustubhdua1991@gmail.com")),
+              "clear three-part engineering focus": all(label in readme for label in ("Full-stack builds", "Applied AI & data", "Reliability & open source")),
+              "compact core stack": all(f"![{name}]" in readme for name in ("Python", "TypeScript", "React", "FastAPI", "PostgreSQL", "PyTorch")),
+              "full stack inventory is collapsible": "<summary><strong>Full stack inventory / every tool by track" in readme,
+              "music identity and listening links preserved": all(token in readme for token in ("ON REPEAT / IRIS — GOO GOO DOLLS", "https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs", "https://www.youtube.com/results?search_query=Goo+Goo+Dolls+Iris+official", "assets/guitar-studio.svg", "assets/studio-loop.svg")),
+
               "all six redesigned headings referenced": all(f"assets/headings/{name}.svg?v=20261009-text-reveal-v2" in readme for name in ("setlist", "rig-signal-chain", "on-the-turntable", "the-encore", "backstage-pass", "snake-contributions")),
               "animated build log": "assets/profile-motion.svg" in readme,
               "cinematic monochrome header": "assets/cinematic-header.svg?v=20261108-cinematic-header" in readme,
