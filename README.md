@@ -171,27 +171,31 @@ Minimal browser task manager demonstrating accessible task creation, priority/fi
 
 **Languages & application foundations**
 
-Python · TypeScript · JavaScript · C++17 · SQL · HTML · CSS
+Python 3.10/3.11 · TypeScript · JavaScript · C++17 · SQL · HTML · CSS · Java 17
 
 **Frontend & interaction**
 
-React 19 · Next.js · Vite · React Router · Tailwind CSS · Leaflet · Three.js · OGL/WebGL · GSAP · Motion · Streamlit · Folium · Chart.js
+React 18/19 · Next.js 15/16 · Vite 6/8 · React Router 7 · Tailwind CSS 3/4 · Leaflet · Three.js · OGL/WebGL · GSAP · Motion · Streamlit · Folium · Streamlit-Folium · Chart.js · PDF.js · jsQR · lucide-react · Hugeicons
 
 **Backend & local intelligence**
 
-FastAPI · Starlette · Uvicorn · Boost.Beast · Supabase · Ollama · Vosk · WebSockets · Exotel AgentStream · Tesseract OCR · eSpeak NG · FFmpeg · Pydantic · HTTPX
+FastAPI · Starlette · Uvicorn · Boost.Beast · Supabase JS/SSR · Ollama · Vosk · WebSockets · Tesseract OCR · eSpeak NG · FFmpeg · Pydantic / Pydantic Settings · HTTPX · PyJWT · Redis · python-dotenv · python-multipart
 
 **Data, geospatial & machine learning**
 
-PostgreSQL · PostGIS · SQLAlchemy · Alembic · Prisma · OR-Tools · OSRM · Nominatim · pandas · NumPy · scikit-learn · PyTorch · Torchvision · OpenCV · GeoPandas · Rasterio · xarray
+PostgreSQL · PostGIS · SQLAlchemy · Psycopg 3 · Alembic · Prisma · Zod · OR-Tools · OSRM · Nominatim · Overpass · pandas · NumPy · scikit-learn · PyTorch · Torchvision · OpenCV · Pillow · GeoPandas · Rasterio · xarray · NetCDF4 · Earth Engine API · CDS API · TensorFlow (declared integration dependency) · msprime · openpyxl · joblib
+
+**Interoperability & device testing**
+
+FHIR R4 · Beacon v2-style API · Android SDK platform-tools (ADB) · Android Emulator/AVD · Appium test fixtures · Gradle
 
 **Build, delivery & verification**
 
-Docker · Docker Compose · CMake · OpenSSL · libcurl · nlohmann/json · Sharp · Playwright · axe-core · pytest · Ruff · Vitest · GitHub Actions · CodeQL
+Node.js · Docker · Docker Compose · CMake · OpenSSL · libcurl · nlohmann/json · Sharp · Playwright / @playwright/test · axe-core · pytest · Ruff · Vitest · ESLint · mypy · Oxlint · Hatchling · GitHub Actions · CodeQL · npm audit
 
 **Provider integrations (project-specific / optional)**
 
-Open-Meteo · Overpass · NASA GIBS · wttr.in · Sarvam · Groq · Exotel. These are external services or optional adapters, not all-day runtime dependencies.
+Open-Meteo · Overpass · NASA GIBS · wttr.in · CPCB · NASA FIRMS · Google Earth Engine · Copernicus CDS · Sarvam · Groq · Exotel · CARTO Voyager. These are external services, optional adapters or data providers—not all installed runtime dependencies.
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-252525?style=flat-square&logo=pytorch&logoColor=F4EFE5)
 
