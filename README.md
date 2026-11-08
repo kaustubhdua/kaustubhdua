@@ -141,7 +141,7 @@ A full-stack waste-operations prototype spanning authenticated device telemetry,
 Security-awareness and incident-investigation workflow with evidence preservation, case isolation and deterministic triage. It is response support—not antivirus software or an automated forensic verdict.
 
 **Adapt AI** · [Source](https://github.com/kaustubhdua/adapt-ai)  
-Team-built local-AI assistant exploring hardware-aware model selection and Ollama inference. The public repository is a fork; individual contribution should be attributed from its commit history.
+Team-built local-AI assistant exploring hardware-aware model selection and Ollama inference. The public repository is a fork-based contribution; individual scope should be attributed from its commit history.
 
 **Infracis** · [Source](https://github.com/kaustubhdua/infracis)  
 Evidence-first location due-diligence prototype combining geospatial context, provider-backed data and explainable risk signals. It is decision support, not a guarantee that a property or location is safe.
