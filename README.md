@@ -175,15 +175,15 @@ Python 3.10/3.11 · TypeScript · JavaScript · C++17 · SQL · HTML · CSS · J
 
 **Frontend & interaction**
 
-React 18/19 · Next.js 15/16 · Vite 6/8 · React Router 7 · Tailwind CSS 3/4 · Leaflet · Three.js · OGL/WebGL · GSAP · Motion · Streamlit · Folium · Streamlit-Folium · Chart.js · PDF.js · jsQR · lucide-react · Hugeicons
+React 18/19 · Next.js 15/16 · Vite 6/8 · React Router 7 · Tailwind CSS 3/4 · Leaflet · Three.js · OGL/WebGL · GSAP · Motion · Streamlit · Folium · Streamlit-Folium · Chart.js · PDF.js · jsQR · react-markdown · remark-gfm · Geist · Tailwind PostCSS · lucide-react · React Icons · Hugeicons
 
 **Backend & local intelligence**
 
-FastAPI · Starlette · Uvicorn · Boost.Beast · Supabase JS/SSR · Ollama · Vosk · WebSockets · Tesseract OCR · eSpeak NG · FFmpeg · Pydantic / Pydantic Settings · HTTPX · PyJWT · Redis · python-dotenv · python-multipart
+FastAPI · Starlette · Uvicorn · Boost.Beast · Supabase JS/SSR · Ollama · Vosk · WebSockets · Tesseract OCR · eSpeak NG · FFmpeg · Pydantic / Pydantic Settings · HTTPX · PyJWT · Redis · python-dotenv · python-multipart · psutil · GPUtil · nvidia-smi
 
 **Data, geospatial & machine learning**
 
-PostgreSQL · PostGIS · SQLAlchemy · Psycopg 3 · Alembic · Prisma · Zod · OR-Tools · OSRM · Nominatim · Overpass · pandas · NumPy · scikit-learn · PyTorch · Torchvision · OpenCV · Pillow · GeoPandas · Rasterio · xarray · NetCDF4 · Earth Engine API · CDS API · TensorFlow (declared integration dependency) · msprime · openpyxl · joblib
+PostgreSQL · PostGIS · SQLAlchemy · Psycopg 3 · Alembic · Prisma · Zod · OR-Tools · OSRM · Nominatim · Overpass · pandas · NumPy · scikit-learn · PyTorch · Torchvision · OpenCV · Pillow · GeoPandas · Rasterio · xarray · NetCDF4 · Earth Engine API · CDS API · TensorFlow (declared integration dependency) · cryptography · msprime · openpyxl · joblib · jsonschema · Beacon v2-style API
 
 **Interoperability & device testing**
 
@@ -191,11 +191,11 @@ FHIR R4 · Beacon v2-style API · Android SDK platform-tools (ADB) · Android Em
 
 **Build, delivery & verification**
 
-Node.js · Docker · Docker Compose · CMake · OpenSSL · libcurl · nlohmann/json · Sharp · Playwright / @playwright/test · axe-core · pytest · Ruff · Vitest · ESLint · mypy · Oxlint · Hatchling · GitHub Actions · CodeQL · npm audit
+Node.js · Docker · Docker Compose · CMake · OpenSSL · libcurl · nlohmann/json · Sharp · Playwright / @playwright/test · axe-core · pytest · Ruff · Vitest · jsdom · ESLint · mypy · Oxlint · Hatchling · esbuild · @vitejs/plugin-react · wait-on · pypdf · ReportLab · GitHub Actions · CodeQL · npm audit
 
 **Provider integrations (project-specific / optional)**
 
-Open-Meteo · Overpass · NASA GIBS · wttr.in · CPCB · NASA FIRMS · Google Earth Engine · Copernicus CDS · Sarvam · Groq · Exotel · CARTO Voyager. These are external services, optional adapters or data providers—not all installed runtime dependencies.
+Open-Meteo · Overpass · NASA GIBS · wttr.in · CPCB · NASA FIRMS · Google Earth Engine · Copernicus CDS · Sarvam · Groq · Exotel · CARTO Voyager. `canvas-confetti` and `@hugeicons/*` are UI libraries; ADB/Android Emulator/Appium are isolated device-test tooling; `streamlit-folium` is the Streamlit map adapter. These are external services, optional adapters or data providers—not all installed runtime dependencies.
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-252525?style=flat-square&logo=pytorch&logoColor=F4EFE5)
 
