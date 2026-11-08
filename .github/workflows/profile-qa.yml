@@ -48,6 +48,9 @@ jobs:
               "theme-aware contribution history": all(f"assets/lifetime.{theme}.svg?v=20261108-self-hosted-history" in readme for theme in ("light", "dark")),
               "self-hosted overview stats": all(f"assets/overview.{theme}.svg?v=20261108-self-hosted-overview" in readme for theme in ("light", "dark")),
               "contribution refresh is automated": Path(".github/workflows/profile-history.yml").is_file(),
+              "rendered browser QA workflow exists": Path(".github/workflows/profile-render-qa.yml").is_file(),
+              "rendered browser QA covers desktop and mobile themes": all(token in Path(".github/workflows/profile-render-qa.yml").read_text(encoding="utf-8") for token in ("width: 1440", "width: 390", "colorScheme: test.theme", "prefersDark")),
+              "rendered browser QA uses Node 24 actions": all(token in Path(".github/workflows/profile-render-qa.yml").read_text(encoding="utf-8") for token in ("actions/checkout@v7", "actions/setup-node@v7", "node-version: 24", "actions/upload-artifact@v6")),
               "history refresh commit does not suppress QA": "[skip ci]" not in Path(".github/workflows/profile-history.yml").read_text(encoding="utf-8"),
               "snake push refresh is scoped to its own workflow": "paths:" in Path(".github/workflows/snake.yml").read_text(encoding="utf-8") and ".github/workflows/snake.yml" in Path(".github/workflows/snake.yml").read_text(encoding="utf-8"),
               
