@@ -41,29 +41,31 @@ I’m an **Electronics & Computer Engineering student at JIIT Noida**, building 
 
 <table>
 <tr>
-<td width="33%" align="center" valign="top">
+<td width="50%" align="center" valign="top">
 <a href="https://github.com/kaustubhdua/GitGlobe"><img src="./assets/projects/gitglobe.svg?v=20261108-project-art" width="100%" alt="GitGlobe artwork: repository constellation and spatial discovery map" loading="lazy"/></a>
 <strong>GITGLOBE</strong><br/><sub>Spatial open-source discovery · fork-based contribution</sub>
 </td>
-<td width="33%" align="center" valign="top">
+<td width="50%" align="center" valign="top">
 <a href="https://github.com/kaustubhdua/nihdhoom"><img src="./assets/projects/nirdhoom.svg?v=20261108-project-art" width="100%" alt="NIRDHOOM artwork: field rows and connected service route" loading="lazy"/></a>
 <strong>NIRDHOOM</strong><br/><sub>Field-first crop-residue coordination · prototype</sub>
 </td>
-<td width="33%" align="center" valign="top">
+</tr>
+<tr>
+<td width="50%" align="center" valign="top">
 <a href="https://github.com/kaustubhdua/Saathi"><img src="./assets/projects/saathi.svg?v=20261108-project-art" width="100%" alt="Saathi artwork: voice waveform, source markers and consent checkpoint" loading="lazy"/></a>
 <strong>SAATHI</strong><br/><sub>Voice-first multilingual assistance · prototype</sub>
 </td>
-</tr>
-<tr>
-<td width="33%" align="center" valign="top">
+<td width="50%" align="center" valign="top">
 <a href="https://github.com/kaustubhdua/PatchPilot"><img src="./assets/projects/patchpilot.svg?v=20261108-project-art" width="100%" alt="PatchPilot artwork: code diff, evidence and test checkpoints" loading="lazy"/></a>
 <strong>PATCHPILOT</strong><br/><sub>Explainable PR risk triage · early MVP</sub>
 </td>
-<td width="33%" align="center" valign="top">
+</tr>
+<tr>
+<td width="50%" align="center" valign="top">
 <a href="https://github.com/kaustubhdua/Smart_bike_taxi_platform"><img src="./assets/projects/rideforge.svg?v=20261108-project-art" width="100%" alt="RideForge artwork: city grid, shortest route and dispatch markers" loading="lazy"/></a>
 <strong>RIDEFORGE</strong><br/><sub>Bike-taxi dispatch and routing · portfolio MVP</sub>
 </td>
-<td width="33%" align="center" valign="top">
+<td width="50%" align="center" valign="top">
 <a href="https://github.com/kaustubhdua/smart_waste_project"><img src="./assets/projects/smart-waste.svg?v=20261108-project-art" width="100%" alt="Smart Waste artwork: telemetry, priority scoring, capacity and route optimisation" loading="lazy"/></a>
 <strong>SMART WASTE</strong><br/><sub>Waste operations and route optimisation · engineering prototype</sub>
 </td>
