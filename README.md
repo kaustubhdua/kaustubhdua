@@ -166,7 +166,38 @@ Minimal browser task manager demonstrating accessible task creation, priority/fi
 
 </div>
 
-<sub>Project-specific stacks, optional integrations and supporting tools are documented per repository—not presented as universal skills. <a href="./docs/PROJECT_TECHNOLOGY_AUDIT.md">Open the complete 16-project technology audit and source trail ↗</a>.</sub>
+<details>
+<summary><strong>Full stack inventory / every tool by track</strong></summary>
+
+**Languages & application foundations**
+
+Python · TypeScript · JavaScript · C++17 · SQL · HTML · CSS
+
+**Frontend & interaction**
+
+React 19 · Next.js · Vite · React Router · Tailwind CSS · Leaflet · Three.js · OGL/WebGL · GSAP · Motion · Streamlit · Folium · Chart.js
+
+**Backend & local intelligence**
+
+FastAPI · Starlette · Uvicorn · Boost.Beast · Supabase · Ollama · Vosk · WebSockets · Exotel AgentStream · Tesseract OCR · eSpeak NG · FFmpeg · Pydantic · HTTPX
+
+**Data, geospatial & machine learning**
+
+PostgreSQL · PostGIS · SQLAlchemy · Alembic · Prisma · OR-Tools · OSRM · Nominatim · pandas · NumPy · scikit-learn · PyTorch · Torchvision · OpenCV · GeoPandas · Rasterio · xarray
+
+**Build, delivery & verification**
+
+Docker · Docker Compose · CMake · OpenSSL · libcurl · nlohmann/json · Sharp · Playwright · axe-core · pytest · Ruff · Vitest · GitHub Actions · CodeQL
+
+**Provider integrations (project-specific / optional)**
+
+Open-Meteo · Overpass · NASA GIBS · wttr.in · Sarvam · Groq · Exotel. These are external services or optional adapters, not all-day runtime dependencies.
+
+![PyTorch](https://img.shields.io/badge/PyTorch-252525?style=flat-square&logo=pytorch&logoColor=F4EFE5)
+
+<a href="./docs/PROJECT_TECHNOLOGY_AUDIT.md">Read the full 16-project audit, implementation boundaries and source links ↗</a>
+
+</details>
 
 ---
 
@@ -224,6 +255,12 @@ Minimal browser task manager demonstrating accessible task creation, priority/fi
 
 <img src="./assets/live-stats-console.svg?v=20261108-live-stats-console" width="100%" alt="Animated monochrome header for daily-refreshed GitHub statistics, language distribution and contribution streak cards" loading="lazy"/>
 
+<a href="https://github.com/kaustubhdua?tab=overview">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/lifetime.dark.svg?v=20261108-self-hosted-history"/>
+    <img src="./assets/lifetime.light.svg?v=20261108-self-hosted-history" width="88%" alt="Self-hosted monochrome lifetime GitHub contribution history card, refreshed by GitHub Actions" loading="lazy"/>
+  </picture>
+</a>
 <a href="https://github.com/kaustubhdua?tab=overview">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/overview.dark.svg?v=20261108-self-hosted-overview"/>
