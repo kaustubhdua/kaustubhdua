@@ -43,31 +43,31 @@ I’m an **Electronics & Computer Engineering student at JIIT Noida**, building 
 <table>
 <tr>
 <td width="50%" align="center" valign="top">
-<a href="https://github.com/kaustubhdua/JYC-Website"><img src="./assets/projects/jyc.svg?v=20261108-resume-set" width="100%" alt="JIIT Youth Club official campus platform artwork" loading="lazy"/></a>
+<a href="https://github.com/kaustubhdua/JYC-Website"><img src="./assets/projects/jyc.svg?v=20261108-project-art" width="100%" alt="JIIT Youth Club official campus platform artwork" loading="lazy"/></a>
 <strong>JIIT YOUTH CLUB 128</strong><br/><sub>Official campus platform · technical team</sub><br/><sub>STACK / React 19 · TypeScript · Vite 8 · React Router · Supabase · WebGL/OGL · GSAP · Sharp · PWA</sub>
 </td>
 <td width="50%" align="center" valign="top">
-<a href="https://github.com/kaustubhdua/Smart_bike_taxi_platform"><img src="./assets/projects/rideforge.svg?v=20261108-resume-set" width="100%" alt="RideForge transactional dispatch and routing artwork" loading="lazy"/></a>
-<strong>RIDEFORGE</strong><br/><sub>Transactional bike-taxi booking and dispatch · personal engineering project</sub><br/><sub>STACK / C++17 · Boost.Beast · PostgreSQL · OpenSSL · React 19 · TypeScript · Vite 6 · Leaflet · Playwright</sub>
+<a href="https://github.com/kaustubhdua/Smart_bike_taxi_platform"><img src="./assets/projects/rideforge.svg?v=20261108-project-art" width="100%" alt="RideForge transactional dispatch and routing artwork" loading="lazy"/></a>
+<strong>RIDEFORGE</strong><br/><sub>Transactional bike-taxi booking and dispatch · portfolio MVP</sub><br/><sub>STACK / C++17 · Boost.Beast · PostgreSQL · OpenSSL · React 19 · TypeScript · Vite 6 · Leaflet · Playwright</sub>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center" valign="top">
-<a href="https://github.com/kaustubhdua/Bharat-Sim"><img src="./assets/projects/bharatsim.svg?v=20261108-resume-set" width="100%" alt="BharatSim Android resilience testing artwork" loading="lazy"/></a>
+<a href="https://github.com/kaustubhdua/Bharat-Sim"><img src="./assets/projects/bharatsim.svg?v=20261108-project-art" width="100%" alt="BharatSim Android resilience testing artwork" loading="lazy"/></a>
 <strong>BHARATSIM</strong><br/><sub>Android resilience testing · controlled-beta MVP</sub><br/><sub>STACK / Python · FastAPI · React 19 · TypeScript · PostgreSQL · ADB · Android Emulator · Appium · Playwright</sub>
 </td>
 <td width="50%" align="center" valign="top">
-<a href="https://github.com/kaustubhdua/Satark"><img src="./assets/projects/satark.svg?v=20261108-resume-set" width="100%" alt="SATARK Sentinel incident investigation artwork" loading="lazy"/></a>
+<a href="https://github.com/kaustubhdua/Satark"><img src="./assets/projects/satark.svg?v=20261108-project-art" width="100%" alt="SATARK Sentinel incident investigation artwork" loading="lazy"/></a>
 <strong>SATARK SENTINEL</strong><br/><sub>Evidence-first incident investigation · security prototype</sub><br/><sub>STACK / Python · FastAPI · Next.js 15 · React 19 · Ollama · OpenCV · PDF.js · jsQR · Docker · CodeQL</sub>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center" valign="top">
-<a href="https://github.com/kaustubhdua/Saathi"><img src="./assets/projects/saathi.svg?v=20261108-resume-set" width="100%" alt="Saathi multilingual voice assistance artwork" loading="lazy"/></a>
+<a href="https://github.com/kaustubhdua/Saathi"><img src="./assets/projects/saathi.svg?v=20261108-project-art" width="100%" alt="Saathi multilingual voice assistance artwork" loading="lazy"/></a>
 <strong>SAATHI</strong><br/><sub>Local-first Hindi/Hinglish voice assistance · multi-contributor MVP</sub><br/><sub>STACK / Python · FastAPI · Next.js 16 · React 19 · Ollama · Vosk · Tesseract · eSpeak NG · WebSockets</sub>
 </td>
 <td width="50%" align="center" valign="top">
-<a href="https://github.com/kaustubhdua/smart_waste_project"><img src="./assets/projects/smart-waste.svg?v=20261108-resume-set" width="100%" alt="Smart Waste operations and fleet optimization artwork" loading="lazy"/></a>
+<a href="https://github.com/kaustubhdua/smart_waste_project"><img src="./assets/projects/smart-waste.svg?v=20261108-project-art" width="100%" alt="Smart Waste operations and fleet optimization artwork" loading="lazy"/></a>
 <strong>SMART WASTE</strong><br/><sub>Waste operations and fleet optimization · engineering prototype</sub><br/><sub>STACK / Python · FastAPI · PostgreSQL/PostGIS · SQLAlchemy · OR-Tools · OSRM · scikit-learn · Streamlit</sub>
 </td>
 </tr>
